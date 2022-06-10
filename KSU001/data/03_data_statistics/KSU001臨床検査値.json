@@ -1,0 +1,337 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\KSU001\\data\\00_raw\\KSU001_conversion_臨床検査値 のコピー - raw.csv",
+  "map": {
+    "inst_patientID": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "test_date": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_RBC": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Hb": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_WBC": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Plt": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HbA1c": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_BUN": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CRE": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_ALB": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Amylase": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_T-Bil": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_D-Bil": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_AST": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_ALT": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_LDH": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_ALP": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CRP": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_IgG": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_IGg4": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Esterase": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Ddimer": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_DUPAN": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CA19-9": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CEA": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_AFP": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_pylori": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HBV": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HCV": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HIV": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patient_note": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_date": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "inst_patientID": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "test_date": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_RBC": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Hb": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_WBC": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Plt": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HbA1c": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_BUN": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CRE": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_ALB": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Amylase": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_T-Bil": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_D-Bil": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_AST": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_ALT": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_LDH": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_ALP": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CRP": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_IgG": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_IGg4": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Esterase": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Ddimer": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_DUPAN": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CA19-9": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CEA": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_AFP": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_pylori": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HBV": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HCV": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HIV": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patient_note": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_date": {
+      "total": 67,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

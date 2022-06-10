@@ -1,0 +1,1268 @@
+{
+  "id": "14ae2692-7132-4e72-a42c-b5e4052dbaa4",
+  "name": "HOS001",
+  "file": "../data/00_raw/尿症例リスト（HMC）118まで記載済み_220213 のコピー - Sheet1.csv",
+  "column_line": 1,
+  "mapping": {
+    "inst_patientID": "ID",
+    "diseaseEN": "疾患名",
+    "gender": "性別",
+    "age": "年齢",
+    "height": "身長",
+    "weight": "体重",
+    "smoked_before_collection": "直前喫煙",
+    "smoking_years": "喫煙年",
+    "smoking_perday": "喫煙本数",
+    "disease_history_hypertension": "HT",
+    "disease_history_dyslipidemia": "HL",
+    "disease_history_diabetes": "DM",
+    "disease_history_COPD": "COPD",
+    "disease_history_asthma": "併存症",
+    "disease_history_pneumonia": "IP",
+    "disease_history_ASO": "併存症",
+    "disease_history_pancreatitis": "併存症",
+    "blood_test_CEA": "CEA",
+    "stage_L2": "stage",
+    "t_L2": "T",
+    "n_L1": "N",
+    "m_L2": "M",
+    "treatment": "治療内容",
+    "t_L1": "T",
+    "m_L1": "M",
+    "subtype": "サブタイプ",
+    "EGFR_mutation": "EGFR",
+    "stage_L1": "stage",
+    "meta_Brain": "脳",
+    "meta_Liver": "肝",
+    "meta_Bone": "骨",
+    "meta_Pleura": "胸水",
+    "tumor_location": "左右",
+    "histology": "組織型",
+    "clinical_tumor_size": "cT(TS)",
+    "disease_history_CAD": "CAD",
+    "Brinkman_index": "BI",
+    "imaging_PET_early": "PET(early)",
+    "imaging_PET_delay": "PET(delay)",
+    "blood_test_NT-ProBNP": "NT-ProBNP",
+    "blood_test_NT-ProBNP-2": "NTProBNP-2",
+    "treatment_date": "治療開始日",
+    "adverse_effect": "副作用",
+    "AE_details": "副作用内容",
+    "ALK_mutation": "ALK",
+    "ROS1_mutation": "ROS1",
+    "BRAF_mutation": "BRAF",
+    "PDL1": "PDL1",
+    "recurrence": "再発",
+    "recurrence_date": "再発時期",
+    "vital_status": "死亡",
+    "last_known_survival_date": "生存期間",
+    "mutation_details": "遺伝子発現タイプ",
+    "KRAS": "遺伝子発現タイプ",
+    "comorbidity_disease": "併存症",
+    "treatment_surgery": "治療内容",
+    "treatment_chemotherapy": "治療内容",
+    "treatment_radiation": "治療内容",
+    "histology_original": "組織型",
+    "subtype_original": "サブタイプ",
+    "meta_Lung": "疾患名",
+    "treatment_targeted_therapy": "治療内容",
+    "treatment_CNB": "治療内容",
+    "additional_treatment": "追加治療",
+    "additional_treatment_details": "追加治療内容",
+    "AE_sepsis": "副作用内容",
+    "AE_febrile_neutropenia": "副作用内容",
+    "AE_pneumonia": "副作用内容",
+    "treatment_details": "治療内容",
+    "surgery_type": "治療内容",
+    "treatment_immunotherapy": "治療内容",
+    "comorbidity_cancer": "併存症",
+    "comorbidity_cancer1": "併存症",
+    "surgery_history": "併存症",
+    "comorbidity_angina_pectoris": "併存症",
+    "comorbidity_cerebral_infarction": "併存症",
+    "diseaseCode": "疾患名",
+    "diseaseJP": "疾患名",
+    "diseaseENshort": "疾患名"
+  },
+  "transform": [
+    {
+      "column": "stage_L2",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "1B": "IB",
+            "2A": "IIA",
+            "2B": "IIB",
+            "3A": "IIIA",
+            "3B": "IIIB",
+            "3C": "IIIC",
+            "4A": "IVA",
+            "4B": "IVB",
+            "4C": "IVC"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": { "target": "1A.", "replacement": "IA" }
+        }
+      ]
+    },
+    {
+      "column": "n_L1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": { "0": "N0", "1": "N1", "2": "N2", "3": "N3" }
+        }
+      ]
+    },
+    {
+      "column": "m_L2",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "M0",
+            "1a": "M1a",
+            "1b": "M1b",
+            "1c": "M1c"
+          }
+        }
+      ]
+    },
+    {
+      "column": "m_L1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "M0",
+            "1a": "M1",
+            "1b": "M1",
+            "1c": "M1"
+          }
+        }
+      ]
+    },
+    {
+      "column": "subtype",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "Papillary Ad": "Papillary adenocarcinoma",
+            "Minimmaly invasive Ad": "Minimally invasive adenocarcinoma",
+            "Lepidic Ad": "Lepidic adenocarcinoma",
+            "Ad in situ": "Adenocarcinoma in situ",
+            "Acinar Ad": "Acinar adenocarcinoma",
+            "Solid Ad": "Solid carcinoma, NOS"
+          }
+        }
+      ]
+    },
+    {
+      "column": "PDL1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "1未満": "<1"
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_surgery",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": { "target": "^(?!.*手術).+$", "replacement": "(+)" }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!.*\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "[^\\(\\+\\)]",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_chemotherapy",
+      "operations": [
+        { "name": "switchHalfWidthCharacter" },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(CRT\\(CBDCA\\+PTX\\+RT\\)|CRT\\(CBDCA\\+ETP\\+RT\\)|化学療法\\(CBDCA\\+PEM\\+Bev\\)|DRT\\(CBDCA\\+PTX\\+RT\\))",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!.*\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_targeted_therapy",
+      "operations": [
+        { "name": "switchHalfWidthCharacter" },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(分子標的治療\\(アレセンサ\\)|免疫チェックポイント阻害剤\\(ペンブロリズマブ単剤\\)単剤|免疫チェックポイント単剤\\(ペンブロリズマブ\\))",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!.*\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "recurrence",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "－": "no"
+          }
+        }
+      ]
+    },
+    {
+      "column": "tumor_location",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "L": "left lung",
+            "R": "right lung"
+          }
+        }
+      ]
+    },
+    {
+      "column": "histology",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "Ad": "Adenocarcinoma, NOS",
+            "Small": "Small cell carcinoma, NOS",
+            "Sq": "Squamous cell carcinoma, NOS",
+            "AdSq": "Adenosquamous carcinoma",
+            "Large": "Large cell carcinoma, NOS",
+            "サルコイドーシス": "Carcinoma, NOS",
+            "SmallとSqの混合型": "Small cell carcinoma, NOS",
+            "NOS": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(M.avium|ホジキンリンパ腫|膀胱癌|胃癌|大腸癌|肝細胞癌|外耳癌（腺様嚢胞癌）|多形癌|尿管癌|悪性認めず)",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "stage_L1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": { "target": "1.+", "replacement": "I" }
+        },
+        {
+          "name": "replaceAll",
+          "options": { "target": "2.+", "replacement": "II" }
+        },
+        {
+          "name": "replaceAll",
+          "options": { "target": "3.+", "replacement": "III" }
+        },
+        {
+          "name": "replaceAll",
+          "options": { "target": "4.+", "replacement": "IV" }
+        }
+      ]
+    },
+    {
+      "column": "imaging_PET_delay",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": { "target": "(集積なし|施行せず)", "replacement": "" }
+        }
+      ]
+    },
+    {
+      "column": "treatment_date",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": { "target": "(なし|未)", "replacement": "" }
+        }
+      ]
+    },
+    {
+      "column": "imaging_PET_early",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": { "target": "(集積なし|施行せず)", "replacement": "" }
+        }
+      ]
+    },
+    {
+      "column": "imaging_PET_early",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "vital_status",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "Deceased",
+            "－": "Alive"
+          }
+        }
+      ]
+    },
+    {
+      "column": "additional_treatment",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "なし": "(-)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "last_known_survival_date",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "20210514原病死": "44330"
+          }
+        }
+      ]
+    },
+    {
+      "column": "additional_treatment_details",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "イミフィンジ": "Imfinzi",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "mutation_details",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)",
+            "KRAS": "KRAS-positive",
+            "NRAS陽性": "NRAS-positive",
+            "KRAS陽性": "KRAS-positive",
+            "MET exon skipping変異あり": "MET exon skipping",
+            "L858RとE709G": "L858R, E709G",
+            "G719XとS768I": "G719X, S768I",
+            "KRASとPIK3CA変異あり": "KRAS, PIK3CA",
+            "G719CとE709V": "G719C, E709V"
+          }
+        }
+      ]
+    },
+    {
+      "column": "KRAS",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "KRAS": "(+)",
+            "KRAS陽性": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!.*\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "AE_sepsis",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(FN、敗血症性ショック、呼吸不全で人工呼吸器管理|FNと敗血症、肺炎で1コースで原病死|FNと敗血症と肺炎|FNと敗血症)",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(間質性肺炎で死亡|FN、間質性肺炎急性増悪)",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "AE_febrile_neutropenia",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(FN、敗血症性ショック、呼吸不全で人工呼吸器管理|FNと敗血症、肺炎で1コースで原病死|FNと敗血症と肺炎|FN、間質性肺炎急性増悪|FNと敗血症)",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "間質性肺炎で死亡",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "AE_pneumonia",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(間質性肺炎で死亡|FNと敗血症、肺炎で1コースで原病死|FNと敗血症と肺炎|FN、間質性肺炎急性増悪)",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(FN、敗血症性ショック、呼吸不全で人工呼吸器管理|FNと敗血症)",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "t_L1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": { "target": "1.+", "replacement": "T1" }
+        },
+        {
+          "name": "replaceAll",
+          "options": { "target": "2.+", "replacement": "T2" }
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "2": "T2",
+            "3": "T3",
+            "4": "T4",
+            "3a": "T3"
+          }
+        }
+      ]
+    },
+    {
+      "column": "tumor_location",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "－": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "gender",
+      "operations": [
+        { "name": "switchHalfWidthCharacter" },
+        {
+          "name": "valueMap",
+          "options": {
+            "F": "Female",
+            "M": "Male"
+          }
+        }
+      ]
+    },
+    {
+      "column": "smoked_before_collection",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_hypertension",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_dyslipidemia",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_diabetes",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_COPD",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_pneumonia",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "EGFR_mutation",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Brain",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Liver",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Bone",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Pleura",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_CAD",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "ALK_mutation",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "ROS1_mutation",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "BRAF_mutation",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "diseaseCode",
+      "operations": [
+        { "name": "switchHalfWidthCharacter" },
+        {
+          "name": "valueMap",
+          "options": {
+            "LC": "C34",
+            "LCsusp": "",
+            "Lcsusp": "",
+            "MAC": "A31",
+            "良性腫瘍(サルコイドーシス)": "D143",
+            "良性腫瘍(サルコイド-シス)": "D143",
+            "良性腫瘍(炎症性肉芽腫)": "D143",
+            "良性腫瘍": "D143",
+            "悪性リンパ腫": "C859",
+            "膀胱癌の肺転移": "C780",
+            "胃癌の肺転移": "C780",
+            "壊死性肉芽腫（Tb又はMAC）": "MAC",
+            "大腸癌の肺転移": "C780",
+            "肝細胞癌の肺転移": "C781",
+            "外耳癌の肺転移": "C782",
+            "尿管癌の転移": "C783"
+          }
+        }
+      ]
+    },
+    {
+      "column": "diseaseJP",
+      "operations": [
+        { "name": "switchHalfWidthCharacter" },
+        {
+          "name": "valueMap",
+          "options": {
+            "LC": "肺がん・気管支がん",
+            "MAC": "肺非結核性抗酸菌感染症"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(膀胱癌の肺転移|胃癌の肺転移|大腸癌の肺転移|肝細胞癌の肺転移|外耳癌の肺転移|尿管癌の転移)",
+            "replacement": "肺の続発性悪性新生物＜腫瘍＞"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*良性).*$",
+            "replacement": "中耳及び呼吸器系の良性新生物＜腫瘍＞，気管支及び肺"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(LCsusp|Lcsusp|悪性リンパ腫|壊死性肉芽腫\\(Tb又はMAC\\))",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "diseaseEN",
+      "operations": [
+        { "name": "switchHalfWidthCharacter" },
+        {
+          "name": "valueMap",
+          "options": {
+            "LC": "Bronchus and lung cancer",
+            "LCsusp": "Suspected Bronchus and lung cancer",
+            "Lcsusp": "Suspected Bronchus and lung cancer",
+            "MAC": "Pulmonary mycobacterial infection",
+            "良性腫瘍(サルコイド-シス)": "Benign neoplasm of bronchus and lung",
+            "良性腫瘍(炎症性肉芽腫)": "Benign neoplasm of bronchus and lung",
+            "良性腫瘍": "Benign neoplasm of bronchus and lung",
+            "悪性リンパ腫": "Other and unspecified types of non-Hodgkin's lymphoma",
+            "壊死性肉芽腫(Tb又はMAC)": "Pulmonary mycobacterial infection"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(膀胱癌の肺転移|胃癌の肺転移|大腸癌の肺転移|肝細胞癌の肺転移|外耳癌の肺転移|尿管癌の転移)",
+            "replacement": "Secondary malignant neoplasm of unspecified lung"
+          }
+        }
+      ]
+    },
+    {
+      "column": "diseaseENshort",
+      "operations": [
+        { "name": "switchHalfWidthCharacter" },
+        {
+          "name": "valueMap",
+          "options": {
+            "LC": "Lung",
+            "MAC": "MAC"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(膀胱癌の肺転移|胃癌の肺転移|大腸癌の肺転移|肝細胞癌の肺転移|外耳癌の肺転移|尿管癌の転移)",
+            "replacement": "Meta Lung"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(LCsusp|Lcsusp|悪性リンパ腫|壊死性肉芽腫\\(Tb又はMAC\\))",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*良性).*$",
+            "replacement": "Lung Benign"
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_details",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "手術": "",
+            "CRT(CBDCA+PTX+RT)": "CBDCA+PTX+RT",
+            "複合免疫治療（CBDCA+nabPTX+テセントリク）": "CBDCA+nabPTX+Tesentriq",
+            "手術（右肺下葉切除）": "right lung lower lobectomy",
+            "手術（右肺上葉切除）": "resection of upper lobe of right lung",
+            "分子標的治療（アレセンサ）": "Alecensa",
+            "CRT(CBDCA+ETP+RT)": "CBDCA+ETP+RT",
+            "手術（右肺中葉切除）": "middle lobectomy of right lung",
+            "手術（リンパ節生検）後にCBDCA+nabPTX": "Lymph node biopsy followed by CBDCA+nabPTX",
+            "複合免疫治療（CBDCA+nabPTX+ペンブロリズマブ）": "CBDCA+nabPTX+pembrolizumab",
+            "分子標的治療（ザーコリ）": "Zircol",
+            "免疫チェックポイント阻害剤（ペンブロリズマブ単剤）単剤": "Immune checkpoint inhibitor (Pembrolizumab alone)",
+            "複合免疫治療（CBDCA+PTX+Bev+アテゾリズマブ）": "CBDCA+PTX+Bev+Atezolizumab",
+            "複合免疫療法（CBDCA+PEM+ペンブロリズマブ）": "CBDCA+PEM+pembrolizumab",
+            "複合免疫療法（CBDCA+nabPTX+ペンブロリズマブ）": "CBDCA+nabPTX+pembrolizumab",
+            "化学療法（CBDCA+PEM+Bev)": "CBDCA+PEM+Bev",
+            "複合免疫療法（CBDCA+PTX+Bev+アテゾリズマブ）": "CBDCA+PTX+Bev+Atezolizumab",
+            "CTガイド下生検": "CT-guided biopsy",
+            "複合免疫療法（CBDCA+ETP+アテゾリズマブ）": "CBDCA+ETP+Atezolizumab",
+            "複合免疫療法（CBDCA+PEM+アテゾリズマブ）": "CBDCA+PEM+Atezolizumab",
+            "免疫チェックポイント単剤（ペンブロリズマブ）": "Pembrolizumab",
+            "分子標的治療（タグリッソ）": "Tagrisso",
+            "複合免疫療法（CBDCA+ETP+デュルマルマブ）": "CBDCA+ETP+ durumarumab",
+            "DRT(CBDCA+PTX+RT)": "CBDCA+PTX+RT",
+            "複合免疫治療（CBDCA+ETP+イミフィンジ）": "BDCA+ETP+Imifinzi",
+            "複合免疫治療（CBDCA+PTX+ベバシズマブ+テセントリク）": "CBDCA+PTX+bevacizumab+tesentriq",
+            "複合免疫治療（CBDCA+PEM+ペンブロリズマブ）": "CBDCA+PEM+pembrolizumab"
+          }
+        }
+      ]
+    },
+    {
+      "column": "surgery_type",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "手術（右肺下葉切除）": "Lower right lobectomy",
+            "手術（右肺上葉切除）": "Upper right resection",
+            "手術（右肺中葉切除）": "Middle right lobectomy",
+            "手術（リンパ節生検）後にCBDCA+nabPTX": "Lymph node biopsy"
+          }
+        },
+        { "name": "switchHalfWidthCharacter" },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(Lower|Upper|Middle|Lymph)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_immunotherapy",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "手術（右肺下葉切除）": "Lower right lobectomy",
+            "手術（右肺上葉切除）": "Upper right resection",
+            "手術（右肺中葉切除）": "Middle right lobectomy",
+            "手術（リンパ節生検）後にCBDCA+nabPTX": "Lymph node biopsy"
+          }
+        },
+        { "name": "switchHalfWidthCharacter" },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(CRT\\(CBDCA\\+PTX\\+RT\\)|複合免疫治療\\(CBDCA\\+nabPTX\\+ペンブロリズマブ\\)|免疫チェックポイント阻害剤\\(ペンブロリズマブ単剤\\)単剤|複合免疫治療\\(CBDCA\\+PTX\\+Bev\\+アテゾリズマブ\\)|複合免疫療法\\(CBDCA\\+PEM\\+ペンブロリズマブ\\)|複合免疫療法\\(CBDCA\\+nabPTX\\+ペンブロリズマブ\\)|複合免疫療法\\(CBDCA\\+PTX\\+Bev\\+アテゾリズマブ\\)|複合免疫療法\\(CBDCA\\+ETP\\+アテゾリズマブ\\)|複合免疫療法\\(CBDCA\\+PEM\\+アテゾリズマブ\\)|免疫チェックポイント単剤\\(ペンブロリズマブ\\)|複合免疫療法\\(CBDCA\\+ETP\\+デュルマルマブ\\)|複合免疫治療\\(CBDCA\\+ETP\\+イミフィンジ\\)|複合免疫治療\\(CBDCA\\+PTX\\+ベバシズマブ\\+テセントリク\\)|複合免疫治療\\(CBDCA\\+PEM\\+ペンブロリズマブ\\))",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!.*\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_cancer",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(子宮頸がん術後|胃癌術後|食道癌術後、子宮癌術後|胃癌の肺転移|大腸癌の肺転移,大腸癌術後|肝細胞癌の肺転移,肝臓癌|大腸癌術後、心房細動|大腸癌術後|尿管癌の転移,尿管癌術後|前立腺癌あり|膀胱癌術後)",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(子宮筋腫で手術|腫瘤形成性膵炎術後|子宮の絨毛上皮腫治療後|髄膜腫で3回手術)",
+            "replacement": "benign"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!.*(癌術後|benign|\\(\\+\\))).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_cancer1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "子宮頸がん術後": "Cervix",
+            "子宮筋腫で手術": "Uterus Benign",
+            "腫瘤形成性膵炎術後": "Chronic pancreatitis",
+            "食道癌術後、子宮癌術後": "Uterus",
+            "肝細胞癌の肺転移,肝臓癌": "Liver",
+            "肝臓癌": "Liver",
+            "子宮の絨毛上皮腫治療後": "Female genital Borderline ",
+            "髄膜腫で3回手術": "Meningioma",
+            "尿管癌の転移,尿管癌術後": "Urothelial",
+            "尿管癌術後": "Urothelial",
+            "胃癌術後": "Stomach"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "大腸癌術後",
+            "replacement": "Colorectal"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(膀胱癌術後|膀胱癌)",
+            "replacement": "Urothelial"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(前立腺癌あり|前立腺癌)",
+            "replacement": "Prostate"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(Pro|Uro|Col|Sto|Men|Fem|Liv|Ute|Chr|Cer)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "surgery_history",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*術).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!.*\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_angina_pectoris",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "狭心症",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!.*\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_asthma",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(喘息、脳梗塞|気管支喘息|喘息)",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!.*\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_pancreatitis",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "腫瘤形成性膵炎術後",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!.*\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "t_L2",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "1a": "T1a",
+            "1b": "T1b",
+            "2b": "T2b",
+            "3": "T3",
+            "3a": "T3a",
+            "1mi": "T1mi",
+            "4": "T4",
+            "1c": "T1c",
+            "2a": "T2a",
+            "2": "T2"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_ASO",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(ASO、慢性腎不全で透析中|ASO)",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!.*\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "adverse_effect",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "－": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_cerebral_infarction",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(喘息、脳梗塞|脳梗塞)",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!.*\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_CNB",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "CTガイド下生検",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!.*\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Lung",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*肺転移).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!.*\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    { "name": "inst_patientID", "description": "ID" },
+    { "name": "diseaseEN", "description": "疾患名" },
+    { "name": "gender", "description": "性別" },
+    { "name": "age", "description": "年齢" },
+    { "name": "height", "description": "身長" },
+    { "name": "weight", "description": "体重" },
+    { "name": "smoked_before_collection", "description": "直前喫煙" },
+    { "name": "smoking_years", "description": "喫煙年" },
+    { "name": "smoking_perday", "description": "喫煙本数" },
+    { "name": "disease_history_hypertension", "description": "HT" },
+    { "name": "disease_history_dyslipidemia", "description": "HL" },
+    { "name": "disease_history_diabetes", "description": "DM" },
+    { "name": "disease_history_COPD", "description": "COPD" },
+    { "name": "disease_history_asthma", "description": "併存症" },
+    { "name": "disease_history_pneumonia", "description": "IP" },
+    { "name": "disease_history_ASO", "description": "併存症" },
+    { "name": "disease_history_pancreatitis", "description": "併存症" },
+    { "name": "blood_test_CEA", "description": "CEA" },
+    { "name": "stage_L2", "description": "stage" },
+    { "name": "t_L2", "description": "T" },
+    { "name": "n_L1", "description": "N" },
+    { "name": "m_L2", "description": "M" },
+    { "name": "treatment", "description": "治療内容" },
+    { "name": "t_L1", "description": "T" },
+    { "name": "m_L1", "description": "M" },
+    { "name": "subtype", "description": "サブタイプ" },
+    { "name": "EGFR_mutation", "description": "EGFR" },
+    { "name": "stage_L1", "description": "stage" },
+    { "name": "meta_Brain", "description": "脳" },
+    { "name": "meta_Liver", "description": "肝" },
+    { "name": "meta_Bone", "description": "骨" },
+    { "name": "meta_Pleura", "description": "胸水" },
+    { "name": "tumor_location", "description": "左右" },
+    { "name": "histology", "description": "組織型" },
+    { "name": "clinical_tumor_size", "description": "cT(TS)" },
+    { "name": "disease_history_CAD", "description": "CAD" },
+    { "name": "Brinkman_index", "description": "BI" },
+    { "name": "imaging_PET_early", "description": "PET(early)" },
+    { "name": "imaging_PET_delay", "description": "PET(delay)" },
+    { "name": "blood_test_NT-ProBNP", "description": "NT-ProBNP" },
+    { "name": "blood_test_NT-ProBNP-2", "description": "NTProBNP-2" },
+    { "name": "treatment_date", "description": "治療開始日" },
+    { "name": "adverse_effect", "description": "副作用" },
+    { "name": "AE_details", "description": "副作用内容" },
+    { "name": "ALK_mutation", "description": "ALK" },
+    { "name": "ROS1_mutation", "description": "ROS1" },
+    { "name": "BRAF_mutation", "description": "BRAF" },
+    { "name": "PDL1", "description": "PDL1" },
+    { "name": "recurrence", "description": "再発" },
+    { "name": "recurrence_date", "description": "再発時期" },
+    { "name": "vital_status", "description": "死亡" },
+    { "name": "last_known_survival_date", "description": "生存期間" },
+    { "name": "mutation_details", "description": "遺伝子発現タイプ" },
+    { "name": "KRAS", "description": "遺伝子発現タイプ" },
+    { "name": "comorbidity_disease", "description": "併存症" },
+    { "name": "treatment_surgery", "description": "治療内容" },
+    { "name": "treatment_chemotherapy", "description": "治療内容" },
+    { "name": "treatment_radiation", "description": "治療内容" },
+    { "name": "histology_original", "description": "組織型" },
+    { "name": "subtype_original", "description": "サブタイプ" },
+    { "name": "meta_Lung", "description": "疾患名" },
+    { "name": "treatment_targeted_therapy", "description": "治療内容" },
+    { "name": "treatment_CNB", "description": "治療内容" },
+    { "name": "additional_treatment", "description": "追加治療" },
+    { "name": "additional_treatment_details", "description": "追加治療内容" },
+    { "name": "AE_sepsis", "description": "副作用内容" },
+    { "name": "AE_febrile_neutropenia", "description": "副作用内容" },
+    { "name": "AE_pneumonia", "description": "副作用内容" },
+    { "name": "treatment_details", "description": "治療内容" },
+    { "name": "surgery_type", "description": "治療内容" },
+    { "name": "treatment_immunotherapy", "description": "治療内容" },
+    { "name": "comorbidity_cancer", "description": "併存症" },
+    { "name": "comorbidity_cancer1", "description": "併存症" },
+    { "name": "surgery_history", "description": "併存症" },
+    { "name": "comorbidity_angina_pectoris", "description": "併存症" },
+    { "name": "comorbidity_cerebral_infarction", "description": "併存症" },
+    { "name": "diseaseCode", "description": "疾患名" },
+    { "name": "diseaseJP", "description": "疾患名" },
+    { "name": "diseaseENshort", "description": "疾患名" }
+  ]
+}

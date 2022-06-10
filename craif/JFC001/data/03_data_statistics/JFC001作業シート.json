@@ -1,0 +1,97 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\JFC001\\data\\00_raw\\JFC001_conversion_Craif作業シート のコピー - raw.csv",
+  "map": {
+    "tubeNo": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patientID": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_date": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "sampletypeEN": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseEN": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "delivery_date": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "total_tubes": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "grouping": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "tubeNo": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patientID": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_date": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "sampletypeEN": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseEN": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "delivery_date": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "total_tubes": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "grouping": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

@@ -1,0 +1,610 @@
+{
+  "id": "1feeb505-68aa-418e-a766-e222eecaf6fc",
+  "name": "KSU001がん情報",
+  "file": "../data/00_raw/臨床情報リスト_川崎医大_膵臓001_v1 のコピー - 膵_がん情報.csv",
+  "column_line": 1,
+  "mapping": {
+    "inst_patientID": "患者番号",
+    "clinical_diagnosis_note_original": "臨床診断備考",
+    "pathological_diagnosis_date": "病理診断日",
+    "pathological_diagnosis_method": "診断方法",
+    "pathological_diagnosis_result": "結果",
+    "pathological_diagnosis_note": "病理診断備考",
+    "imaging_date": "画像診断日",
+    "imaging_ultrasound": "エコー",
+    "imaging_CT": "CT",
+    "imaging_MRI": "MRI",
+    "imaging_TCS": "MRCP",
+    "imaging_EUS": "EUS",
+    "imaging_ERCP": "ERCP",
+    "imaging_PET": "PET",
+    "imaging_note": "画像診断結果_備考",
+    "stage_notes": "Stage分類",
+    "t_L2": "T",
+    "size_x": "腫瘍径1(mm)",
+    "size_y": "腫瘍径2(mm)",
+    "n_L1": "N",
+    "m_L1": "M",
+    "histology": "組織型",
+    "histology_note": "組織型_備考",
+    "meta_Brain": "脳",
+    "meta_HeadNeck": "頭頚部",
+    "meta_Oral": "口腔",
+    "meta_Thyroid": "甲状腺",
+    "meta_Lung": "肺",
+    "meta_Esophagus": "食道",
+    "meta_Stomach": "胃",
+    "meta_Duodenal": "十二指腸",
+    "meta_SmallBowel": "小腸",
+    "meta_Pancreas": "大腸",
+    "meta_Liver": "肝臓",
+    "meta_Colon": "膵臓",
+    "meta_Gallbladder": "胆嚢・胆管",
+    "meta_Spleen": "脾臓",
+    "meta_Breast": "乳房",
+    "meta_Uterus": "子宮",
+    "meta_Ovary": "卵巣",
+    "meta_Vulvar": "外陰部",
+    "meta_Prostate": "前立腺",
+    "meta_Testicular": "精巣",
+    "meta_Bone": "骨",
+    "meta_Skin": "皮膚",
+    "meta_Others": "その他",
+    "meta_note": "遠隔転移_備考",
+    "treatment_history_surgery": "手術歴",
+    "treatment_history_radiation": "放射線治療歴",
+    "treatment_history_drug": "薬物療法歴",
+    "treatment_history_note": "がん治療歴詳細",
+    "surgery_history": "がん治療歴詳細",
+    "input": "がん治療歴詳細",
+    "t_L1": "T",
+    "stage_L1": "Stage分類",
+    "stage_L2": "Stage分類"
+  },
+  "transform": [
+    {
+      "column": "input",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "2019/11/5~: TS-1+GEM": "2019/11/5~: TS-1+GEM",
+            "2011/5/11 右乳房部分切除　　2011/5/30〜RT,2011/6/28〜TC療法（４サイクル）,2011/6/28~2016/3/9 アナストローゾール＋デノスマブ治験": "2011/05/11 Partial right mastectomy 2011/05/30- RT, 6/28/2011- TC therapy (4 cycles), 2011/06/28~2016/03/09 Anastrozole + denosumab clinical trial",
+            "2020/1/6  PpPD+D2郭清　良性": "2020/01/6 PpPD+D2 dissection Benign",
+            "2012/1/30 右乳房扇状切除術＋センチネルリンパ節生検、平成10年左乳がん手術、平成13年甲状腺がん手術": "2012/01/30 Right mastectomy + sentinel lymph node biopsy, Left breast cancer surgery in 1998, Thyroid cancer surgery in 2001",
+            "2020/4/27 DP+脾摘+D2郭清　悪性": "2020/04/27 DP+splenectomy+D2 dissection Malignant",
+            "平成25年前立腺癌投薬": "Prostate cancer medication in 2013",
+            "2020/4/17 造影CT :右下葉S8胸膜直下に不整腫瘤影あり。2020/6/16:胸腔鏡下右下葉切除＋ND2a-1手術:右下葉非小細胞肺がん(S8/9(25×20×15mm),pT2a,pN0,M0,R0,pStageⅠB": "2020/04/17 Contrast CT : irregular mass shadow just below right lower lobe S8 pleura. 2020/06/16: Thoracoscopic right lower lobe resection + ND2a-1 surgery: right lower lobe non-small cell lung cancer (S8/9 (25×20×15mm), pT2a, pN0, M0, R0, pStage IB)",
+            "2008年大腸癌（詳細不明）": "2008 Colorectal cancer",
+            "2017/7/10 S状結腸がん（高位前方切除ラパロ），2019/8/30肝細胞がん転移性脳腫瘍（手術詳細不明）": "2017/07/10 sigmoid colon cancer (high anterior resection Rapallo), 2019/08/30 hepatocellular carcinoma metastatic brain tumor (surgery details unknown)",
+            "2014 膵臓癌手術・化学療法詳細不明": "2014 Pancreatic cancer surgery and chemotherapy details unknown",
+            "2020/4/23 GA療法⇨2020/10/26 DP+脾摘 腹腔動脈合併切除 D2郭清（stageⅢT4(A1)N1aM0)⇨S1": "2020/4/23 GA Therapy ⇨ 2020/10/26 DP+Splenectomy Combined abdominal artery resection D2 dissection (stage III T4(A1)N1aM0) ⇨ S1",
+            "2000年頃左腎がん手術（左腎摘出）": "Left Renal Cancer Surgery (Left Nephrectomy)",
+            "2020/6/8 膵頭十二指腸切除＋門脈合併切除再建術⇨2020/7/3〜9/14 TS-1": "2020/06/8 Pancreaticoduodenectomy + Portal Vein Conjugate Resection Reconstruction⇨ 2020/07/3 - 2020/09/14 TS-1",
+            "2020/3/27 s状結腸がん Pmab単剤": "2020/03/27 sigmoid colon cancer Pmab single agent",
+            "2019/7/17 GO": "2019/07/17 GO",
+            "2018/12/11 GA": "2018/12/11 GA",
+            "2020/6/30 TS-1": "2020/06/30 TS-1"
+          }
+        }
+      ]
+    },
+    {
+      "column": "t_L1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "T3c": "T3"
+          }
+        }
+      ]
+    },
+    {
+      "column": "stage_L1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(N/A|A|B)",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "stage_L2",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "N/A",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "pathological_diagnosis_method",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "生検": "Biopsy",
+            "その他": "Others",
+            "手術": "Surgery"
+          }
+        }
+      ]
+    },
+    {
+      "column": "pathological_diagnosis_result",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "陽性": "malignant",
+            "良性": "benign",
+            "悪性疑い": "suspected malignant",
+            "悪性": "malignant"
+          }
+        }
+      ]
+    },
+    {
+      "column": "pathological_diagnosis_note",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "2020/3/4 生検　悪性": "diagnosis: 2020/3/4, Biopsy, malignant",
+            "断定不可": "cannot be determined",
+            "なし": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_ultrasound",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "実施": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_CT",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "実施": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_CT",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "実施": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_MRI",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "実施": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_TCS",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "実施": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_EUS",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "実施": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_ERCP",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "実施": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_PET",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "実施": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_note",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "EUS、がんと診断": "EUS, cancer and diagnosis",
+            "ERCP,膵頭部がんと診断": "ERCP, diagnosis of pancreatic head cancer",
+            "CT,分枝型IPMN疑いと診断": "CT, diagnosis of suspected branched IPMN",
+            "MRCP,膵のう胞と診断": "MRCP, Diagnosis of pancreatic cyst",
+            "CT,膵がんと診断": "CT, diagnosis of pancreatic cancer",
+            "膵がん疑い": "Suspected pancreatic cancer",
+            "膵がんと診断": "Diagnosis of pancreatic cancer",
+            "膵頭部がん疑い": "Suspected pancreatic head cancer",
+            "膵がん、SPN疑い": "Suspected pancreatic cancer, SPN",
+            "粘液産生膵腫瘍": "Mucus-producing pancreatic tumor",
+            "膵がん": "Pancreatic cancer",
+            "慢性膵炎": "Chronic pancreatitis",
+            "総胆管結石": "Common bile duct stones",
+            "十二指腸乳頭部がん疑い": "Suspected duodenal papillary carcinoma",
+            "IPMN,慢性膵炎,総胆管結石": "IPMN, chronic pancreatitis, common bile duct stones",
+            "肝膿瘍": "Liver abscess",
+            "急性胆嚢炎": "Acute cholecystitis",
+            "胆管がん疑い": "Suspected bile duct cancer",
+            "膵がん,総胆管結石": "Pancreatic cancer, Common bile duct stone",
+            "悪性胆管狭窄，大腸癌肝転移": "Malignant bile duct stenosis, liver metastasis of colorectal cancer",
+            "硬化性胆管炎IgG4関連型，膵管狭細型慢性膵炎": "Sclerosing cholangitis IgG4-related type, chronic pancreatitis with narrowed pancreatic duct",
+            "胆管がん": "Bile duct cancer",
+            "膵嚢胞，慢性膵炎": "Pancreatic cyst, chronic pancreatitis",
+            "良性胆管狭窄疑い，不完全癒合不全疑い": "Suspected benign bile duct stenosis, suspected incomplete fusion"
+          }
+        }
+      ]
+    },
+    {
+      "column": "histology",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "Adenocarcinoma": "Adenocarcinoma, NOS"
+          }
+        }
+      ]
+    },
+    {
+      "column": "histology_note",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "境界病変": "Borderline lesion"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_note",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "転移疑い": "suspected metastasis"
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_history_surgery",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)",
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_history_radiation",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)",
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_history_drug",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)",
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "surgery_history",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*(手術|郭清|切除)).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    {
+      "name": "inst_patientID",
+      "description": "患者番号"
+    },
+    {
+      "name": "clinical_diagnosis_note_original",
+      "description": "臨床診断備考"
+    },
+    {
+      "name": "pathological_diagnosis_date",
+      "description": "病理診断日"
+    },
+    {
+      "name": "pathological_diagnosis_method",
+      "description": "診断方法"
+    },
+    {
+      "name": "pathological_diagnosis_result",
+      "description": "結果"
+    },
+    {
+      "name": "pathological_diagnosis_note",
+      "description": "病理診断備考"
+    },
+    {
+      "name": "imaging_date",
+      "description": "画像診断日"
+    },
+    {
+      "name": "imaging_ultrasound",
+      "description": "エコー"
+    },
+    {
+      "name": "imaging_CT",
+      "description": "CT"
+    },
+    {
+      "name": "imaging_MRI",
+      "description": "MRI"
+    },
+    {
+      "name": "imaging_TCS",
+      "description": "MRCP"
+    },
+    {
+      "name": "imaging_EUS",
+      "description": "EUS"
+    },
+    {
+      "name": "imaging_ERCP",
+      "description": "ERCP"
+    },
+    {
+      "name": "imaging_PET",
+      "description": "PET"
+    },
+    {
+      "name": "imaging_note",
+      "description": "画像診断結果_備考"
+    },
+    {
+      "name": "stage_notes",
+      "description": "Stage分類"
+    },
+    {
+      "name": "t_L2",
+      "description": "T"
+    },
+    {
+      "name": "size_x",
+      "description": "腫瘍径1(mm)"
+    },
+    {
+      "name": "size_y",
+      "description": "腫瘍径2(mm)"
+    },
+    {
+      "name": "n_L1",
+      "description": "N"
+    },
+    {
+      "name": "m_L1",
+      "description": "M"
+    },
+    {
+      "name": "histology",
+      "description": "組織型"
+    },
+    {
+      "name": "histology_note",
+      "description": "組織型_備考"
+    },
+    {
+      "name": "meta_Brain",
+      "description": "脳"
+    },
+    {
+      "name": "meta_HeadNeck",
+      "description": "頭頚部"
+    },
+    {
+      "name": "meta_Oral",
+      "description": "口腔"
+    },
+    {
+      "name": "meta_Thyroid",
+      "description": "甲状腺"
+    },
+    {
+      "name": "meta_Lung",
+      "description": "肺"
+    },
+    {
+      "name": "meta_Esophagus",
+      "description": "食道"
+    },
+    {
+      "name": "meta_Stomach",
+      "description": "胃"
+    },
+    {
+      "name": "meta_Duodenal",
+      "description": "十二指腸"
+    },
+    {
+      "name": "meta_SmallBowel",
+      "description": "小腸"
+    },
+    {
+      "name": "meta_Pancreas",
+      "description": "大腸"
+    },
+    {
+      "name": "meta_Liver",
+      "description": "肝臓"
+    },
+    {
+      "name": "meta_Colon",
+      "description": "膵臓"
+    },
+    {
+      "name": "meta_Gallbladder",
+      "description": "胆嚢・胆管"
+    },
+    {
+      "name": "meta_Spleen",
+      "description": "脾臓"
+    },
+    {
+      "name": "meta_Breast",
+      "description": "乳房"
+    },
+    {
+      "name": "meta_Uterus",
+      "description": "子宮"
+    },
+    {
+      "name": "meta_Ovary",
+      "description": "卵巣"
+    },
+    {
+      "name": "meta_Vulvar",
+      "description": "外陰部"
+    },
+    {
+      "name": "meta_Prostate",
+      "description": "前立腺"
+    },
+    {
+      "name": "meta_Testicular",
+      "description": "精巣"
+    },
+    {
+      "name": "meta_Bone",
+      "description": "骨"
+    },
+    {
+      "name": "meta_Skin",
+      "description": "皮膚"
+    },
+    {
+      "name": "meta_Others",
+      "description": "その他"
+    },
+    {
+      "name": "meta_note",
+      "description": "遠隔転移_備考"
+    },
+    {
+      "name": "treatment_history_surgery",
+      "description": "手術歴"
+    },
+    {
+      "name": "treatment_history_radiation",
+      "description": "放射線治療歴"
+    },
+    {
+      "name": "treatment_history_drug",
+      "description": "薬物療法歴"
+    },
+    {
+      "name": "treatment_history_note",
+      "description": "がん治療歴詳細"
+    },
+    {
+      "name": "surgery_history",
+      "description": "がん治療歴詳細"
+    },
+    {
+      "name": "input",
+      "description": "がん治療歴詳細"
+    },
+    {
+      "name": "t_L1",
+      "description": "T"
+    },
+    {
+      "name": "stage_L1",
+      "description": "Stage分類"
+    },
+    {
+      "name": "stage_L2",
+      "description": "Stage分類"
+    },
+    {
+      "name": "surgery_history",
+      "description": "treatment_history_surgeryの変更"
+    }
+  ]
+}

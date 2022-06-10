@@ -1,0 +1,47 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\KSU001\\data\\00_raw\\KSU001検体情報.csv",
+  "map": {
+    "tubeNo": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "cancer_status": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_timing": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "dispense_note": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "tubeNo": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "cancer_status": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_timing": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "dispense_note": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "phase": "mapping",
+    "line": null,
+    "column": "tubeNo",
+    "code": "2002",
+    "detail": {}
+  },
+  {
+    "phase": "mapping",
+    "line": null,
+    "column": "inst_patientID",
+    "code": "2002",
+    "detail": {}
+  },
+  {
+    "phase": "mapping",
+    "line": null,
+    "column": "collection_date",
+    "code": "2002",
+    "detail": {}
+  },
+  {
+    "phase": "mapping",
+    "line": null,
+    "column": "sampletypeEN",
+    "code": "2002",
+    "detail": {}
+  },
+  {
+    "phase": "mapping",
+    "line": null,
+    "column": "collection_timing_details",
+    "code": "2002",
+    "detail": {}
+  },
+  {
+    "phase": "mapping",
+    "line": null,
+    "column": "patient_note",
+    "code": "2002",
+    "detail": {}
+  },
+  {
+    "phase": "mapping",
+    "line": null,
+    "column": "patientID",
+    "code": "2002",
+    "detail": {}
+  },
+  {
+    "phase": "mapping",
+    "line": null,
+    "column": "diseaseEN",
+    "code": "2002",
+    "detail": {}
+  },
+  {
+    "phase": "mapping",
+    "line": null,
+    "column": "delivery_date",
+    "code": "2002",
+    "detail": {}
+  },
+  {
+    "phase": "mapping",
+    "line": null,
+    "column": "treatment_method",
+    "code": "2002",
+    "detail": {}
+  },
+  {
+    "phase": "mapping",
+    "line": null,
+    "column": "collection_timing_detailsEN",
+    "code": "2002",
+    "detail": {}
+  },
+  {
+    "phase": "mapping",
+    "line": null,
+    "column": "treatment_chemotherapy",
+    "code": "2002",
+    "detail": {}
+  },
+  {
+    "phase": "mapping",
+    "line": null,
+    "column": "treatment_surgery",
+    "code": "2002",
+    "detail": {}
+  },
+  {
+    "phase": "mapping",
+    "line": null,
+    "column": "treatment_radiation",
+    "code": "2002",
+    "detail": {}
+  },
+  {
+    "phase": "mapping",
+    "line": null,
+    "column": "treatment_ESD",
+    "code": "2002",
+    "detail": {}
+  },
+  {
+    "phase": "mapping",
+    "line": null,
+    "column": "treatment_NAC",
+    "code": "2002",
+    "detail": {}
+  }
+]

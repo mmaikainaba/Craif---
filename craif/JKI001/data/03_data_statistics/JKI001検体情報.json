@@ -1,0 +1,107 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\JKI001\\data\\00_raw\\【修正2】JKI001検体情報.csv",
+  "map": {
+    "ship_number": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tubeNo": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patientID": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_date": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "sampletypeEN": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "total_tubes": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "dispense_note": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "delivery_date": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "withdrawn_from_study": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "ship_number": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tubeNo": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patientID": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_date": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "sampletypeEN": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "total_tubes": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "dispense_note": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "delivery_date": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    },
+    "withdrawn_from_study": {
+      "total": 232,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

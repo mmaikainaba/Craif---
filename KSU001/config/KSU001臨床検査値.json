@@ -1,0 +1,182 @@
+{
+  "id": "7d223ccd-8953-44fd-b7b2-43620d77c15f",
+  "name": "KSU001臨床検査値",
+  "file": "../data/00_raw/KSU001_conversion_臨床検査値 のコピー - raw.csv",
+  "column_line": 1,
+  "mapping": {
+    "inst_patientID": "患者番号",
+    "test_date": "臨床検査日",
+    "blood_test_RBC": "RBC",
+    "blood_test_Hb": "Hb",
+    "blood_test_WBC": "WBC",
+    "blood_test_Plt": "Plt",
+    "blood_test_HbA1c": "HbA1c",
+    "blood_test_BUN": "BUN",
+    "blood_test_CRE": "CRE",
+    "blood_test_ALB": "Alb",
+    "blood_test_Amylase": "アミラーゼ",
+    "blood_test_T-Bil": "T-Bil",
+    "blood_test_D-Bil": "D-Bil",
+    "blood_test_AST": "AST",
+    "blood_test_ALT": "ALT",
+    "blood_test_LDH": "LDH",
+    "blood_test_ALP": "ALP",
+    "blood_test_CRP": "CRP",
+    "blood_test_IgG": "IgG",
+    "blood_test_IGg4": "IGg4",
+    "blood_test_Esterase": "エラスターゼ",
+    "blood_test_Ddimer": "Dダイマー",
+    "blood_test_DUPAN": "DUPAN",
+    "blood_test_CA19-9": "CA19-9",
+    "blood_test_CEA": "CEA",
+    "blood_test_AFP": "AFP (精密)",
+    "blood_test_pylori": "ピロリ",
+    "blood_test_HBV": "HBV",
+    "blood_test_HCV": "HCV",
+    "blood_test_HIV": "HIV",
+    "patient_note": "備考",
+    "subtype": "備考",
+    "surgery_date": "備考"
+  },
+  "transform": [
+    {
+      "column": "subtype",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "2020/5 右下扁平上皮癌診断　6/16手術": "Squamous cell carcinoma"
+          }
+        }
+      ]
+    },
+    {
+      "column": "surgery_date",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "2020/5 右下扁平上皮癌診断　6/16手術": "2020/06/16"
+          }
+        }
+      ]
+    },
+    {
+      "column": "blood_test_Esterase",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "<80": "80"
+          }
+        }
+      ]
+    },
+    {
+      "column": "blood_test_CA19-9",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "<5": "5",
+            "<5.0": "5"
+          }
+        }
+      ]
+    },
+    {
+      "column": "blood_test_CEA",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "<1": "1"
+          }
+        }
+      ]
+    },
+    {
+      "column": "blood_test_pylori",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "-": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "blood_test_HBV",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "-": "(-)",
+            "＋": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "blood_test_HCV",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "-": "(-)",
+            "＋": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "blood_test_HIV",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "-": "(-)"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    { "name": "inst_patientID", "description": "患者番号" },
+    { "name": "test_date", "description": "臨床検査日" },
+    { "name": "blood_test_RBC", "description": "RBC" },
+    { "name": "blood_test_Hb", "description": "Hb" },
+    { "name": "blood_test_WBC", "description": "WBC" },
+    { "name": "blood_test_Plt", "description": "Plt" },
+    { "name": "blood_test_HbA1c", "description": "HbA1c" },
+    { "name": "blood_test_BUN", "description": "BUN" },
+    { "name": "blood_test_CRE", "description": "CRE" },
+    { "name": "blood_test_ALB", "description": "Alb" },
+    { "name": "blood_test_Amylase", "description": "アミラーゼ" },
+    { "name": "blood_test_T-Bil", "description": "T-Bil" },
+    { "name": "blood_test_D-Bil", "description": "D-Bil" },
+    { "name": "blood_test_AST", "description": "AST" },
+    { "name": "blood_test_ALT", "description": "ALT" },
+    { "name": "blood_test_LDH", "description": "LDH" },
+    { "name": "blood_test_ALP", "description": "ALP" },
+    { "name": "blood_test_CRP", "description": "CRP" },
+    { "name": "blood_test_IgG", "description": "IgG" },
+    { "name": "blood_test_IGg4", "description": "IGg4" },
+    { "name": "blood_test_Esterase", "description": "エラスターゼ" },
+    { "name": "blood_test_Ddimer", "description": "Dダイマー" },
+    { "name": "blood_test_DUPAN", "description": "DUPAN" },
+    { "name": "blood_test_CA19-9", "description": "CA19-9" },
+    { "name": "blood_test_CEA", "description": "CEA" },
+    { "name": "blood_test_AFP", "description": "AFP (精密)" },
+    { "name": "blood_test_pylori", "description": "ピロリ" },
+    { "name": "blood_test_HBV", "description": "HBV" },
+    { "name": "blood_test_HCV", "description": "HCV" },
+    { "name": "blood_test_HIV", "description": "HIV" },
+    { "name": "patient_note", "description": "備考" },
+    { "name": "subtype", "description": "備考" },
+    { "name": "surgery_date", "description": "備考" }
+  ]
+}

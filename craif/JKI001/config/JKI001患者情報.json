@@ -1,0 +1,1414 @@
+{
+  "id": "8ed06660-8f0c-4612-9018-fc8fbf047bde",
+  "name": "JKI001患者情報",
+  "file": "../data/00_raw/対応リスト_20210921 3 のコピー - リスト1.csv",
+  "column_line": 1,
+  "mapping": {
+    "inst_patientID": "患者ＩＤ",
+    "surgery_date": "手術日：□",
+    "comorbidity_others": "現病歴： □",
+    "smoking_history": "喫煙歴：□",
+    "Brinkman_index": "B.I：□",
+    "gender": "性別：□",
+    "tumor_location": "左右：□",
+    "diseaseEN": "診断病名：□",
+    "surgery_classification": "呼吸器外科手術分類(病理確認後必要時更新要)：□",
+    "planned_surgery_method": "予定術式：□",
+    "planned_surgery_note": "追加事項： □",
+    "height": "身長：□cm",
+    "weight": "体重：□kg",
+    "vital_capacity_ml": "VC：□ml",
+    "forced_vital_capacity_ml": "FVC：□ml",
+    "forced_expiratory_volume_per_sec": "FEV1.0：□ml",
+    "diffusing_capacity_for_CO_ml_per_min": "DLCO：□ml/min/mmHg",
+    "disease_history": "既往・併存疾患： □",
+    "post-ope_treatment": "術前治療：□",
+    "primary_site": "肺癌占拠部位：□",
+    "primary_tumor_SUVmax_value": "原発ＳＵＶmax：□",
+    "metastatic_lymphnode_SUVmax_value": "リンパ節SUVmax：□",
+    "classification_of_pancreatic_cancer_edition": "取扱い規約の版：□",
+    "clinical_stage_L2": "ｃＳｔａｇｅ：□",
+    "clinical_t_L2": "cT：□",
+    "clinical_n_L1": "cN：□",
+    "clinical_m_L1": "cM：□",
+    "lesion_diameter": "病変全体径：□",
+    "enriched_component_diameter": "充実成分径：□",
+    "blood_test_CEA": "CEA：□",
+    "blood_test_CYFRA": "CYFRA：□",
+    "blood_test_SCC": "SCC：□",
+    "proGRP": "proGRP：□",
+    "disease_history_cancer_original": "：□",
+    "clinical_diagnosis_result": "術前病理診断の有無：□",
+    "surgery_approach": "アプローチ：□",
+    "surgery_method_details": "施行術式：□",
+    "NCD_surgery_type": "NCD手術分類：□",
+    "n_L2": "リンパ節郭清□",
+    "surgery_length_min": "手術時間：□min",
+    "histology": "組織診断：□",
+    "subtype": "腺癌組織亜型：□",
+    "grade": "組織学的グレード：□",
+    "lymphatic_invasion": "ly：□",
+    "vertical_margin": "v：□",
+    "meta_Lung": "肺内転移：□",
+    "pleural_lavage_cytology_pre": "PLC pre：□",
+    "pleural_lavage_cytology_post": "PLC post：□",
+    "E": "E：□",
+    "infiltration_distance_mm": "肺癌病変径：□mm",
+    "invasion_depth": "肺癌浸潤径：□mm",
+    "pathological_stage_L2": "pStage：□",
+    "pathological_t_L2": "pT：□",
+    "pathological_n_L1": "pN：□",
+    "pathological_m_L1": "pM：□",
+    "R_classification": "根治度R：□",
+    "post-ope_complementary_chemotherapy": "術後補助化学療法：□",
+    "chemotherapy_notes": "内容詳細：□",
+    "no_complement_chemotherapy_reason": "術後補助化学療法非施行理由：□",
+    "t_L2": "pT：□",
+    "t_L1": "pT：□",
+    "n_L1": "pN：□",
+    "m_L1": "pM：□",
+    "disease_history_cancer": "：□",
+    "disease_history_cancer1": "：□",
+    "imaging_CT": "現病歴： □",
+    "dissection": "NCD手術分類：□",
+    "NCD_code": "NCD手術分類：□",
+    "planned_surgery_type": "予定術式：□",
+    "lymphadenectomy": "追加事項： □",
+    "treatment_surgery": "施行術式：□",
+    "surgery_type": "施行術式：□",
+    "disease_history_hypertension": "既往・併存疾患： □",
+    "disease_history_COPD": "既往・併存疾患： □",
+    "disease_history_hyperlipidemia": "既往・併存疾患： □",
+    "disease_history_asthma": "既往・併存疾患： □",
+    "disease_history_diabetes": "既往・併存疾患： □",
+    "disease_history_appendicitis": "既往・併存疾患： □",
+    "clinical_stage_L1": "ｃＳｔａｇｅ：□",
+    "pathological_stage_L1": "pStage：□",
+    "stage_L2": "pStage：□",
+    "stage_L1": "pStage：□"
+  },
+  "transform": [
+    {
+      "column": "t_L2",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^",
+            "replacement": "T"
+          }
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "T": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "t_L1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^",
+            "replacement": "T"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(a|b|c|mi)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "T": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "n_L1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^",
+            "replacement": "N"
+          }
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "N": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "m_L1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^",
+            "replacement": "M"
+          }
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "M": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cancer",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*(癌|リンパ腫|肉腫|Ca|tage)).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cancer1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=胃).*$|^(?=.*胃).*$",
+            "replacement": "Stomach"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=食道).*$|^(?=.*食道).*$",
+            "replacement": "Esophagus"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=乳).*$|^(?=.*乳).*$",
+            "replacement": "Breast"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=前立腺).*$|^(?=.*前立腺).*$",
+            "replacement": "Prostate"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=膵臓).*$|^(?=.*膵臓).*$",
+            "replacement": "Pancreas"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=リンパ腫).*$|^(?=.*リンパ腫).*$",
+            "replacement": "Lymphoma"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*腸).*$",
+            "replacement": "Colorectal"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=子宮).*$|^(?=.*子宮).*$",
+            "replacement": "Uterus"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=甲状腺).*$|^(?=.*甲状腺).*$",
+            "replacement": "Thyroid"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(Stomach|Esophagus|Breast|Uterus|Colorectal|Lymphoma|Pancreas|Prostate)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_CT",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*(CT|ct)).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "dissection",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*郭清あり).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*郭清なし).*$",
+            "replacement": "(-)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(\\(\\+\\)|\\(\\-\\))).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "NCD_code",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "NCD_surgery_type": "NCD_code",
+            "胸腔鏡下肺悪性腫瘍手術　区域切除　郭清なし ＮＰ0155": "NP0155",
+            "胸腔鏡下肺悪性腫瘍手術　肺葉切除　郭清あり ＮＰ0150": "NP0150",
+            "肺悪性腫瘍手術　開胸肺葉切除　郭清あり ＮＰ0162": "NP0162",
+            "胸腔鏡下肺悪性腫瘍手術　部分切除（1ヶ所） ＮＰ0153": "NP0153",
+            "肺悪性腫瘍手術　胸壁合併切除 ＮＰ0165": "NP0165",
+            "胸腔鏡下肺葉切除 ＯＰ0101": "OP0101",
+            "胸腔鏡下肺葉切除（1葉を超える） ＯＰ0106": "OP0106",
+            "胸腔鏡下肺悪性腫瘍手術　心膜合併切除 ＮＰ0174": "NP0174",
+            "胸腔鏡下肺悪性腫瘍手術　肺全摘　郭清あり ＮＰ0152": "NP0152"
+          }
+        }
+      ]
+    },
+    {
+      "column": "planned_surgery_type",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "右肺区域切除": "Right lung regional resection",
+            "左下葉切除": "Lower left lobectomy",
+            "右上葉切除": "Upper right lobectomy",
+            "右下葉切除": "Lower right lobectomy",
+            "右肺部分切除": "Left lung regional resection",
+            "左肺区域切除": "Right partial lung resection",
+            "左肺部分切除": "Left partial lung resection",
+            "左上葉切除": "Upper left lobectomy",
+            "右中葉切除": "Middle right lobectomy",
+            "右上中葉切除": "Upper-middle right lobectomy",
+            "右中下葉切除": "Lower-middle right lobectomy"
+          }
+        }
+      ]
+    },
+    {
+      "column": "planned_lymphnode_dissection",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r| )",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=(ND2a-1|ND2A-1)).*$|^(?=.*(ND2a-1|ND2A-1)).*$",
+            "replacement": "ND2a-1"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=(ND2a-2|ND2A-2)).*$|^(?=.*(ND2a-2|ND2A-2)).*$",
+            "replacement": "ND2a-2"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=ND1).*$|^(?=.*ND1).*$",
+            "replacement": "ND1"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(ND2a-1|ND1|ND2a-2)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "smoking_history",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "非喫煙": "Never used",
+            "既喫煙": "Past used",
+            "現喫煙": "Current use"
+          }
+        }
+      ]
+    },
+    {
+      "column": "gender",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "女性": "Female",
+            "男性": "Male"
+          }
+        }
+      ]
+    },
+    {
+      "column": "tumor_location",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "右": "right lung",
+            "左": "left lung"
+          }
+        }
+      ]
+    },
+    {
+      "column": "diseaseEN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "下葉肺癌 C34.3": "Bronchus and lung cancer",
+            "上葉肺癌 C34.1": "Bronchus and lung cancer",
+            "中葉肺癌 C34.2": "Bronchus and lung cancer",
+            "転移性扁平上皮癌": "Secondary malignant neoplasm of unspecified lung"
+          }
+        }
+      ]
+    },
+    {
+      "column": "surgery_classification",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "良性肺腫瘍": "benign",
+            "原発性悪性肺腫瘍": "malignant",
+            "転移性肺腫瘍": "malignant",
+            "非腫瘍性良性疾患": "benign"
+          }
+        }
+      ]
+    },
+    {
+      "column": "surgery_approach",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "胸腔鏡": "Thoracoscope",
+            "開胸": "Open chest",
+            "ロボット": "Robot"
+          }
+        }
+      ]
+    },
+    {
+      "column": "post-ope_treatment",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)",
+            "化学放射線": "chemoradiation therapy"
+          }
+        }
+      ]
+    },
+    {
+      "column": "primary_site",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "右下葉Ｓ6": "lower right lobe S6",
+            "左下葉底区": "lower left lobe base zone",
+            "右上葉": "upper right lobe",
+            "右下葉底区": "bottom right lower lobe",
+            "左上葉上区": "upper left upper lobe",
+            "左下葉その他": "lower left lobe and others",
+            "右中葉": "middle right lobe",
+            "左上葉支": "upper left lobe",
+            "左上葉舌区": "upper left lobe",
+            "左下葉Ｓ6": "lower left lobe S6",
+            "右下葉その他": "lower right lobe and others"
+          }
+        }
+      ]
+    },
+    {
+      "column": "classification_of_pancreatic_cancer_edition",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "8版": "8th"
+          }
+        }
+      ]
+    },
+    {
+      "column": "clinical_t_L2",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^",
+            "replacement": "T"
+          }
+        }
+      ]
+    },
+    {
+      "column": "clinical_n_L1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^",
+            "replacement": "N"
+          }
+        }
+      ]
+    },
+    {
+      "column": "clinical_m_L1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "M0"
+          }
+        }
+      ]
+    },
+    {
+      "column": "clinical_diagnosis_result",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "検査なし": "",
+            "悪性": "malignant",
+            "悪性出ず": "benign"
+          }
+        }
+      ]
+    },
+    {
+      "column": "previous_surgery_approach",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "胸腔鏡": "Thoracoscope",
+            "開胸": "Open chest",
+            "ロボット": "Robot",
+            "直視併用胸腔鏡": "Thoracoscope"
+          }
+        }
+      ]
+    },
+    {
+      "column": "n_L2",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "2a-1": "2a",
+            "2a-2": "2a"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^",
+            "replacement": "N"
+          }
+        }
+      ]
+    },
+    {
+      "column": "histology",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "肉芽腫性血管炎": "Lymphomatoid granulomatosis",
+            "腺癌": "Adenocarcinoma, NOS",
+            "扁平上皮癌": "Squamous cell carcinoma, NOS",
+            "類上皮肉芽腫": "Epithelioid granuloma",
+            "分類不能癌": "Others",
+            "多形癌": "Carcinoma, undifferentiated, NOS",
+            "多形・肉腫様あるいは肉腫成分を含む癌": "Carcinoma, undifferentiated, NOS",
+            "腺扁平上皮癌": "Squamous cell carcinoma, NOS",
+            "小細胞癌": "Small cell carcinoma, NOS",
+            "大細胞癌": "Carcinoma, NOS"
+          }
+        }
+      ]
+    },
+    {
+      "column": "subtype",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "Papillary": "Papillary adenocarcinoma",
+            "AIS": "Adenocarcinoma, in situ",
+            "Acinar": "Acinar adenocarcinoma",
+            "Lepidic": "Lepidic adenocarcinoma",
+            "Invasive mucinous": "Invasive mucinous adenocarcinoma",
+            "Enteric": "Enteric adenocarcinoma",
+            "MIA": "Minimally invasive adenocarcinoma",
+            "記載なし　acinar?": "",
+            "Solid": "Solid adenocarcinoma",
+            "papillary": "Papillary adenocarcinoma, NOS",
+            "micropap": "Micropapillary carcinoma, NOS",
+            "invasive mucinous": "Invasive mucinous adenocarcinoma",
+            "Micropapillary": "Micropapillary carcinoma, NOS"
+          }
+        }
+      ]
+    },
+    {
+      "column": "grade",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "0",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^",
+            "replacement": "G"
+          }
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "G": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "lymphatic_invasion",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "ly1",
+            "1": "ly2"
+          }
+        }
+      ]
+    },
+    {
+      "column": "vertical_margin",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^",
+            "replacement": "VM"
+          }
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "VM": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Lung",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "pleural_lavage_cytology_pre",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "施行せず": "",
+            "-": "(-)",
+            "+": "(+)",
+            "±": "(±)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "pleural_lavage_cytology_post",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "施行せず": "",
+            "-": "(-)",
+            "不適": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "E",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "施行せず": "",
+            "-": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "post-ope_complementary_chemotherapy",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "プラチナベース": "Platinum-based",
+            "なし": "(-)",
+            "内服": "Internal use"
+          }
+        }
+      ]
+    },
+    {
+      "column": "no_complement_chemotherapy_reason",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "臨床的に食道癌転移扱い": "Clinically treated as esophageal cancer metastasis",
+            "年齢・併存疾患から不適応": "Not indicated based on age and comorbidities",
+            "Stageから不要": "Not necessary based on stage"
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_surgery",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*切除).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "surgery_type",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "surgery_method_details": "surgery_type",
+            "右肺区域切除": "Right lung regional resection",
+            "左下葉切除": "Lower left lobectomy",
+            "右上葉切除": "Upper right lobectomy",
+            "右下葉切除": "Lower right lobectomy",
+            "左肺区域切除": "Left lung regional resection",
+            "右肺部分切除": "Right partial lung resection",
+            "左肺部分切除": "Left partial lung resection",
+            "左上葉切除": "Left upper lobectomy",
+            "右中葉切除": "Middle right lobectomy",
+            "右上中葉切除": "Upper middle right lobectomy"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_hypertension",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*(HT|高血圧)).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_COPD",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*COPD).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_hyperlipidemia",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*(高脂血症|HL)).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_asthma",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*喘息).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_diabetes",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*DM\\(\\-\\)).*$",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*(DM|糖尿病)).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_appendicitis",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*虫垂).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "clinical_stage_L1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r|A2|A3|B|A1|A)",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "pathological_stage_L1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r|A2|A3|B|A1|A)",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "stage_L2",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(1|2|3)",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "stage_L1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(A2|A3|B|A1|A)",
+            "replacement": ""
+          }
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "name": "inst_patientID",
+      "description": "患者ＩＤ"
+    },
+    {
+      "name": "surgery_date",
+      "description": "手術日"
+    },
+    {
+      "name": "comorbidity_others",
+      "description": "現病歴： □"
+    },
+    {
+      "name": "smoking_history",
+      "description": "喫煙歴：□"
+    },
+    {
+      "name": "Brinkman_index",
+      "description": "B.I：□"
+    },
+    {
+      "name": "gender",
+      "description": "性別：□"
+    },
+    {
+      "name": "tumor_location",
+      "description": "左右：□"
+    },
+    {
+      "name": "diseaseEN",
+      "description": "診断病名：□"
+    },
+    {
+      "name": "surgery_classification",
+      "description": "呼吸器外科手術分類(病理確認後必要時更新要)：□"
+    },
+    {
+      "name": "surgery_approach",
+      "description": "予定アプローチ：□"
+    },
+    {
+      "name": "planned_surgery_method",
+      "description": "予定術式：□"
+    },
+    {
+      "name": "planned_surgery_note",
+      "description": "追加事項： □"
+    },
+    {
+      "name": "height",
+      "description": "身長：□cm"
+    },
+    {
+      "name": "weight",
+      "description": "体重：□kg"
+    },
+    {
+      "name": "vital_capacity_ml",
+      "description": "VC：□ml"
+    },
+    {
+      "name": "forced_vital_capacity_ml",
+      "description": "FVC：□ml"
+    },
+    {
+      "name": "forced_expiratory_volume_per_sec",
+      "description": "FEV1.0：□ml"
+    },
+    {
+      "name": "diffusing_capacity_for_CO_ml_per_min",
+      "description": "DLCO：□ml/min/mmHg"
+    },
+    {
+      "name": "disease_history",
+      "description": "既往・併存疾患： □"
+    },
+    {
+      "name": "post-ope_treatment",
+      "description": "術前治療：□"
+    },
+    {
+      "name": "primary_site",
+      "description": "肺癌占拠部位：□"
+    },
+    {
+      "name": "primary_tumor_SUVmax_value",
+      "description": "原発ＳＵＶmax：□"
+    },
+    {
+      "name": "metastatic_lymphnode_SUVmax_value",
+      "description": "リンパ節SUVmax：□"
+    },
+    {
+      "name": "classification_of_pancreatic_cancer_edition",
+      "description": "取扱い規約の版：□"
+    },
+    {
+      "name": "clinical_stage_L2",
+      "description": "ｃＳｔａｇｅ：□"
+    },
+    {
+      "name": "clinical_t_L2",
+      "description": "cT：□"
+    },
+    {
+      "name": "clinical_n_L1",
+      "description": "cN：□"
+    },
+    {
+      "name": "clinical_m_L1",
+      "description": "cM：□"
+    },
+    {
+      "name": "lesion_diameter",
+      "description": "病変全体径：□"
+    },
+    {
+      "name": "enriched_component_diameter",
+      "description": "充実成分径：□"
+    },
+    {
+      "name": "blood_test_CEA",
+      "description": "CEA：□"
+    },
+    {
+      "name": "blood_test_CYFRA",
+      "description": "CYFRA：□"
+    },
+    {
+      "name": "blood_test_SCC",
+      "description": "SCC：□"
+    },
+    {
+      "name": "proGRP",
+      "description": "proGRP：□"
+    },
+    {
+      "name": "disease_history_cancer_original",
+      "description": "：□"
+    },
+    {
+      "name": "clinical_diagnosis_result",
+      "description": "術前病理診断の有無：□"
+    },
+    {
+      "name": "previous_surgery_approach",
+      "description": "アプローチ：□"
+    },
+    {
+      "name": "surgery_method_details",
+      "description": "施行術式：□"
+    },
+    {
+      "name": "NCD_surgery_type",
+      "description": "NCD手術分類：□"
+    },
+    {
+      "name": "n_L2",
+      "description": "リンパ節郭清□"
+    },
+    {
+      "name": "surgery_length_min",
+      "description": "手術時間：□min"
+    },
+    {
+      "name": "histology",
+      "description": "組織診断：□"
+    },
+    {
+      "name": "subtype",
+      "description": "腺癌組織亜型：□"
+    },
+    {
+      "name": "grade",
+      "description": "組織学的グレード：□"
+    },
+    {
+      "name": "lymphatic_invasion",
+      "description": "ly：□"
+    },
+    {
+      "name": "vertical_margin",
+      "description": "v：□"
+    },
+    {
+      "name": "meta_Lung",
+      "description": "肺内転移：□"
+    },
+    {
+      "name": "pleural_lavage_cytology_pre",
+      "description": "PLC pre：□"
+    },
+    {
+      "name": "pleural_lavage_cytology_post",
+      "description": "PLC post：□"
+    },
+    {
+      "name": "E",
+      "description": "胸水細胞診 E：□"
+    },
+    {
+      "name": "infiltration_distance_mm",
+      "description": "肺癌病変径：□mm"
+    },
+    {
+      "name": "invasion_depth",
+      "description": "肺癌浸潤径：□mm"
+    },
+    {
+      "name": "pathological_stage_L2",
+      "description": "pStage：□"
+    },
+    {
+      "name": "pathological_t_L2",
+      "description": "pT：□"
+    },
+    {
+      "name": "pathological_n_L1",
+      "description": "pN：□"
+    },
+    {
+      "name": "pathological_m_L1",
+      "description": "pM：□"
+    },
+    {
+      "name": "R_classification",
+      "description": "根治度R：□"
+    },
+    {
+      "name": "post-ope_complementary_chemotherapy",
+      "description": "術後補助化学療法：□"
+    },
+    {
+      "name": "chemotherapy_notes",
+      "description": "内容詳細：□"
+    },
+    {
+      "name": "no_complement_chemotherapy_reason",
+      "description": "術後補助化学療法非施行理由：□"
+    },
+    {
+      "name": "t_L2",
+      "description": "pT：□"
+    },
+    {
+      "name": "t_L1",
+      "description": "pT：□"
+    },
+    {
+      "name": "n_L1",
+      "description": "pN：□"
+    },
+    {
+      "name": "m_L1",
+      "description": "pM：□"
+    },
+    {
+      "name": "disease_history_cancer",
+      "description": "：□"
+    },
+    {
+      "name": "disease_history_cancer1",
+      "description": "：□"
+    },
+    {
+      "name": "imaging_CT",
+      "description": "現病歴： □"
+    },
+    {
+      "name": "dissection",
+      "description": "NCD手術分類：□"
+    },
+    {
+      "name": "NCD_code",
+      "description": "NCD手術分類：□"
+    },
+    {
+      "name": "planned_surgery_type",
+      "description": "予定術式：□"
+    },
+    {
+      "name": "planned_lymphnode_dissection",
+      "description": "追加事項： □"
+    },
+    {
+      "name": "treatment_surgery",
+      "description": "施行術式：□"
+    },
+    {
+      "name": "surgery_type",
+      "description": "施行術式：□"
+    },
+    {
+      "name": "disease_history_hypertension",
+      "description": "既往・併存疾患： □"
+    },
+    {
+      "name": "disease_history_COPD",
+      "description": "既往・併存疾患： □"
+    },
+    {
+      "name": "disease_history_hyperlipidemia",
+      "description": "既往・併存疾患： □"
+    },
+    {
+      "name": "disease_history_asthma",
+      "description": "既往・併存疾患： □"
+    },
+    {
+      "name": "disease_history_diabetes",
+      "description": "既往・併存疾患： □"
+    },
+    {
+      "name": "disease_history_appendicitis",
+      "description": "既往・併存疾患： □"
+    },
+    {
+      "name": "clinical_stage_L1",
+      "description": "ｃＳｔａｇｅ：□"
+    },
+    {
+      "name": "pathological_stage_L1",
+      "description": "pStage：□"
+    },
+    {
+      "name": "stage_L2",
+      "description": "pStage：□"
+    },
+    {
+      "name": "stage_L1",
+      "description": "pStage：□"
+    },
+    {
+      "name": "lymphadenectomy",
+      "description": "planned_lymphnode_dissectionから変更"
+    }
+  ],
+  "validate": []
+}

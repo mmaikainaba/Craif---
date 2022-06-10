@@ -1,0 +1,517 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\KSU001\\data\\00_raw\\臨床情報リスト_川崎医大_膵臓001_v1 のコピー - 膵_背景情報.csv",
+  "map": {
+    "inst_patientID": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "gender": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "age": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "height": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "weight": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_history": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_years": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_perday": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_frequency": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_perday": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer_original": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer2": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_diabetes": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_chronic_pancreatitis": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_IPMN": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_MCN": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_PanIN": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_pancreatic_cyst": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer_original": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_diabetes": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_chronic_pancreatitis": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_duct_dilation": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_duct_deformity": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_pancreatic_stone": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_pancreatic_mass": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_pancreatic_tumor": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_pancreatic_cyst": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_IPMN": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_MCN": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_PanIN": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_pancreatic_atrophy": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_pancreatic_hypertrophy": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_others": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer_original": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_hereditary_pancreatitis_syndrome": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer1": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer1": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer1": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer2": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_hypertension": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_choledocholithiasis": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cholangitis": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hypertension": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_dyslipidemia": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cerebral_infarction": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_stomach_ulcer": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "inst_patientID": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "gender": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "age": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "height": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "weight": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_history": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_years": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_perday": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_frequency": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_perday": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer_original": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer2": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_diabetes": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_chronic_pancreatitis": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_IPMN": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_MCN": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_PanIN": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_pancreatic_cyst": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer_original": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_diabetes": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_chronic_pancreatitis": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_duct_dilation": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_duct_deformity": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_pancreatic_stone": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_pancreatic_mass": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_pancreatic_tumor": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_pancreatic_cyst": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_IPMN": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_MCN": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_PanIN": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_pancreatic_atrophy": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_pancreatic_hypertrophy": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_others": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer_original": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_hereditary_pancreatitis_syndrome": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer1": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer1": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer1": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer2": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_hypertension": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_choledocholithiasis": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cholangitis": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hypertension": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_dyslipidemia": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cerebral_infarction": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_stomach_ulcer": {
+      "total": 66,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

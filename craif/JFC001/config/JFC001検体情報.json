@@ -1,0 +1,35 @@
+{
+  "id": "8c34da81-e3a9-4260-ae48-eb4fc9d21834",
+  "name": "JFC001検体情報",
+  "file": "../data/00_raw/JFC001検体情報.csv",
+  "column_line": 1,
+  "mapping": {
+    "tubeNo": "チューブ番号",
+    "institution_department": "施設名称"
+  },
+  "transform": [
+    {
+      "column": "institution_department",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "がん研有明": "がん研有明病院_乳腺センター"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    {
+      "name": "tubeNo",
+      "description": "tubeNo"
+    },
+    {
+      "name": "institution_department",
+      "description": "institution_department"
+    }
+  ]
+}

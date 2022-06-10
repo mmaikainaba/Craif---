@@ -1,0 +1,67 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\HKT003\\data\\00_raw\\臨床情報リスト_北斗_検体情報.csv",
+  "map": {
+    "tubeNo": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "cancer_status": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "dispense_note": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_ESD": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_NAC": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "tubeNo": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "cancer_status": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "dispense_note": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_ESD": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_NAC": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

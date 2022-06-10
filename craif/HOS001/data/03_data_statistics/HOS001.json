@@ -1,0 +1,797 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\HOS001\\data\\00_raw\\尿症例リスト（HMC）118まで記載済み_220213 のコピー - Sheet1.csv",
+  "map": {
+    "inst_patientID": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseEN": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "gender": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "age": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "height": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "weight": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoked_before_collection": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_years": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_perday": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hypertension": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_dyslipidemia": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_diabetes": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_COPD": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_asthma": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_pneumonia": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_ASO": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_pancreatitis": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CEA": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "stage_L2": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "t_L2": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "n_L1": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "m_L2": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "t_L1": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "m_L1": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "EGFR_mutation": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "stage_L1": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Brain": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Liver": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Bone": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Pleura": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tumor_location": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_tumor_size": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_CAD": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "Brinkman_index": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_PET_early": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_PET_delay": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_NT-ProBNP": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_NT-ProBNP-2": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_date": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "adverse_effect": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "AE_details": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "ALK_mutation": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "ROS1_mutation": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "BRAF_mutation": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "PDL1": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "recurrence": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "recurrence_date": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "vital_status": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "last_known_survival_date": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "mutation_details": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "KRAS": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_disease": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_surgery": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_chemotherapy": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_radiation": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology_original": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype_original": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Lung": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_targeted_therapy": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_CNB": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "additional_treatment": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "additional_treatment_details": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "AE_sepsis": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "AE_febrile_neutropenia": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "AE_pneumonia": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_details": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_type": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_immunotherapy": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer1": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_history": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_angina_pectoris": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cerebral_infarction": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseCode": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseJP": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseENshort": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "inst_patientID": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseEN": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "gender": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "age": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "height": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "weight": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoked_before_collection": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_years": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_perday": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hypertension": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_dyslipidemia": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_diabetes": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_COPD": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_asthma": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_pneumonia": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_ASO": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_pancreatitis": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CEA": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "stage_L2": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "t_L2": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "n_L1": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "m_L2": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "t_L1": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "m_L1": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "EGFR_mutation": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "stage_L1": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Brain": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Liver": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Bone": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Pleura": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tumor_location": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_tumor_size": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_CAD": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "Brinkman_index": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_PET_early": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_PET_delay": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_NT-ProBNP": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_NT-ProBNP-2": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_date": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "adverse_effect": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "AE_details": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "ALK_mutation": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "ROS1_mutation": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "BRAF_mutation": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "PDL1": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "recurrence": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "recurrence_date": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "vital_status": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "last_known_survival_date": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "mutation_details": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "KRAS": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_disease": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_surgery": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_chemotherapy": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_radiation": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology_original": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype_original": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Lung": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_targeted_therapy": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_CNB": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "additional_treatment": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "additional_treatment_details": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "AE_sepsis": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "AE_febrile_neutropenia": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "AE_pneumonia": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_details": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_type": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_immunotherapy": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer1": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_history": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_angina_pectoris": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cerebral_infarction": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseCode": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseJP": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseENshort": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

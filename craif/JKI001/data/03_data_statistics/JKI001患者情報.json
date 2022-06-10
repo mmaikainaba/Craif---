@@ -1,0 +1,827 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\JKI001\\data\\00_raw\\対応リスト_20210921 3 のコピー - リスト1.csv",
+  "map": {
+    "inst_patientID": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_date": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_others": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_history": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "Brinkman_index": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "gender": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tumor_location": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseEN": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_classification": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "planned_surgery_method": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "planned_surgery_note": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "height": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "weight": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "vital_capacity_ml": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "forced_vital_capacity_ml": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "forced_expiratory_volume_per_sec": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diffusing_capacity_for_CO_ml_per_min": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "post-ope_treatment": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "primary_site": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "primary_tumor_SUVmax_value": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "metastatic_lymphnode_SUVmax_value": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "classification_of_pancreatic_cancer_edition": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_stage_L2": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_t_L2": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_n_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_m_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "lesion_diameter": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "enriched_component_diameter": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CEA": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CYFRA": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_SCC": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "proGRP": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer_original": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_diagnosis_result": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_approach": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_method_details": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "NCD_surgery_type": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "n_L2": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_length_min": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "grade": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "lymphatic_invasion": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "vertical_margin": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Lung": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pleural_lavage_cytology_pre": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pleural_lavage_cytology_post": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "E": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "infiltration_distance_mm": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "invasion_depth": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_stage_L2": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_t_L2": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_n_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_m_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "R_classification": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "post-ope_complementary_chemotherapy": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "chemotherapy_notes": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "no_complement_chemotherapy_reason": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "t_L2": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "t_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "n_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "m_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_CT": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "dissection": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "NCD_code": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "planned_surgery_type": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "lymphadenectomy": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_surgery": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_type": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hypertension": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_COPD": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hyperlipidemia": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_asthma": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_diabetes": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_appendicitis": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_stage_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_stage_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "stage_L2": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "stage_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "inst_patientID": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_date": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_others": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_history": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "Brinkman_index": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "gender": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tumor_location": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseEN": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_classification": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "planned_surgery_method": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "planned_surgery_note": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "height": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "weight": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "vital_capacity_ml": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "forced_vital_capacity_ml": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "forced_expiratory_volume_per_sec": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diffusing_capacity_for_CO_ml_per_min": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "post-ope_treatment": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "primary_site": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "primary_tumor_SUVmax_value": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "metastatic_lymphnode_SUVmax_value": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "classification_of_pancreatic_cancer_edition": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_stage_L2": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_t_L2": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_n_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_m_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "lesion_diameter": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "enriched_component_diameter": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CEA": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CYFRA": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_SCC": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "proGRP": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer_original": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_diagnosis_result": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_approach": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_method_details": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "NCD_surgery_type": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "n_L2": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_length_min": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "grade": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "lymphatic_invasion": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "vertical_margin": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Lung": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pleural_lavage_cytology_pre": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pleural_lavage_cytology_post": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "E": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "infiltration_distance_mm": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "invasion_depth": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_stage_L2": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_t_L2": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_n_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_m_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "R_classification": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "post-ope_complementary_chemotherapy": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "chemotherapy_notes": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "no_complement_chemotherapy_reason": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "t_L2": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "t_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "n_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "m_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_CT": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "dissection": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "NCD_code": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "planned_surgery_type": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "lymphadenectomy": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_surgery": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_type": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hypertension": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_COPD": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hyperlipidemia": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_asthma": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_diabetes": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_appendicitis": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_stage_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_stage_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "stage_L2": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    },
+    "stage_L1": {
+      "total": 124,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

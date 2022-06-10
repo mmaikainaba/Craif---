@@ -1,0 +1,78 @@
+{
+  "id": "67841fe8-e58d-43eb-853f-05c3475be4dd",
+  "name": "HKT003作業シート",
+  "file": "../data/00_raw/臨床情報リスト_北斗_大腸がん_v1 のコピー - Craif作業シート.csv",
+  "column_line": 1,
+  "mapping": {
+    "tubeNo": "tubeNo",
+    "inst_patientID": "患者番号",
+    "patientID": "patientID",
+    "collection_date": "採取日",
+    "sampletypeEN": "sampletypeJP",
+    "collection_timing": "採取タイミング",
+    "storage_temperature": "施設保管温度",
+    "diseaseEN": "臨床診断",
+    "delivery_date": "受取日",
+    "total_tubes": "本数"
+  },
+  "transform": [
+    {
+      "column": "sampletypeEN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "尿": "Urine"
+          }
+        }
+      ]
+    },
+    {
+      "column": "collection_timing",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "手術前": "pre-ope",
+            "手術後": "post-ope"
+          }
+        }
+      ]
+    },
+    {
+      "column": "diseaseEN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "横行結腸がん": "Colon cancer",
+            "直腸がん": "Rectum cancer",
+            "S状結腸がん": "Colon cancer",
+            "転移性肝がん": "Metastatic liver cancer",
+            "上行結腸がん": "Colon cancer",
+            "直腸癌": "Rectum cancer",
+            "S状結腸癌": "Colon cancer",
+            "乳がん": "Breast cancer",
+            "健常者": "Non-cancer",
+            "胃がん": "Stomach cancer",
+            "胃噴門部がん": "Stomach cancer"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    { "name": "tubeNo", "description": "tubeNo" },
+    { "name": "inst_patientID", "description": "患者番号" },
+    { "name": "patientID", "description": "patientID" },
+    { "name": "collection_date", "description": "採取日" },
+    { "name": "sampletypeEN", "description": "sampletypeJP" },
+    { "name": "collection_timing", "description": "採取タイミング" },
+    { "name": "storage_temperature", "description": "施設保管温度" },
+    { "name": "diseaseEN", "description": "臨床診断" },
+    { "name": "delivery_date", "description": "受取日" },
+    { "name": "total_tubes", "description": "本数" }
+  ]
+}

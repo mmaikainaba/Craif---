@@ -1,0 +1,387 @@
+{
+  "id": "5f63233a-1417-4aa3-b4b8-2724fdc16396",
+  "name": "KEO003作業シート",
+  "file": "../data/00_raw/【修正2】KEO003作業シート.csv",
+  "column_line": 1,
+  "mapping": {
+    "tubeNo": "チューブ番号",
+    "inst_patientID": "患者番号",
+    "collection_date": "試料採取日",
+    "sampletypeEN": "検体種",
+    "collection_timing_details": "タイミング",
+    "patient_note": "備考",
+    "patientID": "Craif患者番号",
+    "diseaseEN": "臨床診断",
+    "collection_timing": "collection_timing",
+    "recurrence_collection_timing": "recurrence_collection_timing",
+    "delivery_date": "受取日",
+    "invasion_depth_original": "t_L1",
+    "n_L1": "n_L1",
+    "m_L1": "m_L1",
+    "invasion_depth": "t_L1",
+    "t_L2": "t_L1",
+    "t_L1": "t_L1",
+    "treatment_method": "タイミング",
+    "collection_timing_detailsEN": "タイミング",
+    "treatment_chemotherapy": "タイミング",
+    "treatment_surgery": "タイミング",
+    "treatment_radiation": "タイミング",
+    "treatment_ESD": "タイミング",
+    "treatment_NAC": "タイミング"
+  },
+  "transform": [
+    {
+      "column": "sampletypeEN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "尿": "Urine"
+          }
+        }
+      ]
+    },
+    {
+      "column": "diseaseEN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "Esophagus cancer": "Esophagus cancer",
+            "Non-cancer": "Non-cancer"
+          }
+        }
+      ]
+    },
+    {
+      "column": "collection_timing",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "手術前": "pre-ope",
+            "手術後": "post-ope"
+          }
+        }
+      ]
+    },
+    {
+      "column": "n_L1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "N0",
+            "1": "N1",
+            "2": "N2",
+            "3": "N3",
+            "#N/A": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "m_L1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "M0",
+            "1": "M1",
+            "#N/A": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "invasion_depth",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "#N/A": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "t_L2",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "LPM": "",
+            "#N/A": "T3",
+            "T3": "",
+            "MM": "",
+            "SM3": "",
+            "EP": "",
+            "SM1": "",
+            "MP": "",
+            "T1a-LPM": "T1a"
+          }
+        }
+      ]
+    },
+    {
+      "column": "t_L1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "LPM": "",
+            "T4b": "T4",
+            "#N/A": "T3",
+            "T3": "",
+            "MM": "",
+            "SM3": "",
+            "EP": "",
+            "SM1": "",
+            "MP": "",
+            "T1a-LPM": "T1"
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_method",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "手術前": "Surgery",
+            "NAC前": "Neoadjuvant chemotherapy",
+            "ESD前": "Endoscopic submucosal dissection",
+            "CRT前": "Chemoradiotherapy",
+            "1POM": "Chemotherapy",
+            "ESD 1POM": "Endoscopic submucosal dissection, Chemotherapy",
+            "3POM": "Chemotherapy",
+            "6POM": "Chemotherapy",
+            "control": "",
+            "12POM": "Chemotherapy"
+          }
+        }
+      ]
+    },
+    {
+      "column": "collection_timing_detailsEN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "手術前": "pre-ope",
+            "NAC前": "pre-NAC",
+            "ESD前": "pre-ESD",
+            "CRT前": "pre-CRT",
+            "1POM": "1st POM",
+            "ESD 1POM": "1st POM",
+            "3POM": "3rd POM",
+            "6POM": "6th POM",
+            "control": "",
+            "12POM": "12th POM"
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_chemotherapy",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "手術前": "(-)",
+            "NAC前": "(-)",
+            "ESD前": "(-)",
+            "CRT前": "(+)",
+            "1POM": "(+)",
+            "ESD 1POM": "(+)",
+            "3POM": "(+)",
+            "6POM": "(+)",
+            "control": "",
+            "12POM": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_surgery",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "手術前": "(-)",
+            "NAC前": "",
+            "ESD前": "",
+            "CRT前": "",
+            "1POM": "",
+            "ESD 1POM": "",
+            "3POM": "",
+            "6POM": "",
+            "control": "",
+            "12POM": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_radiation",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "手術前": "",
+            "NAC前": "",
+            "ESD前": "(-)",
+            "CRT前": "",
+            "1POM": "",
+            "ESD 1POM": "",
+            "3POM": "",
+            "6POM": "",
+            "control": "",
+            "12POM": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_ESD",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "手術前": "",
+            "NAC前": "",
+            "ESD前": "(-)",
+            "CRT前": "",
+            "1POM": "",
+            "ESD 1POM": "(+)",
+            "3POM": "",
+            "6POM": "",
+            "control": "",
+            "12POM": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_NAC",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "手術前": "",
+            "NAC前": "(-)",
+            "ESD前": "",
+            "CRT前": "",
+            "1POM": "",
+            "ESD 1POM": "",
+            "3POM": "",
+            "6POM": "",
+            "control": "",
+            "12POM": ""
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    {
+      "name": "tubeNo",
+      "description": "tubeNo"
+    },
+    {
+      "name": "inst_patientID",
+      "description": "inst_patientID"
+    },
+    {
+      "name": "collection_date",
+      "description": "collection_date"
+    },
+    {
+      "name": "sampletypeEN",
+      "description": "sampletypeEN"
+    },
+    {
+      "name": "collection_timing_details",
+      "description": "collection_timing_details"
+    },
+    {
+      "name": "patient_note",
+      "description": "patient_note"
+    },
+    {
+      "name": "patientID",
+      "description": "patientID"
+    },
+    {
+      "name": "diseaseEN",
+      "description": "diseaseEN"
+    },
+    {
+      "name": "collection_timing",
+      "description": "collection_timing"
+    },
+    {
+      "name": "recurrence_collection_timing",
+      "description": "recurrence_collection_timing"
+    },
+    {
+      "name": "delivery_date",
+      "description": "delivery_date"
+    },
+    {
+      "name": "invasion_depth_original",
+      "description": "invasion_depth_original"
+    },
+    {
+      "name": "n_L1",
+      "description": "n_L1"
+    },
+    {
+      "name": "m_L1",
+      "description": "m_L1"
+    },
+    {
+      "name": "invasion_depth",
+      "description": "invasion_depth"
+    },
+    {
+      "name": "t_L2",
+      "description": "t_L2"
+    },
+    {
+      "name": "t_L1",
+      "description": "t_L1"
+    },
+    {
+      "name": "treatment_method",
+      "description": "treatment_method"
+    },
+    {
+      "name": "collection_timing_detailsEN",
+      "description": "collection_timing_detailsEN"
+    },
+    {
+      "name": "treatment_chemotherapy",
+      "description": "treatment_chemotherapy"
+    },
+    {
+      "name": "treatment_surgery",
+      "description": "treatment_surgery"
+    },
+    {
+      "name": "treatment_radiation",
+      "description": "treatment_radiation"
+    },
+    {
+      "name": "treatment_ESD",
+      "description": "treatment_ESD"
+    },
+    {
+      "name": "treatment_NAC",
+      "description": "treatment_NAC"
+    }
+  ]
+}

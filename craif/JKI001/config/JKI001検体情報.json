@@ -1,0 +1,98 @@
+{
+  "id": "3025d2ee-8fba-4203-8469-4e498fdd3c10",
+  "name": "JKI001検体情報",
+  "file": "../data/00_raw/【修正2】JKI001検体情報.csv",
+  "column_line": 1,
+  "mapping": {
+    "ship_number": "送付便",
+    "tubeNo": "tubeNo",
+    "inst_patientID": "患者番号",
+    "patientID": "patientID",
+    "collection_date": "採取日",
+    "sampletypeEN": "sampletypeJP",
+    "total_tubes": "備考欄1",
+    "dispense_note": "備考欄2",
+    "delivery_date": "受取日",
+    "withdrawn_from_study": "備考欄2"
+  },
+  "transform": [
+    {
+      "column": "sampletypeEN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "尿": "Urine"
+          }
+        }
+      ]
+    },
+    {
+      "column": "total_tubes",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "",
+            "6本": "6"
+          }
+        }
+      ]
+    },
+    {
+      "column": "withdrawn_from_study",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "Exclude": "yes"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    {
+      "name": "ship_number",
+      "description": "ship_number"
+    },
+    {
+      "name": "tubeNo",
+      "description": "tubeNo"
+    },
+    {
+      "name": "inst_patientID",
+      "description": "inst_patientID"
+    },
+    {
+      "name": "patientID",
+      "description": "patientID"
+    },
+    {
+      "name": "collection_date",
+      "description": "collection_date"
+    },
+    {
+      "name": "sampletypeEN",
+      "description": "sampletypeEN"
+    },
+    {
+      "name": "total_tubes",
+      "description": "total_tubes"
+    },
+    {
+      "name": "dispense_note",
+      "description": "dispense_note"
+    },
+    {
+      "name": "delivery_date",
+      "description": "delivery_date"
+    },
+    {
+      "name": "withdrawn_from_study",
+      "description": "withdrawn_from_study"
+    }
+  ]
+}

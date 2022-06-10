@@ -1,0 +1,65 @@
+{
+  "id": "f571114e-8e1f-437a-858e-3988effc925e",
+  "name": "HOS001作業シート",
+  "file": "../data/00_raw/臨床情報リスト_東大阪_肺 のコピー - Craif作業シート.csv",
+  "column_line": 1,
+  "mapping": {
+    "tubeNo": "tubeNo",
+    "inst_patientID": "患者番号",
+    "patientID": "patientID",
+    "collection_date": "採取日",
+    "sampletypeEN": "sampletypeJP",
+    "collection_timing": "採取タイミング",
+    "total_tubes": "チューブ総数",
+    "institution_department": "備考欄3",
+    "delivery_date": "受取日"
+  },
+  "transform": [
+    {
+      "column": "sampletypeEN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "尿": "Urine"
+          }
+        }
+      ]
+    },
+    {
+      "column": "collection_timing",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "治療前": "pre-ope"
+          }
+        }
+      ]
+    },
+    {
+      "column": "institution_department",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "東大阪": "東大阪医療センター_呼吸器外科"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    { "name": "tubeNo", "description": "tubeNo" },
+    { "name": "inst_patientID", "description": "患者番号" },
+    { "name": "patientID", "description": "patientID" },
+    { "name": "collection_date", "description": "採取日" },
+    { "name": "sampletypeEN", "description": "sampletypeJP" },
+    { "name": "collection_timing", "description": "採取タイミング" },
+    { "name": "total_tubes", "description": "チューブ総数" },
+    { "name": "institution_department", "description": "備考欄3" },
+    { "name": "delivery_date", "description": "受取日" }
+  ]
+}

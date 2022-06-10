@@ -1,0 +1,102 @@
+{
+  "id": "17ca368a-26d8-47d2-bf66-784c20344841",
+  "name": "JFC001臨床検査値",
+  "file": "../data/00_raw/JFC001_conversion_臨床検査値 のコピー - raw.csv",
+  "column_line": 1,
+  "mapping": {
+    "inst_patientID": "患者番号",
+    "test_date": "臨床検査日",
+    "blood_test_WBC": "WBC",
+    "blood_test_Neut": "neut(%)",
+    "blood_test_Lym": "lym(%)",
+    "blood_test_Mono": "mono(%)",
+    "blood_test_Plt": "Plt",
+    "blood_test_ALB": "Alb",
+    "blood_test_LDH": "LDH",
+    "blood_test_CRE": "Cre",
+    "blood_test_BUN": "BUN",
+    "blood_test_CRP": "CRP",
+    "blood_test_CEA": "CEA",
+    "blood_test_CA15-3": "CA15-3",
+    "blood_test_NCC_ST_439": "NCC-ST439",
+    "blood_test_BCA225": "BCA225",
+    "blood_test_note": "備考"
+  },
+  "transform": [],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    {
+      "name": "inst_patientID",
+      "description": "患者番号"
+    },
+    {
+      "name": "test_date",
+      "description": "臨床検査日"
+    },
+    {
+      "name": "blood_test_WBC",
+      "description": "WBC"
+    },
+    {
+      "name": "blood_test_Neut",
+      "description": "neut(%)"
+    },
+    {
+      "name": "blood_test_Lym",
+      "description": "lym(%)"
+    },
+    {
+      "name": "blood_test_Mono",
+      "description": "mono(%)"
+    },
+    {
+      "name": "blood_test_Plt",
+      "description": "Plt"
+    },
+    {
+      "name": "blood_test_ALB",
+      "description": "Alb"
+    },
+    {
+      "name": "blood_test_LDH",
+      "description": "LDH"
+    },
+    {
+      "name": "blood_test_CRE",
+      "description": "Cre"
+    },
+    {
+      "name": "blood_test_BUN",
+      "description": "BUN"
+    },
+    {
+      "name": "blood_test_CRP",
+      "description": "CRP"
+    },
+    {
+      "name": "blood_test_CEA",
+      "description": "CEA"
+    },
+    {
+      "name": "blood_test_CA15-3",
+      "description": "CA15-3"
+    },
+    {
+      "name": "blood_test_NCC-ST439",
+      "description": "NCC-ST439"
+    },
+    {
+      "name": "blood_test_BCA225",
+      "description": "BCA225"
+    },
+    {
+      "name": "blood_test_note",
+      "description": "備考"
+    },
+    {
+      "name": "blood_test_NCC_ST_439",
+      "description": "blood_test_NCC-ST439の変更"
+    }
+  ]
+}

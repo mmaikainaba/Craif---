@@ -1,0 +1,197 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\JFC001\\data\\00_raw\\JFC001背景情報.csv",
+  "map": {
+    "inst_patientID": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "gender": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "age": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "menopausal_status": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_during_menstruation": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "childbirth": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "partner_presence": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "height": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "weight": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_history": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_index": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_breast_cancer": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_ovary_cancer": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "BRCA_mutation": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "BRACAnalysis": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathogenic_variants_VUS": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_perday": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_years": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "inst_patientID": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "gender": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "age": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "menopausal_status": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_during_menstruation": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "childbirth": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "partner_presence": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "height": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "weight": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_history": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_index": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_breast_cancer": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_ovary_cancer": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "BRCA_mutation": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "BRACAnalysis": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathogenic_variants_VUS": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_perday": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_years": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

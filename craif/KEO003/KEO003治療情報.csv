@@ -1,0 +1,53 @@
+inst_patient,tumor_location,horizontal_location,macroscopic_tumor_type,clinical_invasion_depth,clinical_n_L1,clinical_m_L1,treatment_date,ESD_frequency,size_x,Resected_lesion,histology_original,pathological_invasion_depth,pathological_n_L1,pathological_m_L1,lymphatic_invasion,venous_invasion,pathological_horizontal_margin,pathological_vertical_margin,size_y,curativity,Posterior_bleeding,Postoperative_perforation,comorbidity_pneumonia,grade,histology,subtype,pathological_t_L2,clinical_t_L2,clinical_t_L1,inst_patientID,part of cancer
+MO24　①病変,Mt,whole,0-Ⅱc,T1a-LPM,N0,M0,2020/05/21,一括,53,2,SCC,LPM,N0,M0,ly0,v0,HM0,VM0,53,Cur A,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO24　,①病変
+MO24　②病変,Lt,44200,0-Ⅱb,T1a-EP,N0,M0,2020/05/21,一括,15,2,SCC,EP,N0,M0,ly0,v0,HM0,VM0,15,Cur A,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO24　,②病変
+MO25　①病変,Ce,44200,0-Ⅱc,T1a-EP,N0,M0,2020/05/26,一括,6,3,SCC,LPM,N0,M0,ly0,v0,HM0,VM0,6,Cur A,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO25　,①病変
+MO25　②病変,Mt,44200,0-Ⅱb,T1a-EP,N0,M0,2020/05/26,一括,15,3,SCC,LPM,N0,M0,ly0,v0,HM0,VM0,15,Cur A,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO25　,②病変
+MO25　③病変,Mt,44200,0-Ⅱb,T1a-EP,N0,M0,2020/05/26,一括,13,3,SCC,LPM,N0,M0,ly0,v0,HM0,VM0,13,Cur A,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO25　,③病変
+MO27　①病変,Ut,44198,0-Ⅱb,T1a-EP,N0,M0,2020/06/03,一括,10,3,SCC,LPM,N0,M0,ly0,v0,HMX,VM0,10,Cur A,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO27　,①病変
+MO27　②病変,Mt,44200,0-Ⅱb,T1a-EP,N0,M0,2020/06/03,一括,10,3,SCC,LPM,N0,M0,ly0,v0,HMX,VM0,10,Cur A,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO27　,②病変
+MO27　③病変,Mt,44200,0-Ⅱb,T1a-EP,N0,M0,2020/06/03,一括,18,3,SCC,MM,N0,M0,ly0,v0,HMX,VM0,18,Cur A,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO27　,③病変
+MO29,Ce,<1/4,0-Ⅱb,T1a-EP,N0,M0,2020/06/24,一括,,1,SCC,LPM,N0,M0,ly0,v0,HM0,VM0,13,Cur A,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO29,
+MO30,Ce,44198,0-Ⅱa,T1a-MM,N0,M0,2020/07/30,一括,15,1,SCC,LPM,N0,M0,ly0,v0,HM1,VM0,15,Cur A,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO30,
+MO32,Mt,44200,0-Ⅱc,T1a-EP,N0,M0,2020/08/14,一括,10,1,SCC,MM,N0,M0,ly0,v1,HM0,VM0,10,Cur C,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO32,
+MO33,Mt,<1/4,0-Ⅱa+Ⅱc,T1a-MM,N0,M0,2020/08/27,一括,13,1,SCC,LPM,N0,M0,ly0,v0,HM0,VM0,13,Cur A,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO33,
+MO39,Mt,44200,0-Ⅱb,T1a-EP,N0,M0,2020/09/30,一括,41,1,SCC,LPM,N0,M0,ly0,v0,HM0,VM0,41,Cur A,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO39,
+MO40,Mt,44200,0-Ⅱb,T1a-EP,N0,M0,2020/10/01,一括,10,1,SCC,LPM,N0,M0,ly0,v0,HM0,VM0,10,Cur A,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO40,
+MO41,Ce,44200,0-Ⅱb,T1a-EP,N0,M0,2020/10/08,一括,11,1,SCC,EP,N0,M0,ly0,v0,HM0,VM0,10,Cur A,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO41,
+MO52,Mt,44198,0-Ⅱb,T1a-LPM,N0,M0,2021/01/14,一括,36,1,SCC,LPM,N0,M0,ly0,v0,HM0,VM0,36,Cur A,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO52,
+MO54,Mt,44200,0-Ⅱb,T1a-LPM,N0,M0,2021/03/04,一括,,1,SCC,,,,,,,,,,(-),(-),(-),,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO54,
+MO17,Lt,,,T2,N1,M0,2020/05/12,,,,SCC,LPM,N0,M0,,,,,,,,,,G2,Malignant epithelial tumor,Squamous cell carcinoma,,T2,T2,MO17,
+MO27,Mt,,,T1a-MM,N2,M0,2020/06/09,,,,SCC,LPM,N1,M0,,,,,,,,,,G1,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO27,
+MO20,Ae,,Type 2,T4a,N0,M0,2020/07/01,,,,SCC,T3,N0,M0,,,,,,,,,,G1,Malignant epithelial tumor,Squamous cell carcinoma,T3,T4a,T4,MO20,
+MO31,Mt,,Type 2,T4b,N1,M0,2020/10/27,,,,SCC,T3,N1,M0,,,,,,,,,,G2,Malignant epithelial tumor,Squamous cell carcinoma,T3,T4b,T4,MO31,
+MO34,Mt,,Type 3,T2,N1,M0,2020/10/06,,,,SCC,T3,N0,M0,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,T3,T2,T2,MO34,
+MO35,Lt,,0-Ⅱa,T1b-SM3,N1,M0,2020/09/25,,,,SCC,SM3,N2,M0,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,,T1b,T1,MO35,
+MO36,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MO36,
+MO37,Lt,,Type 3,T3,N1,M0,2020/09/29,,,,SCC,T3,N1,M0,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,T3,T3,T3,MO37,
+MO38,Ut,,Type 2,T3,N0,M0,2020/12/22,,,,SCC,SM3,N0,M0,,,,,,,,,,G0,Malignant epithelial tumor,Squamous cell carcinoma,,T3,T3,MO38,
+MO43,Mt,,Type 2,T4b,N3,M1,,,,,SCC,,,,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,,T4b,T4,MO43,
+MO44,Lt,,Type 2,T3,N3,M1,2021/02/05,,,,SCC,T3,N2,M0,,,,,,,,,,G1,Malignant epithelial tumor,Squamous cell carcinoma,T3,T3,T3,MO44,
+MO46,Ut,,Type 2,T4b,N3,M1,,,,,SCC,,,,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,,T4b,T4,MO46,
+MO47,Mt,,Type 2,T3,N0,M0,2021/01/15,,,,SCC,T3,N0,M0,,,,,,,,,,G1,Malignant epithelial tumor,Squamous cell carcinoma,T3,T3,T3,MO47,
+MO48,Mt,,Type 2,T2,N1,M0,,,,,SCC,,,,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,,T2,T2,MO48,
+MO49,Mt,,0-Ⅰs+Ⅱc,T1b-SM3,N0,M0,2020/12/25,,,,SCC,SM3,N0,M0,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,,T1b,T1,MO49,
+MO50,Mt,,0-Ⅱa,T1b-SM1,N1,M0,2020/12/29,,,,SCC,SM1,N1,M0,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,,T1b,T1,MO50,
+MO51,Mt,,0-Ⅱb,T1a-LPM,N0,M0,2021/01/08,,,,SCC,SM1,N0,M0,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO51,
+MO53,Mt,,Type 2,T3,N2,M0,,,,,,,,,,,,,,,,,,,,,,T3,T3,MO53,
+MO55,Lt,,Type 2,T3,N0,M0,2021/02/12,,,,SCC,T3,N0,M0,,,,,,,,,,G1,Malignant epithelial tumor,Squamous cell carcinoma,T3,T3,T3,MO55,
+MO56,Mt,,Type 3,T3,N3,M0,,,,,,,,,,,,,,,,,,,,,,T3,T3,MO56,
+MO57,Mt,,Type 2,T3,N0,M0,2021/02/26,,,,SCC,T3,N1,M0,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,T3,T3,T3,MO57,
+MO58,Ae,,Type 1,T2,N0,M0,,,,,,,,,,,,,,,,,,,,,,T2,T2,MO58,
+MO59,Lt,,Type 1,T3,N0,M0,2021/02/09,,,,SCC,MP,N0,M0,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,,T3,T3,MO59,
+MO60,Ut,,0-IIa+IIc,T1a-LPM,N0,M0,2021/03/05,,,,SCC,,,,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,,T1a,T1,MO60,
+MO61,Mt,,Type 3,T3,N1,M0,2021/07/06,,,,SCC,T3,N0,M0,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,T3,T3,T3,MO61,
+MO63,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MO63,
+MO64,Ce,,,T3,N1,M0,2021/06/22,,,,SCC,T3,N0,M0,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,T3,T3,T3,MO64,
+MO66,Mt,,Type 3,T2,N1,M0,2021/06/29,,,,SCC,T3,N1,M0,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,T3,T2,T2,MO66,
+MO67,Lt,,,T3,N1,M0,,,,,SCC,,,,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,,T3,T3,MO67,
+MO23,Mt,,,T4b,N2,M0,2020/06/04,,,,SCC,,,,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,,T4b,T4,MO23,
+MO26,Mt,,,T4b,N2,M1,2020/06/05,,,,SCC,,,,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,,T4b,T4,MO26,
+MO42,Lt,,,T4b,N1,M0,2020/10/15,,,,SCC,,,,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,,T4b,T4,MO42,
+MO45,Mt,,,T3,N1,M0,2020/11/13,,,,SCC,,,,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,,T3,T3,MO45,
+MO62,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MO62,
+MO65,MtUtLt,,,T4b,N2,M0,2021/08/11,,,,SCC,,,,,,,,,,,,,,Malignant epithelial tumor,Squamous cell carcinoma,,T4b,T4,MO65,

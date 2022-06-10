@@ -1,0 +1,487 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\KMG001\\data\\00_raw\\臨床情報リスト_熊谷_乳がん_v3 のコピー - 乳_背景情報.csv",
+  "map": {
+    "inst_patientID": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "institution_department": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "gender": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "age": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "height": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "weight": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_history": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_years": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_perday": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_frequency": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_perday": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_related_disease": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer_note": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer_original": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer1": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer1": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer2": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer2": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer3": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer3": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer4": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer4": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer5": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer5": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer6": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer6": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer1": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer2": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer3": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_BPH": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cerebral_infarction": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hypertension": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_dyslipidemia": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_diabetes": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_COPD": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_asthma": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_pneumonia": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cataract": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_ appendicitis": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_colon_polyp": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_atrophic_gastritis": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_gallstone": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hepatitis_C": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_stomach_ulcer": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "inst_patientID": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "institution_department": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "gender": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "age": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "height": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "weight": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_history": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_years": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_perday": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_frequency": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_perday": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_related_disease": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer_note": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer_original": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer1": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer1": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer2": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer2": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer3": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer3": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer4": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer4": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer5": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer5": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer6": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer6": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer1": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer2": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer3": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_BPH": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cerebral_infarction": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hypertension": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_dyslipidemia": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_diabetes": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_COPD": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_asthma": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_pneumonia": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cataract": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_ appendicitis": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_colon_polyp": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_atrophic_gastritis": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_gallstone": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hepatitis_C": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_stomach_ulcer": {
+      "total": 202,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

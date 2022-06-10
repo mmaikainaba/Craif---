@@ -1,0 +1,81 @@
+{
+  "id": "4d434707-5886-4ac0-9b7e-9a3c0a449e66",
+  "name": "JFC001作業シート",
+  "file": "../data/00_raw/JFC001_conversion_Craif作業シート のコピー - raw.csv",
+  "column_line": 1,
+  "mapping": {
+    "tubeNo": "tubeNo",
+    "inst_patientID": "患者番号",
+    "patientID": "patientID",
+    "collection_date": "採取日",
+    "sampletypeEN": "sampletypeJP",
+    "diseaseEN": "臨床診断",
+    "delivery_date": "受取日",
+    "total_tubes": "本数",
+    "grouping": "患者番号"
+  },
+  "transform": [
+    {
+      "column": "grouping",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*S)(?=.*[0-9]).*$",
+            "replacement": "Surgery as primary"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*N)(?=.*[0-9]).*$",
+            "replacement": "NAC as primary"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*H)(?=.*[0-9]).*$",
+            "replacement": "Healthy controls"
+          }
+        }
+      ]
+    },
+    {
+      "column": "sampletypeEN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "尿": "Urine"
+          }
+        }
+      ]
+    },
+    {
+      "column": "diseaseEN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "乳がん": "Breast cancer",
+            "健常者": "Non-cancer"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    { "name": "tubeNo", "description": "tubeNo" },
+    { "name": "inst_patientID", "description": "患者番号" },
+    { "name": "patientID", "description": "patientID" },
+    { "name": "collection_date", "description": "採取日" },
+    { "name": "sampletypeEN", "description": "sampletypeJP" },
+    { "name": "diseaseEN", "description": "臨床診断" },
+    { "name": "delivery_date", "description": "受取日" },
+    { "name": "total_tubes", "description": "本数" },
+    { "name": "grouping", "description": "患者番号" }
+  ]
+}

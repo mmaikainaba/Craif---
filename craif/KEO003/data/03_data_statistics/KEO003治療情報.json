@@ -1,0 +1,327 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\KEO003\\data\\00_raw\\KEO003_conversion_治療情報 のコピー - raw.csv",
+  "map": {
+    "inst_patient": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tumor_location": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "horizontal_location": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "macroscopic_tumor_type": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_invasion_depth": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_n_L1": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_m_L1": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_date": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "ESD_frequency": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_x": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "Resected_lesion": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology_original": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_invasion_depth": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_n_L1": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_m_L1": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "lymphatic_invasion": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "venous_invasion": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_horizontal_margin": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_vertical_margin": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_y": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "curativity": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "Posterior_bleeding": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "Postoperative_perforation": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_pneumonia": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "grade": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_t_L2": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_t_L2": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_t_L1": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "part of cancer": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "inst_patient": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tumor_location": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "horizontal_location": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "macroscopic_tumor_type": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_invasion_depth": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_n_L1": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_m_L1": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_date": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "ESD_frequency": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_x": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "Resected_lesion": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology_original": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_invasion_depth": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_n_L1": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_m_L1": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "lymphatic_invasion": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "venous_invasion": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_horizontal_margin": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_vertical_margin": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_y": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "curativity": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "Posterior_bleeding": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "Postoperative_perforation": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_pneumonia": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "grade": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_t_L2": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_t_L2": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_t_L1": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    },
+    "part of cancer": {
+      "total": 52,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

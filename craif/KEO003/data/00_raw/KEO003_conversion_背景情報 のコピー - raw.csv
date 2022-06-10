@@ -1,0 +1,69 @@
+患者番号,年齢,性別,身長,体重,PS,喫煙歴,喫煙年数,1日の喫煙本数,飲酒歴,頻度,1日当たりの飲酒量,がん以外の併存症・既往歴,手術歴,手術歴有りの場合,悪性腫瘍既往歴の有無（10年以内）,備考1,胸部Xp(or CT),腹部US(or CT),便潜血/CF,備考2,治療方法
+MO17,55,Female,166,52,0,Current smoker,20,20,Current use,毎日,ワイン500-750ml/日,,無,,無,,異常なし,異常なし,陰性,,ope
+MO20,61,Male,170,48,0,Past smoker,20,20,Never used,,,高血圧,無,,無,,異常なし,異常なし,陰性,,ope
+MO22,57,Male,165,68,0,Never smoker,,,Current use,週に1−2日,チューハイ1本,,無,,無,,異常なし,異常なし,陰性,,ope
+MO23,76,Male,162,53,0,Past smoker,40,50,Current use,毎日,焼酎1合/日,心筋梗塞後,無,,無,,所見あり,異常なし,未検,肺炎あり,CRT
+MO24,70,Male,172,61,0,Past smoker,30,30,Past used,週に3−4日,ビール2L/回,１型糖尿病、高血圧,有,その他,有,声門上癌 CRT後,異常なし,異常なし,未検,,ESD
+MO25,74,Male,166,72,0,Current smoker,55,20,Current use,週に1−2日,焼酎2合/回,なし,有,その他,有,肺癌術後(2011) 頸部食道癌CRT後(2011),異常なし,異常なし,未検,,ESD
+MO26,58,Male,175,53,0,Current smoker,20,40,Current use,毎日,焼酎2合/回,ランブル鞭毛虫症,無,,無,,異常なし,異常なし,未検,,CRT
+MO27,60,Male,171,83,0,Current smoker,40,30,Current use,週に3−4日,ビール360ml ウイスキー水割り1-2杯,高血圧,無,,無,,異常なし,異常なし,未検,,ESD
+MO28,72,Female,152,52,0,Current smoker,20,50,Current use,週に3−4日,チューハイ1本,皮膚筋炎、高血圧,無,,無,,異常なし,異常なし,陰性,,ope
+MO29,73,Male,167,50,0,Past smoker,40,30,Past used,毎日,日本酒5合/日,C型肝炎、高血圧、狭心症,有,胃癌術後,有,胃癌ope(2013) 食道癌ESD(2011),異常なし,異常なし,未検,,ESD
+MO30,65,Male,171,97,0,Current smoker,40,20,Current use,毎日,日本酒1-1.5合/日,2型糖尿病、高血圧,無,,有,咽頭がんＣＲＴ後（2017),異常なし,異常なし,未検,,ESD
+MO31,60,Female,161,46,0,Current smoker,40,20,Current use,毎日,チューハイ10本/日,糖尿病,無,,無,,異常なし,異常なし,未検,,ope
+MO32,74,Male,152,50,0,Never smoker,0,0,Current use,毎日,ビール360ml/日,高血圧,無,,無,,異常なし,異常なし,未検,,ESD
+MO33,62,Male,174,75,0,Never smoker,0,0,Current use,毎日,ビール360ml/日,なし,無,,無,,異常なし,異常なし,未検,,ESD
+MO34,67,Female,155,42,0,Current smoker,50,20,Current use,毎日,ビール1000ml,なし,有,乳癌術後,無,乳癌ope(2010),異常なし,異常なし,未検,,ope
+MO35,68,Male,168,78,0,Never smoker,0,0,Current use,毎日,ビール500ml,高血圧,無,,無,,異常なし,異常なし,陰性,,ope
+MO36,72,Male,165,62,1,Past smoker,30,60,Current use,毎日,ウイスキー1杯,高血圧,無,,無,,異常なし,異常なし,陽性,,ope
+MO37,67,Male,170,60,0,Past smoker,5,20,Current use,週に3−4日,焼酎2合,高血圧,無,,無,,異常なし,異常なし,未検,,ope
+MO38,68,Male,165,55,0,Past smoker,30,25,Current use,毎日,ビール360ml,なし,有,虫垂炎術後,有,膀胱癌(2016ope),異常なし,異常なし,,,ope
+MO39,79,Male,164,53,0,Past smoker,40,54,Past used,毎日,ウイスキー10杯,甲状腺機能低下症,有,その他,有,下咽頭癌RTx(2015) 肺癌ope(2015),異常なし,異常なし,未検,,ESD
+MO40,78,Male,169,60,0,Past smoker,20,40,Past used,毎日,ウイスキー2杯,高血圧,有,その他,有,咽頭がんope(2016),異常なし,異常なし,未検,,ESD
+MO41,76,Male,170,70,0,Past smoker,20,50,Past used,毎日,ビール500ml 焼酎2合,なし,有,食道癌術後,有,食道癌ope(2011) 舌癌ope(2019),異常なし,異常なし,未検,,ESD
+MO42,73,Male,163,50,0,Past smoker,20,45,Current use,毎日,ビール500ml,なし,無,,有,前立腺癌RTx(2014),異常なし,異常なし,未検,,CRT
+MO43,72,Male,165,48,0,Past smoker,50,10,Current use,月に数日,ビール360ml,なし,無,,無,,異常なし,異常なし,陰性,,ope
+MO44,70,Male,170,62,0,Past smoker,47,40,Past used,毎日,日本酒3合,なし,無,,無,,異常なし,異常なし,陰性,,ope
+MO45,85,Male,160,53,1,Never smoker,,,Past used,毎日,ビール360ml,前立腺肥大,有,虫垂炎術後,無,,異常なし,異常なし,未検,,CRT
+MO46,56,Male,170,56,0,Current smoker,20,36,Current use,毎日,焼酎1合/日,なし,有,大腸癌術後,有,直腸癌手術(2013) 転移性肺腫瘍手術(2015),異常なし,異常なし,未検,,ope
+MO47,79,Female,151,34.5,1,Never smoker,,,Never used,,,なし,無,,無,,異常なし,異常なし,未検,,ope
+MO48,77,Male,173,67.8,0,Past smoker,30,26,Current use,毎日,焼酎2合,高血圧,無,,無,,異常なし,異常なし,未検,,ope
+MO49,76,Male,170,55,0,Current smoker,60,10,Current use,毎日,ビール500ml,なし,無,,無,,異常なし,異常なし,陰性,,ope
+MO50,58,Male,177,58,0,Past smoker,10,40,Current use,週に3−4日,ワイン3杯,脂質異常症,無,,無,,異常なし,異常なし,陰性,,ope
+MO51,79,Male,160,55,0,Past smoker,50,20,Current use,毎日,ビール360ml,高血圧、糖尿病、前立腺肥大,有,虫垂炎術後,無,,異常なし,異常なし,陰性,,ope
+MO52,70,Male,163,62,0,Past smoker,35,20,Current use,毎日,焼酎水割り5杯,表在型食道癌ESD後,無,,有,食道癌,異常なし,異常なし,陰性,,ESD
+MO53,74,Male,169,53,0,Past smoker,40,30,Current use,毎日,日本酒2合,PSVT,無,,無,,異常なし,異常なし,陰性,,ope
+MO54,57,Male,166,61,0,Never smoker,,,Past used,,,,有,その他,有,下咽頭癌,異常なし,異常なし,陰性,,ESD
+MO55,68,Male,163,52,0,Past smoker,12,20,Current use,毎日,焼酎水割り2杯,,無,,無,,異常なし,異常なし,陰性,,ope
+MO56,72,Male,165,57,0,Current smoker,50,20,Current use,毎日,焼酎水割り2杯＋ビール350ml,高血圧,無,,無,,異常なし,異常なし,陰性,,ope
+MO57,72,Male,164,52,0,Current smoker,52,20,Current use,毎日,日本酒5合orビール2L,高血圧、COPD疑、過敏性肺臓炎,無,,無,,異常なし,異常なし,陰性,,ope
+MO58,75,Male,170,80,0,Past smoker,25,20,Past used,NA,機械飲酒,高血圧、脂質異常症,有,虫垂炎術後,無,,異常なし,異常なし,陰性,,ope
+MO59,78,Male,175,56,1,Past smoker,20,30,Current use,毎日,焼酎1合,高血圧、前立腺肥大、起立性低血圧,有,その他,有,膀胱癌術後,異常なし,異常なし,陰性,,ope
+S-01,61,Male,161,62.5,0,Current smoker,30,10,Current use,毎日,ビール700ml,高血圧,無,,無,,,,,,control
+S-02,72,Male,162,70,0,Current smoker,52,15,Current use,毎日,ビール500mL,なし,無,,無,,,,,,control
+S-03,66,Male,160,51.5,0,Current smoker,46,18,Current use,週に5−6日,日本酒3合,なし,無,,無,,,,,,control
+S-04,76,Male,171,71.2,0,Current smoker,21,10,Current use,週に3−4日,ビール500mL,なし,無,,無,,,,,,control
+S-05,52,Male,173,85.2,0,Current smoker,32,10,Current use,毎日,ビール500mL,なし,無,,無,,,,,,control
+S-06,69,Male,168,69.4,0,Current smoker,18,50,Current use,週に5−6日,ワイン1/2本（360ml）,高血圧、高脂血症,無,,無,,,,,,control
+S-07,75,Male,159,61.1,0,Current smoker,25,10,Current use,毎日,ビール350mL、日本酒2合,なし,無,,無,,,,,,control
+S-08,59,Female,162,66,0,Current smoker,39,10,Current use,毎日,ビール500mL,高血圧,無,,無,,,,,,control
+S-09,73,Male,171,66,0,Current smoker,53,17,Current use,毎日,ビール500mL,2型糖尿病,無,,無,,,,,,control
+S-10,51,Female,162,54.6,0,Current smoker,31,30,Current use,週に5−6日,焼酎2合,なし,無,,無,,,,,,control
+MO60,72,Male,161,63,0,Never smoker,,,Current use,毎日,焼酎2合,なし,無,,無,,異常なし,異常なし,陰性,,ope
+K-01,78,Female,150,63,0,Never smoker,,,Never used,,,高血圧、高脂血症、2型糖尿病,無,,無,,異常なし,異常なし,未検,,control
+K-02,71,Male,165,59,0,Past smoker,10,10,Current use,,不明,,有,その他,無,前立腺癌術後,異常なし,異常なし,未検,,control
+K-03,79,Male,163,59,0,Never smoker,,,Current use,,不明,,有,その他,有,前立腺癌術後(3年前),異常なし,異常なし,未検,,control
+K-04,49,Female,158,54,0,Never smoker,,,Current use,週に3−4日,ワイン2杯,B型肝炎,無,,無,,異常なし,異常なし,未検,,control
+K-05,75,Male,169,58,0,Past smoker,30,15,Current use,毎日,不明,高血圧、2型糖尿病,無,,無,,異常なし,異常なし,未検,,control
+K-06,72,Male,156,51,0,Past smoker,25,30,Current use,週に1−2日,ビール1缶,,有,その他,有,前立腺癌術後(2年前),異常なし,異常なし,未検,,control
+K-07,61,Male,162,81,0,Never smoker,,,Never used,,,高血圧、2型糖尿病,有,その他,無,膵IPMN術後,異常なし,異常なし,未検,,control
+K-08,74,Male,170,69,0,Past smoker,10,10,Never used,,,高血圧、高脂血症,無,,有,前立腺癌(2年前放射線治療）,異常なし,異常なし,未検,,control
+K-09,65,Male,177,81,0,Never smoker,,,Never used,,,2型糖尿病,無,,無,,異常なし,異常なし,未検,,control
+K-10,57,Male,170,57,0,Past smoker,30,20,Current use,週に5−6日,ビール2缶,,無,,無,,異常なし,異常なし,未検,,control
+MO61,61,Male,168.8,59.4,0,Past smoker,40,20,Current use,週に5−6日,ビール350ml,内痔核,無,,無,,異常なし,異常なし,陰性,,ope
+MO63,,,,,,,,,,,,,,,,,,,,,
+MO64,61,Male,163.3,41.1,0,Never smoker,,,Current use,週に5−6日,ワイン250ml,膵神経内分泌腫瘍、放射線性右側下顎骨髄炎、アルコール依存症、ウェルニッケ脳症、糖尿病,有,,有,下咽頭癌、右中咽頭舌根癌,異常なし,異常なし,陰性,,ope
+MO65,61,Male,167.9,62.2,0,Past smoker,20歳頃禁煙,不明,Current use,NA,缶ビール6本,なし,無,,無,,異常なし,異常なし,陰性,,CRT
+MO66,82,Male,160.9,62.6,0,Past smoker,62,7,Current use,週に5−6日,日本酒50ml+焼酎,2型DM、アトピー性皮膚炎、高血圧、肺気腫、HBV,無,,無,,異常なし,異常なし,未検,下剤内服困難,ope
+MO67,60,Female,154.8,43.9,0,Past smoker,35,1,Current use,NA,ワイングラス1-2杯,肺MAC症,有,その他,無,脊柱管狭窄症,異常なし,異常なし,陰性,,ope
+MO68,76,Male,166.7,73.6,0,Past smoker,50,10,Current use,NA,,高血圧、高脂血症、AF、COPD,無,,無,,異常なし,異常なし,陰性,,ope

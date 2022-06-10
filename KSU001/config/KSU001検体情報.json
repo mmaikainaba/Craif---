@@ -1,0 +1,58 @@
+{
+  "id": "9ccfd8c9-d0a4-4bc0-a283-aa8cc0e17138",
+  "name": "KSU001検体情報",
+  "file": "../data/00_raw/KSU001検体情報.csv",
+  "column_line": 1,
+  "mapping": {
+    "tubeNo": "チューブ番号",
+    "cancer_status": "がんステータス",
+    "collection_timing": "手術の有無",
+    "dispense_note": "検体情報_備考"
+  },
+  "transform": [
+    {
+      "column": "cancer_status",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "がん有り": "(+)",
+            "がん無し": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "collection_timing",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "手術後": "post-ope",
+            "手術前": "pre-ope"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    {
+      "name": "tubeNo",
+      "description": "tubeNo"
+    },
+    {
+      "name": "cancer_status",
+      "description": "cancer_status"
+    },
+    {
+      "name": "collection_timing",
+      "description": "collection_timing"
+    },
+    {
+      "name": "dispense_note",
+      "description": "dispense_note"
+    }
+  ]
+}

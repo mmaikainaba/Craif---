@@ -1,0 +1,87 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\HOS001\\data\\00_raw\\臨床情報リスト_東大阪_肺 のコピー - 肺_がん情報.csv",
+  "map": {
+    "inst_patientID": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "Lung_type": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_diagnosis_date": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_x": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_y": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "RECIST_evaluation": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "evaluation_timing": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "notes": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "inst_patientID": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "Lung_type": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_diagnosis_date": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_x": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_y": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "RECIST_evaluation": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "evaluation_timing": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "notes": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

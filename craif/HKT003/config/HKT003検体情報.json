@@ -1,0 +1,73 @@
+{
+  "id": "08458c90-132f-422e-af50-474c3306b229",
+  "name": "HKT003検体情報",
+  "file": "../data/00_raw/臨床情報リスト_北斗_検体情報.csv",
+  "column_line": 1,
+  "mapping": {
+    "tubeNo": "チューブ番号",
+    "inst_patientID": "患者番号",
+    "cancer_status": "がんステータス",
+    "dispense_note": "備考",
+    "treatment_ESD": "備考",
+    "treatment_NAC": "備考"
+  },
+  "transform": [
+    {
+      "column": "cancer_status",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "がん有り": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_ESD",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "がん有りESD後": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_NAC",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "NAC後": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    { "name": "tubeNo", "description": "チューブ番号" },
+    { "name": "inst_patientID", "description": "患者番号" },
+    { "name": "cancer_status", "description": "がんステータス" },
+    { "name": "dispense_note", "description": "備考" },
+    { "name": "treatment_ESD", "description": "備考" },
+    { "name": "treatment_NAC", "description": "備考" }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\KMG001\\data\\00_raw\\【修正】KMG001作業シート.csv",
+  "map": {
+    "tubeNo": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patientID": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_date": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "sampletypeEN": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_timing": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_note": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "dispense_note": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "delivery_date": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseEN": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_chronic_cholecystitis": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_gastric_ulcer": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_choledocholithiasis": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_inguinal_hernia": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "tubeNo": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patientID": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_date": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "sampletypeEN": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_timing": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_note": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "dispense_note": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "delivery_date": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseEN": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_chronic_cholecystitis": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_gastric_ulcer": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_choledocholithiasis": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_inguinal_hernia": {
+      "total": 220,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

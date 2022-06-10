@@ -1,0 +1,197 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\KEO003\\data\\00_raw\\KEO003_conversion_臨床検査値 のコピー - raw.csv",
+  "map": {
+    "inst_patientID": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "test_date": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_RBC": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Hb": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_WBC": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Plt": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HbA1c": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_BUN": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CRE": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_ALB": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_LDH": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CRP": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CA19-9": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CEA": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_SCC": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HBV": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HCV": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HIV": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_note": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "inst_patientID": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "test_date": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_RBC": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Hb": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_WBC": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Plt": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HbA1c": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_BUN": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CRE": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_ALB": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_LDH": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CRP": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CA19-9": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CEA": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_SCC": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HBV": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HCV": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HIV": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_note": {
+      "total": 49,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

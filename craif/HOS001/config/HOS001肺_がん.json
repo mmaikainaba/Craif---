@@ -1,0 +1,95 @@
+{
+  "id": "8cdb1248-6a9a-4eba-985a-3edec14a088a",
+  "name": "HOS001肺_がん情報",
+  "file": "../data/00_raw/臨床情報リスト_東大阪_肺 のコピー - 肺_がん情報.csv",
+  "column_line": 1,
+  "mapping": {
+    "inst_patientID": "患者番号",
+    "Lung_type": "臨床診断",
+    "clinical_diagnosis_date": "診断日",
+    "size_x": "腫瘍径1(mm)",
+    "size_y": "腫瘍径2(mm)",
+    "RECIST_evaluation": "治療_RECIST",
+    "evaluation_timing": "評価タイミング",
+    "notes": "治療内容_効果詳細"
+  },
+  "transform": [
+    {
+      "column": "evaluation_timing",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "4コース終了後": "End of 4th course"
+          }
+        }
+      ]
+    },
+    {
+      "column": "notes",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "手術": "Surgery",
+            "CBDCA+PTX4コース+RT62Gy後、イミフィンジ維持療法": "CBDCA+PTX4 courses+RT62Gy followed by imifinzi maintenance therapy",
+            "CBDCA+nabPTX+アテゾリズマブ4コース": "CBDCA+nabPTX+4 courses of atezolizumab",
+            "CBDCA+nabPTX": "CBDCA+nabPTX",
+            "CBDCA+nabPTX+ペンブロリズマブ1コース目で発熱性好中球減少症と敗血症性ショックと呼吸不全で人工呼吸器管理）": "(After the first course of CBDCA+nabPTX+pembrolizumab, febrile neutropenia, septic shock and respiratory failure were managed on ventilator)",
+            "分子標的剤（ザーコリ）でPRだが、間質性肺炎発症し、治療関連死亡": "PR with molecular targeted agent (Zachry), but developed interstitial pneumonia and treatment related death",
+            "複合免疫療法1コース後、病勢増悪し、20210514原病死": "After one course of combined immunotherapy, the disease worsened and he died of 20210514 primary disease.",
+            "複合免疫療法1コース目で発熱性好中球減少症、間質性肺炎急性増悪発症": "Developed febrile neutropenia and acute exacerbation of interstitial pneumonia after the first course of combined immunotherapy",
+            "未治療": "Untreated",
+            "タグリッソ": "Tagrisso",
+            "化学放射線治療": "Chemoradiotherapy",
+            "複合免疫療法": "Combined immunotherapy"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    {
+      "name": "inst_patientID",
+      "description": "患者番号"
+    },
+    {
+      "name": "Lung_type",
+      "description": "臨床診断"
+    },
+    {
+      "name": "clinical_diagnosis_date",
+      "description": "診断日"
+    },
+    {
+      "name": "x_size",
+      "description": "腫瘍径1(mm)"
+    },
+    {
+      "name": "y_size",
+      "description": "腫瘍径2(mm)"
+    },
+    {
+      "name": "RECIST_evaluation",
+      "description": "治療_RECIST"
+    },
+    {
+      "name": "evaluation_timing",
+      "description": "評価タイミング"
+    },
+    {
+      "name": "notes",
+      "description": "治療内容_効果詳細"
+    },
+    {
+      "name": "size_x",
+      "description": "x_sizeの変更"
+    },
+    {
+      "name": "size_y",
+      "description": "y_sizeの変更"
+    }
+  ]
+}

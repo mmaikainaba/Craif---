@@ -1,0 +1,587 @@
+{
+  "id": "0e0e30d2-27e0-4224-bf9c-796c0b2ee10d",
+  "name": "KEO003背景情報",
+  "file": "../data/00_raw/KEO003_conversion_背景情報 のコピー - raw.csv",
+  "column_line": 1,
+  "mapping": {
+    "inst_patientID": "患者番号",
+    "age": "年齢",
+    "gender": "性別",
+    "height": "身長",
+    "weight": "体重",
+    "performance_status": "PS",
+    "smoking_history": "喫煙歴",
+    "smoking_years": "喫煙年数",
+    "smoking_perday": "1日の喫煙本数",
+    "alcohol": "飲酒歴",
+    "alcohol_frequency": "頻度",
+    "alcohol_perday": "1日当たりの飲酒量",
+    "disease_history_note": "がん以外の併存症・既往歴",
+    "surgery_history": "手術歴",
+    "surgery_history_note": "手術歴有りの場合",
+    "malignancy_history": "悪性腫瘍既往歴の有無（10年以内）",
+    "disease_history_cancer_original": "備考1",
+    "chest_imaging": "胸部Xp(or CT)",
+    "abdominal_imaging": "腹部US(or CT)",
+    "fecal_test": "便潜血/CF",
+    "scan_results_history": "備考2",
+    "treatment_method_original": "治療方法",
+    "disease_history_cancer": "備考1",
+    "disease_history_cancer1": "備考1",
+    "disease_history_pneumonia": "備考2",
+    "disease_history_irritative_diarrhea": "備考2",
+    "treament_surgery": "治療方法",
+    "treatment_chemotherapy": "治療方法",
+    "treatment_ESD": "治療方法",
+    "disease_history_hypertension": "がん以外の併存症・既往歴",
+    "disease_history_diabetes": "がん以外の併存症・既往歴",
+    "disease_history_dyslipidemia": "がん以外の併存症・既往歴",
+    "disease_history_COPD": "がん以外の併存症・既往歴"
+  },
+  "transform": [
+    {
+      "column": "disease_history_cancer",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "膵IPMN術後": "benign",
+            "脊柱管狭窄症": "benign"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!benign).+$",
+            "replacement": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cancer1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "肺癌術後(2011) 頸部食道癌CRT後(2011)": "Lung",
+            "胃癌ope(2013) 食道癌ESD(2011)": "Stomach",
+            "乳癌ope(2010)": "Breast",
+            "直腸癌手術(2013) 転移性肺腫瘍手術(2015)": "Colorectal",
+            "膵IPMN術後": "IPMN",
+            "脊柱管狭窄症": "Spine Benign"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(声門|咽頭|下咽頭).*$",
+            "replacement": "Pharyngeal"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^膀胱.*$",
+            "replacement": "Urothelial"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^食道.*$",
+            "replacement": "Esophagus"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^前立腺.*$",
+            "replacement": "Prostate"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_pneumonia",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "肺炎あり": "(+)",
+            "下剤内服困難": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_irritative_diarrhea",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "肺炎あり": "",
+            "下剤内服困難": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "treament_surgery",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "ope": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_chemotherapy",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "CRT": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_ESD",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "ESD": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_hypertension",
+      "operations": [
+        {
+          "name": "includes",
+          "options": "高血圧"
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "true": "(+)",
+            "false": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_diabetes",
+      "operations": [
+        {
+          "name": "includes",
+          "options": "糖尿病"
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "true": "(+)",
+            "false": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_dyslipidemia",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*(脂質異常症|高脂血症)).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_COPD",
+      "operations": [
+        {
+          "name": "includes",
+          "options": "COPD"
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "true": "(+)",
+            "false": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "smoking_history",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "Current smoker": "Current use",
+            "Past smoker": "Past used",
+            "Never smoker": "Never used"
+          }
+        }
+      ]
+    },
+    {
+      "column": "smoking_years",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "",
+            "20歳頃禁煙": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "smoking_perday",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "",
+            "不明": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "alcohol",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "Current use": "yes",
+            "Never used": "no",
+            "Past used": "past"
+          }
+        }
+      ]
+    },
+    {
+      "column": "surgery_history",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "無": "(-)",
+            "有": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "malignant_tumor_history",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "無": "(-)",
+            "有": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "chest_imaging",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "異常なし": "(-)",
+            "所見あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "abdominal_imaging",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "異常なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "fecal_test",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "陰性": "(-)",
+            "未検": "untested",
+            "陽性": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "surgery_history_note",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "その他": "Others",
+            "胃癌術後": "Stomach cancer",
+            "乳癌術後": "Breast cancer",
+            "虫垂炎術後": "Appendicitis",
+            "食道癌術後": "Esophagus cancer",
+            "大腸癌術後": "Colorectal cancer"
+          }
+        }
+      ]
+    },
+    {
+      "column": "alcohol_frequency",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "毎日": "every day",
+            "月に数日": "occasionally",
+            "NA": "",
+            "週に1−2日": "1-2 days a week",
+            "週に3−4日": "3-4 days a week",
+            "週に5−6日": "5-6 days a week"
+          }
+        }
+      ]
+    },
+    {
+      "column": "alcohol_perday",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "毎日": "every day",
+            "月に数日": "occasionally",
+            "NA": "",
+            "ワイン500-750ml/日": "500-750ml of wine",
+            "チューハイ1本": "1 bottle of chuhai",
+            "焼酎1合/日": "1 cup of shochu",
+            "ビール2L/回": "2000ml of beer",
+            "焼酎2合/回": "2 cup of shochu",
+            "ビール360ml ウイスキー水割り1-2杯": "360ml of beer, 1-2 glasses of whiskey with water",
+            "日本酒5合/日": "5 cups of nihonsu",
+            "日本酒1-1.5合/日": "1-1.5 cups of nihonshu",
+            "Nチューハイ10本/日A": "10 bottles of chuhai",
+            "ビール360ml/日": "360ml of beer",
+            "ビール1000ml": "1000ml of beer",
+            "ビール500ml": "500ml of beer",
+            "ウイスキー1杯": "1 glass of whiskey",
+            "焼酎2合": "2 cups shochu",
+            "ビール360ml": "360ml of beer",
+            "ウイスキー10杯": "10 glasses of shochu with water",
+            "ウイスキー2杯": "2 glasses of whiskey",
+            "ビール500ml 焼酎2合": "500ml beer 2 cups shochu",
+            "日本酒3合": "3 cups Japanese sake",
+            "ワイン3杯": "3 glasses of wine",
+            "焼酎水割り5杯": "5 glasses of shochu with water",
+            "日本酒2合": "2 cups of nihonshu",
+            "焼酎水割り2杯": "2 glasses of shochu with water",
+            "焼酎水割り2杯＋ビール350ml": "2 glasses of shochu with water, 350ml beer",
+            "日本酒5合orビール2L": "5 cups of sake or 2000ml of beer",
+            "焼酎1合": "1 glass of shochu",
+            "ビール700ml": "700ml of beer",
+            "ビール500mL": "500ml of beer",
+            "ワイン1/2本（360ml）": "360 ml bottle of wine",
+            "ビール350mL、日本酒2合": "350ml of beer, 2 cups of nihonshu",
+            "ワイン2杯": "2 glasses of wine",
+            "ビール1缶": "1 can of beer",
+            "ビール2缶": "2 cans of beer",
+            "ビール350ml": "350ml of beer",
+            "ワイン250ml": "250ml of wine",
+            "缶ビール6本": "6 cans of beer",
+            "日本酒50ml+焼酎": "50ml of nihonshu, shochu",
+            "チューハイ10本/日": "10 bottles of chuhai",
+            "機械飲酒": "",
+            "不明": "",
+            "ワイングラス1-2杯": "1 or 2 glasses of wine"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    {
+      "name": "inst_patientID",
+      "description": "患者番号"
+    },
+    {
+      "name": "age",
+      "description": "年齢"
+    },
+    {
+      "name": "gender",
+      "description": "性別"
+    },
+    {
+      "name": "height",
+      "description": "身長"
+    },
+    {
+      "name": "weight",
+      "description": "体重"
+    },
+    {
+      "name": "performance_status",
+      "description": "PS"
+    },
+    {
+      "name": "smoking_history",
+      "description": "喫煙歴"
+    },
+    {
+      "name": "smoking_years",
+      "description": "喫煙年数"
+    },
+    {
+      "name": "smoking_perday",
+      "description": "1日の喫煙本数"
+    },
+    {
+      "name": "alcohol",
+      "description": "飲酒歴"
+    },
+    {
+      "name": "alcohol_frequency",
+      "description": "頻度"
+    },
+    {
+      "name": "alcohol_perday",
+      "description": "1日当たりの飲酒量"
+    },
+    {
+      "name": "disease_history_note",
+      "description": "がん以外の併存症・既往歴"
+    },
+    {
+      "name": "surgery_history",
+      "description": "手術歴"
+    },
+    {
+      "name": "surgery_history_note",
+      "description": "手術歴有りの場合"
+    },
+    {
+      "name": "malignant_tumor_history",
+      "description": "悪性腫瘍既往歴の有無（10年以内）"
+    },
+    {
+      "name": "disease_history_cancer_original",
+      "description": "備考1"
+    },
+    {
+      "name": "chest_imaging",
+      "description": "胸部Xp(or CT)"
+    },
+    {
+      "name": "abdominal_imaging",
+      "description": "腹部US(or CT)"
+    },
+    {
+      "name": "fecal_test",
+      "description": "便潜血/CF"
+    },
+    {
+      "name": "scan_results_history",
+      "description": "備考2"
+    },
+    {
+      "name": "treatment_method_original",
+      "description": "治療方法"
+    },
+    {
+      "name": "disease_history_cancer",
+      "description": "備考1"
+    },
+    {
+      "name": "disease_history_cancer1",
+      "description": "備考1"
+    },
+    {
+      "name": "disease_history_pneumonia",
+      "description": "備考2"
+    },
+    {
+      "name": "disease_history_irritative_diarrhea",
+      "description": "備考2"
+    },
+    {
+      "name": "treament_surgery",
+      "description": "治療方法"
+    },
+    {
+      "name": "treatment_chemotherapy",
+      "description": "治療方法"
+    },
+    {
+      "name": "treatment_ESD",
+      "description": "治療方法"
+    },
+    {
+      "name": "disease_history_hypertension",
+      "description": "がん以外の併存症・既往歴"
+    },
+    {
+      "name": "disease_history_diabetes",
+      "description": "がん以外の併存症・既往歴"
+    },
+    {
+      "name": "disease_history_dyslipidemia",
+      "description": "がん以外の併存症・既往歴"
+    },
+    {
+      "name": "disease_history_COPD",
+      "description": "がん以外の併存症・既往歴"
+    },
+    {
+      "name": "malignancy_history",
+      "description": "malignant_tumor_historyの変更"
+    }
+  ]
+}

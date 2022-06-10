@@ -1,0 +1,107 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\HKT003\\data\\00_raw\\臨床情報リスト_北斗_大腸がん_v1 のコピー - Craif作業シート.csv",
+  "map": {
+    "tubeNo": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patientID": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_date": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "sampletypeEN": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_timing": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "storage_temperature": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseEN": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "delivery_date": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "total_tubes": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "tubeNo": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patientID": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_date": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "sampletypeEN": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_timing": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "storage_temperature": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseEN": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "delivery_date": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    },
+    "total_tubes": {
+      "total": 513,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

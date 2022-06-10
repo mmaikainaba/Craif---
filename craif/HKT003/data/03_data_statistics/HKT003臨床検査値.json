@@ -1,0 +1,347 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\HKT003\\data\\00_raw\\臨床情報リスト_北斗_大腸がん_v1臨床検査値.csv",
+  "map": {
+    "inst_patientID": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "test_date": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_RBC": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Hb": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_WBC": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Plt": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HbA1c": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_BUN": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CRE": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_ALB": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Amylase": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_T-Bil": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_D-Bil": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_AST": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_ALT": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_LDH": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_ALP": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CRP": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_IgG": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_IGg4": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Ddimer": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CA19-9": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CA15-3": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CEA": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_BCA225": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_NCC_ST_439": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_serum_HER2": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_p53": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_pylori": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HBV": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HCV": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HIV": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_note": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_during_menstruation": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "inst_patientID": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "test_date": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_RBC": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Hb": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_WBC": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Plt": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HbA1c": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_BUN": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CRE": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_ALB": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Amylase": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_T-Bil": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_D-Bil": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_AST": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_ALT": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_LDH": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_ALP": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CRP": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_IgG": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_IGg4": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Ddimer": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CA19-9": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CA15-3": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CEA": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_BCA225": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_NCC_ST_439": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_serum_HER2": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_p53": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_pylori": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HBV": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HCV": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_HIV": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_note": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_during_menstruation": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

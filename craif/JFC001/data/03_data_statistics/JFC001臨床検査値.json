@@ -1,0 +1,177 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\JFC001\\data\\00_raw\\JFC001_conversion_臨床検査値 のコピー - raw.csv",
+  "map": {
+    "inst_patientID": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "test_date": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_WBC": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Neut": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Lym": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Mono": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Plt": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_ALB": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_LDH": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CRE": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_BUN": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CRP": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CEA": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CA15-3": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_NCC_ST_439": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_BCA225": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_note": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "inst_patientID": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "test_date": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_WBC": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Neut": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Lym": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Mono": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_Plt": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_ALB": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_LDH": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CRE": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_BUN": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CRP": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CEA": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_CA15-3": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_NCC_ST_439": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_BCA225": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    },
+    "blood_test_note": {
+      "total": 30,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

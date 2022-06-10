@@ -1,0 +1,172 @@
+{
+  "id": "80a81d6e-140f-4b96-a2e0-4bc7cf7540de",
+  "name": "HOS001肺_背景",
+  "file": "../data/00_raw/臨床情報リスト_東大阪_肺 のコピー - 肺_背景情報.csv",
+  "column_line": 1,
+  "mapping": {
+    "inst_patientID": "患者番号",
+    "alcohol_frequency": "頻度",
+    "alcohol_perday": "1日当たりの飲酒量",
+    "disease_history_note": "詳細",
+    "disease_history_cancer": "詳細",
+    "disease_history_cancer1": "詳細",
+    "surgery_history": "詳細"
+  },
+  "transform": [
+    {
+      "column": "disease_history_cancer",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!.*(癌|がん|上皮腫)).+$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cancer1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*乳).+$",
+            "replacement": "Breast"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*膵).+$",
+            "replacement": "Pancreas"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*肝).+$",
+            "replacement": "Liver"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*腸).+$",
+            "replacement": "Colorectal"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*(子宮頸がん|子宮癌)).+$",
+            "replacement": "Cervix"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*子宮の絨毛上皮腫治療後).+$",
+            "replacement": "Uterus"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(Uterus|Colorectal|Liver|Pancreas|Breast|Cervix)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "surgery_history",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*手術).+$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "alcohol_frequency",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "毎日": "every day",
+            "機会飲酒のみ": "occasionally",
+            "週1回": "1-2 days a week",
+            "機械飲酒のみ": "occasionally",
+            "週3回": "3-4 days a week",
+            "月1回": "occasionally"
+          }
+        }
+      ]
+    },
+    {
+      "column": "alcohol_perday",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "ビール1本": "1 bottle of beer",
+            "ビール8本": "8 bottles of beer",
+            "ビール2本": "2 bottles of beer",
+            "ビール3本": "3 bottles of beer",
+            "ビール500ml": "500ml of beer",
+            "焼酎1杯": "1 cup of shochu",
+            "ビール500ml+日本酒1合": "500ml of beer, 1 cup of nihonshu",
+            "酎ハイ500ml×3本": "1500ml of chuhai",
+            "日本酒1合": "1 cup of nihonshu",
+            "ビール850ml": "850ml of beer",
+            "ビール1500ml": "1500ml of beer",
+            "ビール700ml": "700ml of beer",
+            "ビール1000ml": "1000ml of beer",
+            "ビール2000ml": "2000ml of beer",
+            "ビール250ml": "1500ml of beer",
+            "ビール350ml": "350ml of beer",
+            "焼酎5-6杯": "5-6 cups of shochu",
+            "日本酒2合": "2 cups of nihonshu",
+            "焼酎水割り3杯": "3 cups of shochu"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    { "name": "inst_patientID", "description": "患者番号" },
+    { "name": "alcohol_frequency", "description": "頻度" },
+    { "name": "alcohol_perday", "description": "1日当たりの飲酒量" },
+    { "name": "disease_history_note", "description": "詳細" },
+    { "name": "disease_history_cancer", "description": "詳細" },
+    { "name": "disease_history_cancer1", "description": "詳細" },
+    { "name": "surgery_history", "description": "詳細" }
+  ]
+}

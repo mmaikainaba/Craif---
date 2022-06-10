@@ -1,0 +1,273 @@
+{
+  "id": "07677315-a054-4ace-872f-ac3334326575",
+  "name": "HKT003臨床検査値",
+  "file": "../data/00_raw/臨床情報リスト_北斗_大腸がん_v1臨床検査値.csv",
+  "column_line": 1,
+  "mapping": {
+    "inst_patientID": "患者番号",
+    "test_date": "臨床検査日",
+    "blood_test_RBC": "RBC",
+    "blood_test_Hb": "Hb",
+    "blood_test_WBC": "WBC",
+    "blood_test_Plt": "Plt",
+    "blood_test_HbA1c": "HbA1c",
+    "blood_test_BUN": "BUN",
+    "blood_test_CRE": "CRE",
+    "blood_test_ALB": "アルブミン",
+    "blood_test_Amylase": "アミラーゼ",
+    "blood_test_T-Bil": "T-Bil",
+    "blood_test_D-Bil": "D-Bil",
+    "blood_test_AST": "AST",
+    "blood_test_ALT": "ALT",
+    "blood_test_LDH": "LDH",
+    "blood_test_ALP": "ALP",
+    "blood_test_CRP": "CRP",
+    "blood_test_IgG": "IgG",
+    "blood_test_IGg4": "IGg4",
+    "blood_test_Ddimer": "Dダイマー",
+    "blood_test_CA19-9": "CA19-9",
+    "blood_test_CA15-3": "CA15-3",
+    "blood_test_CEA": "CEA",
+    "blood_test_BCA225": "BCA225",
+    "blood_test_NCC_ST_439": "NCC-ST-439",
+    "blood_test_serum_HER2": "血清HER2蛋白",
+    "blood_test_p53": "p53",
+    "blood_test_pylori": "ピロリ",
+    "blood_test_HBV": "HBV",
+    "blood_test_HCV": "HCV",
+    "blood_test_HIV": "HIV",
+    "blood_test_note": "備考",
+    "collection_during_menstruation": "備考"
+  },
+  "transform": [
+    {
+      "column": "collection_during_menstruation",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "採尿時、生理中だった": "(+)",
+            "１２／３－１２／８で３回測定値あり、それぞれ最新の値を記載": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "blood_test_CRP",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(〈|<|＜)",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "blood_test_CA19-9",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "<2.0": "2",
+            "＜2.0": "2",
+            "〈2.0": "2"
+          }
+        }
+      ]
+    },
+    {
+      "column": "blood_test_NCC-ST-439",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(<=|＜＝|＜=)",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "blood_test_HBV",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "-": "(-)",
+            "+": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "blood_test_HCV",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "-": "(-)",
+            "+": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "blood_test_HIV",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "-": "(-)",
+            "+": "(+)"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    {
+      "name": "inst_patientID",
+      "description": "患者番号"
+    },
+    {
+      "name": "test_date",
+      "description": "臨床検査日"
+    },
+    {
+      "name": "blood_test_RBC",
+      "description": "RBC"
+    },
+    {
+      "name": "blood_test_Hb",
+      "description": "Hb"
+    },
+    {
+      "name": "blood_test_WBC",
+      "description": "WBC"
+    },
+    {
+      "name": "blood_test_Plt",
+      "description": "Plt"
+    },
+    {
+      "name": "blood_test_HbA1c",
+      "description": "HbA1c"
+    },
+    {
+      "name": "blood_test_BUN",
+      "description": "BUN"
+    },
+    {
+      "name": "blood_test_CRE",
+      "description": "CRE"
+    },
+    {
+      "name": "blood_test_ALB",
+      "description": "アルブミン"
+    },
+    {
+      "name": "blood_test_Amylase",
+      "description": "アミラーゼ"
+    },
+    {
+      "name": "blood_test_T-Bil",
+      "description": "T-Bil"
+    },
+    {
+      "name": "blood_test_D-Bil",
+      "description": "D-Bil"
+    },
+    {
+      "name": "blood_test_AST",
+      "description": "AST"
+    },
+    {
+      "name": "blood_test_ALT",
+      "description": "ALT"
+    },
+    {
+      "name": "blood_test_LDH",
+      "description": "LDH"
+    },
+    {
+      "name": "blood_test_ALP",
+      "description": "ALP"
+    },
+    {
+      "name": "blood_test_CRP",
+      "description": "CRP"
+    },
+    {
+      "name": "blood_test_IgG",
+      "description": "IgG"
+    },
+    {
+      "name": "blood_test_IGg4",
+      "description": "IGg4"
+    },
+    {
+      "name": "blood_test_Ddimer",
+      "description": "Dダイマー"
+    },
+    {
+      "name": "blood_test_CA19-9",
+      "description": "CA19-9"
+    },
+    {
+      "name": "blood_test_CA15-3",
+      "description": "CA15-3"
+    },
+    {
+      "name": "blood_test_CEA",
+      "description": "CEA"
+    },
+    {
+      "name": "blood_test_BCA225",
+      "description": "BCA225"
+    },
+    {
+      "name": "blood_test_NCC-ST-439",
+      "description": "NCC-ST-439"
+    },
+    {
+      "name": "blood_test_serum_HER2",
+      "description": "血清HER2蛋白"
+    },
+    {
+      "name": "blood_test_p53",
+      "description": "p53"
+    },
+    {
+      "name": "blood_test_pylori",
+      "description": "ピロリ"
+    },
+    {
+      "name": "blood_test_HBV",
+      "description": "HBV"
+    },
+    {
+      "name": "blood_test_HCV",
+      "description": "HCV"
+    },
+    {
+      "name": "blood_test_HIV",
+      "description": "HIV"
+    },
+    {
+      "name": "blood_test_note",
+      "description": "備考"
+    },
+    {
+      "name": "collection_during_menstruation",
+      "description": "備考"
+    },
+    {
+      "name": "blood_test_NCC_ST_439",
+      "description": "blood_test_NCC-ST-439の変更"
+    }
+  ]
+}

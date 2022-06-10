@@ -1,0 +1,68 @@
+tubeNo,inst_patientID,patientID,collection_date,sampletypeEN,storage_temperature,delivery_date,diseaseEN,grouping
+"20190730-‡@-1,2,3,4",KwPanc-19-001,19001A,2019/07/30,Urine,-80,,Pancreas cancer,Pancreas cancer
+"20190730-‡A-1,2,3,4",KwPanc-19-002,19002A,2019/07/30,Urine,-80,,Cyst of pancreas,Pancreas cancer High Risk
+"20190806-‡A-1,2,3,4",KwPanc-19-003,19003A,2019/08/06,Urine,-80,,Pancreas cancer,Pancreas cancer
+"20190822-‡A-1,2,3,4",KwPanc-19-004,19004A,2019/08/22,Urine,-80,,Cyst of pancreas,Pancreas cancer High Risk
+"20191001-‡@-1,2,3,4",KwPanc-19-005,19005A,2019/10/01,Urine,-80,,Pancreas cancer,Pancreas cancer
+"20191018-‡@-1,2,3,4",KwPanc-19-006,19006A,2019/10/18,Urine,-80,,,Pancreas cancer High Risk
+"20191031-‡A-1,2,3,4",KwPanc-19-007,19007A,2019/10/31,Urine,-80,,Intraductal Papillary Mucinous Neoplasm,Pancreas cancer High Risk
+"20191126-‡@-1,2,3,4",KwPanc-19-008,19008A,2019/11/26,Urine,-80,,Pancreas cancer,Pancreas cancer
+"20191128-‡@-1,2,3,4",KwPanc-19-009,19009A,2019/11/28,Urine,-80,,Pancreas cancer,Pancreas cancer
+"20191204-‡@-1,2,3,4",KwPanc-19-010,19010A,2019/12/04,Urine,-80,,Other benign neoplasms of connective and other soft tissue,Pancreas cancer High Risk
+"20200114-‡@-1,2,3,4",KwPanc-20-001,20001A,2020/01/14,Urine,-80,2021/10/19,,Others
+"20200116-‡@-1,2,3,4",KwPanc-20-002,20002A,2020/01/16,Urine,-80,,,
+"20200116-‡B-1,2,3,4",KwPanc-20-003,20003A,2020/01/16,Urine,-80,,,
+"20200201-‡A-1,2,3,4",KwPanc-20-004,20004A,2020/02/01,Urine,-80,,,
+"20200201-‡C-1,2,3,4",KwPanc-20-005,20005A,2020/02/01,Urine,-80,,,
+"20200214-‡@-1,2,3,4",KwPanc-20-006,20006A,2020/02/14,Urine,-80,,,
+"20200214-‡B-1,2,3,4",KwPanc-20-007,20007A,2020/02/14,Urine,-80,,,
+"20200214-‡C-1,2,3,4",KwPanc-20-008,20008A,2020/02/14,Urine,-80,,Intraductal Papillary Mucinous Neoplasm,Pancreas cancer High Risk
+"20200304-‡@-1,2,3,4",KwPanc-20-009,20009A,2020/03/04,Urine,-80,,,
+"20200309-‡@-1,2,3,4",KwPanc-20-010,20010A,2020/03/09,Urine,-80,,,
+"20200311-‡@-1,2,3,4",KwPanc-20-011,20011A,2020/03/11,Urine,-80,2021/10/19,Intraductal Papillary Mucinous Neoplasm,Pancreas cancer High Risk
+"20200311-‡A-1,2,3,4",KwPanc-20-012,20012A,2020/03/11,Urine,-80,2021/10/19,Benign Pancreas Tumor,Pancreas cancer High Risk
+"20200317-‡@-1,2,3,4",KwPanc-20-013,20013A,2020/03/18,Urine,-80,2021/10/19,Pancreas cancer,Pancreas cancer
+"20200318-‡@-1,2,3,4",KwPanc-20-014,20014A,2020/03/18,Urine,-80,,Intraductal Papillary Mucinous Neoplasm,Pancreas cancer High Risk
+"20200326-‡@-1,2,3,4",KwPanc-20-015,20015A,2020/03/26,Urine,-80,2021/10/19,Other chronic pancreatitis,Others
+"20200327-‡@-1,2,3,4",KwPanc-20-016,20016A,2020/03/27,Urine,-80,,,
+"20200327-‡B-1,2,3",KwPanc-20-017,20017A,2020/03/27,Urine,-80,2021/10/19,Pancreas cancer,Pancreas cancer
+"20200330-‡@-1,2,3,4",KwPanc-20-018,20018A,2020/03/30,Urine,-80,2021/10/19,Pancreas cancer,Pancreas cancer
+"20200331-‡@-1,2,3,4",KwPanc-20-019,20019A,2020/03/31,Urine,-80,,Intraductal Papillary Mucinous Neoplasm,Pancreas cancer High Risk
+"20200331-‡A-1,2,3,4",KwPanc-20-020,20020A,2020/03/31,Urine,-80,2021/10/19,Other benign neoplasms of connective and other soft tissue,Pancreas cancer High Risk
+"20200403-‡@-1,2,3,4",KwPanc-20-021,20021A,2020/04/03,Urine,-80,,,
+"20200407-‡@-1,2,3,4",KwPanc-20-022,20022A,2020/04/07,Urine,-80,2021/10/19,Other benign neoplasms of connective and other soft tissue,Pancreas cancer High Risk
+"20200407-‡A-1,2,3,4",KwPanc-20-023,20023A,2020/04/07,Urine,-80,2021/10/19,Suspected Malignant neoplasm without specification of site,Others
+"20200408-‡@-1,2,3,4",KwPanc-20-024,20024A,2020/04/08,Urine,-80,,,
+"20200408-‡A-1,2,3,4",KwPanc-20-025,20025A,2020/04/08,Urine,-80,2021/10/19,Other chronic pancreatitis,Others
+"20200408-‡B-1,2,3,4",KwPanc-20-026,20026A,2020/04/08,Urine,-80,,Intraductal Papillary Mucinous Neoplasm,Pancreas cancer High Risk
+"20200414-‡@-1,2,3,4",KwPanc-20-027,20027A,2020/04/14,Urine,-80,2021/10/19,Other benign neoplasms of connective and other soft tissue,Others
+"20200414-‡A-1,2,3,4",KwPanc-20-028,20028A,2020/04/14,Urine,-80,2021/10/19,Other benign neoplasms of connective and other soft tissue,Others
+"20200414-‡B-1,2,3,4",KwPanc-20-029,20029A,2020/04/14,Urine,-80,2021/10/19,Liver and intrahepatic bile duct cancer,Others
+"20200414-‡C-1,2,3,4",KwPanc-20-030,20030A,2020/04/14,Urine,-80,2021/10/19,,
+"20200415-‡@-1,2,3,4",KwPanc-20-031,20031A,2020/04/15,Urine,-80,2021/10/19,Pancreas cancer,Pancreas cancer
+"20200415-‡A-1,2,3,4",KwPanc-20-032,20032A,2020/04/15,Urine,-80,,,
+"20200415-‡B-1,2,3,4",KwPanc-20-033,20033A,2020/04/15,Urine,-80,,,
+"20200415-‡C-1,2,3,4",KwPanc-20-034,20034A,2020/04/15,Urine,-80,,,
+"20200420-‡@-1,2,3,4",KwPanc-20-035,20035A,2020/04/20,Urine,-80,2021/10/19,Malignant neoplasm without specification of site,Others
+"20200420-‡A-1,2,3,4",KwPanc-20-036,20036A,2020/04/20,Urine,-80,2021/10/19,,
+"20200422-‡@-1,2,3,4",KwPanc-20-037,20037A,2020/04/22,Urine,-80,,,
+"20200422-‡A-1,2,3,4
+",KwPanc-20-038,20038A,2020/04/22,Urine,-80,2021/10/19,,
+"20200422-‡B-1,2,3,4",KwPanc-20-039,20039A,2020/04/22,Urine,-80,2021/10/19,Pancreas cancer,Pancreas cancer
+"20200425-‡@-1,2,3,4",KwPanc-20-040,20040A,2020/04/25,Urine,-80,2021/10/19,,
+"20200428-‡@-1,2,3,4",KwPanc-20-041,20041A,2020/04/28,Urine,-80,,,
+"20200501-‡@-1,2,3,4",KwPanc-20-042,20042A,2020/05/01,Urine,-80,2021/10/19,,
+"20200510-‡@-1,2,3,4",KwPanc-20-043,20043A,2020/05/10,Urine,-80,2021/10/19,Pancreas cancer,Pancreas cancer
+"20200511-‡@-1,2,3,4",KwPanc-20-044,20044A,2020/05/11,Urine,-80,2021/10/19,Benign Pancreas Tumor,Pancreas cancer High Risk
+"20200511-‡A-1,2,3,4",KwPanc-20-045,20045A,2020/05/11,Urine,-80,,,
+"20200511-‡B-1,2,3,4",KwPanc-20-046,20046A,2020/05/11,Urine,-80,2021/10/19,Rectosigmoid junction cancer,Others
+"20200518-‡@-1,2,3,4",KwPanc-20-047,20047A,2020/05/18,Urine,-80,2021/10/19,,
+"20200521-‡@-1,2,3,4",KwPanc-20-048,20048A,2020/05/21,Urine,-80,2021/10/19,Other benign neoplasms of connective and other soft tissue,Others
+"20200528-‡@-1,2,3,4",KwPanc-20-049,20049A,2020/05/28,Urine,-80,,,
+"20200529-‡@-1,2,3,4",KwPanc-20-050,20050A,2020/05/29,Urine,-80,2021/10/19,Liver and intrahepatic bile duct cancer,Others
+"20200529-‡A-1,2,3,4",KwPanc-20-051,20051A,2020/05/29,Urine,-80,2021/10/19,Pancreas cancer,Pancreas cancer
+"20200605-‡@-1,2,3,4",KwPanc-20-052,20052A,2020/06/05,Urine,-80,,Other chronic pancreatitis,Others
+"20200610-‡@-1,2,3,4",KwPanc-20-053,20053A,2020/06/10,Urine,-80,2021/10/19,Other chronic pancreatitis,Others
+"20202615-‡@-1,2,3,4",KwPanc-20-054,20054A,2020/06/15,Urine,-80,,Intraductal Papillary Mucinous Neoplasm,Pancreas cancer High Risk
+"20200619-‡@-1,2,3,4",KwPanc-20-055,20055A,2020/06/19,Urine,-80,2021/10/19,,
+"20200623-‡@-1,2,3,4",KwPanc-20-056,20056A,2020/06/23,Urine,-80,2021/10/19,Pancreas cancer,Pancreas cancer

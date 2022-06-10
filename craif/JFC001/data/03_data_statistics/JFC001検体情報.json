@@ -1,0 +1,27 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\JFC001\\data\\00_raw\\JFC001検体情報.csv",
+  "map": {
+    "tubeNo": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "institution_department": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "tubeNo": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    },
+    "institution_department": {
+      "total": 272,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

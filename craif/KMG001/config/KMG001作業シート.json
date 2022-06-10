@@ -1,0 +1,210 @@
+{
+  "id": "6d687ded-042f-46c8-b33e-201f6ead01bb",
+  "name": "KMG001作業シート",
+  "file": "../data/00_raw/【修正】KMG001作業シート.csv",
+  "column_line": 1,
+  "mapping": {
+    "tubeNo": "tubeNo",
+    "inst_patientID": "患者番号",
+    "patientID": "patientID",
+    "collection_date": "採取日",
+    "sampletypeEN": "sampletypeJP",
+    "collection_timing": "採取タイミング",
+    "disease_note": "臨床診断",
+    "dispense_note": "備考欄3",
+    "delivery_date": "受取日",
+    "diseaseEN": "臨床診断",
+    "comorbidity_chronic_cholecystitis": "臨床診断",
+    "comorbidity_gastric_ulcer": "臨床診断",
+    "comorbidity_choledocholithiasis": "臨床診断",
+    "comorbidity_inguinal_hernia": "臨床診断"
+  },
+  "transform": [
+    {
+      "column": "sampletypeEN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "尿": "Urine"
+          }
+        }
+      ]
+    },
+    {
+      "column": "diseaseEN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "乳がん": "Breast cancer",
+            "その他": "Subcutaneous tumor",
+            "食道がん": "Esophagus cancer",
+            "胆道がん": "Other and unspecified parts of biliary tract cancer",
+            "膵がん": "Pancreas cancer",
+            "肝がん": "Liver and intrahepatic bile duct cancer",
+            "大腸がん": "Colon cancer",
+            "胃がん": "Stomach cancer",
+            "慢性胆嚢炎,胃潰瘍": "Non-cancer",
+            "鼠径ヘルニア,肝癌疑い": "Liver and intrahepatic bile duct cancer (Suspected)",
+            "総胆管結石": "Non-cancer",
+            "胆嚢結石症": "Non-cancer",
+            "鼠径ヘルニア": "Non-cancer"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_chronic_cholecystitis",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "乳がん": "",
+            "その他": "",
+            "食道がん": "",
+            "胆道がん": "",
+            "膵がん": "",
+            "肝がん": "",
+            "大腸がん": "",
+            "胃がん": "",
+            "慢性胆嚢炎,胃潰瘍": "(+)",
+            "鼠径ヘルニア,肝癌疑い": "",
+            "総胆管結石": "",
+            "胆嚢結石症": "",
+            "鼠径ヘルニア": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_gastric_ulcer",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "乳がん": "",
+            "その他": "",
+            "食道がん": "",
+            "胆道がん": "",
+            "膵がん": "",
+            "肝がん": "",
+            "大腸がん": "",
+            "胃がん": "",
+            "慢性胆嚢炎,胃潰瘍": "(+)",
+            "鼠径ヘルニア,肝癌疑い": "",
+            "総胆管結石": "",
+            "胆嚢結石症": "",
+            "鼠径ヘルニア": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_choledocholithiasis",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "乳がん": "",
+            "その他": "",
+            "食道がん": "",
+            "胆道がん": "",
+            "膵がん": "",
+            "肝がん": "",
+            "大腸がん": "",
+            "胃がん": "",
+            "慢性胆嚢炎,胃潰瘍": "",
+            "鼠径ヘルニア,肝癌疑い": "",
+            "総胆管結石": "",
+            "胆嚢結石症": "(+)",
+            "鼠径ヘルニア": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_inguinal_hernia",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "乳がん": "",
+            "その他": "",
+            "食道がん": "",
+            "胆道がん": "",
+            "膵がん": "",
+            "肝がん": "",
+            "大腸がん": "",
+            "胃がん": "",
+            "慢性胆嚢炎,胃潰瘍": "",
+            "鼠径ヘルニア,肝癌疑い": "(+)",
+            "総胆管結石": "",
+            "胆嚢結石症": "",
+            "鼠径ヘルニア": "(+)"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    {
+      "name": "tubeNo",
+      "description": "tubeNo"
+    },
+    {
+      "name": "inst_patientID",
+      "description": "inst_patientID"
+    },
+    {
+      "name": "patientID",
+      "description": "patientID"
+    },
+    {
+      "name": "collection_date",
+      "description": "collection_date"
+    },
+    {
+      "name": "sampletypeEN",
+      "description": "sampletypeEN"
+    },
+    {
+      "name": "collection_timing",
+      "description": "collection_timing"
+    },
+    {
+      "name": "disease_note",
+      "description": "disease_note"
+    },
+    {
+      "name": "dispense_note",
+      "description": "dispense_note"
+    },
+    {
+      "name": "delivery_date",
+      "description": "delivery_date"
+    },
+    {
+      "name": "diseaseEN",
+      "description": "diseaseEN"
+    },
+    {
+      "name": "comorbidity_chronic_cholecystitis",
+      "description": "comorbidity_chronic_cholecystitis"
+    },
+    {
+      "name": "comorbidity_gastric_ulcer",
+      "description": "comorbidity_gastric_ulcer"
+    },
+    {
+      "name": "comorbidity_choledocholithiasis",
+      "description": "comorbidity_choledocholithiasis"
+    },
+    {
+      "name": "comorbidity_inguinal_hernia",
+      "description": "comorbidity_inguinal_hernia"
+    }
+  ]
+}

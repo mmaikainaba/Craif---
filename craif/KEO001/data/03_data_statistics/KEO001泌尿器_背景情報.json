@@ -1,0 +1,1147 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\KEO001\\data\\00_raw\\0414KEO001_conversion_Craif_reformat_泌尿器_背景情報 のコピー - raw.csv",
+  "map": {
+    "inst_patientID2": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_status": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "gender": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "age": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "height": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "weight": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_history": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_years": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_perday": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_frequency": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_perday": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "notes": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_details": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer_original": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_note": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_diagnosis_date": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_diagnosis_method": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_diagnosis_note": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology_original": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tumor_details": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_x": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_y": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_z": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "n_L1": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "m_L1_original": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tumor_metastasis": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Brain": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_HeadNeck": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Oral": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Thyroid": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Esophagus": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Stomach": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Duodenal": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_SmallBowel": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Colon": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Liver": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Pancreas": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Gallbladder": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Spleen": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Breast": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Uterus": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Ovary": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Vulvar": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Testicular": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Bone": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Skin": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Lymphnode": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Lung": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Others": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_note": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_history": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_history_radiation": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "medication_history": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_note": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "occurence_classification": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "record_date": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer_original": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "m_L1": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer1": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer1": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer2": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer2": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer3": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer3": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer4": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer4": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer5": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer5": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer6": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer6": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patient_note": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "covid_history": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "withdrawn_from_study": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_chemotherapy": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_hormone_therapy": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_surgery": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_radiation": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_ESD": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer1": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer2": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tumor_location": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diagnosis_result": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology_differentiation": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "grade": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype2": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "Gleanson_score": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Prostate": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "t_L1": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_t_L1": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_m_L1": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "benign_tumor": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "NEM": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "Pheochromocytoma_Adrenal_gland_Scaled_Score": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_diabetes": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_angina_pectoris": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hypertension": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hyperlipidemia": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_asthma": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hydronephrosis": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_urinary_tract_infection": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_bladder_stones": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_kidney_stones": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_ureter_stones": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_urinary_retention": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_IPMN": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_colon_polyp": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cataract": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_pneumonia": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "inst_patientID2": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_status": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "gender": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "age": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "height": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "weight": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_history": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_years": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_perday": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_frequency": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_perday": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "notes": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_details": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer_original": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_note": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_diagnosis_date": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_diagnosis_method": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_diagnosis_note": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology_original": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tumor_details": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_x": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_y": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_z": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "n_L1": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "m_L1_original": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tumor_metastasis": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Brain": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_HeadNeck": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Oral": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Thyroid": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Esophagus": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Stomach": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Duodenal": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_SmallBowel": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Colon": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Liver": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Pancreas": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Gallbladder": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Spleen": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Breast": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Uterus": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Ovary": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Vulvar": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Testicular": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Bone": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Skin": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Lymphnode": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Lung": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Others": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_note": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_history": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_history_radiation": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "medication_history": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_note": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "occurence_classification": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "record_date": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer_original": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "m_L1": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer1": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer1": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer2": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer2": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer3": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer3": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer4": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer4": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer5": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer5": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer6": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer6": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patient_note": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "covid_history": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "withdrawn_from_study": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_chemotherapy": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_hormone_therapy": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_surgery": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_radiation": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_ESD": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer1": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer2": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tumor_location": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diagnosis_result": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology_differentiation": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "grade": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype2": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "Gleanson_score": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Prostate": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "t_L1": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_t_L1": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_m_L1": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "benign_tumor": {
+      "total": 1050,
+      "missing": 1009,
+      "isNA": 0
+    },
+    "NEM": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "Pheochromocytoma_Adrenal_gland_Scaled_Score": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_diabetes": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_angina_pectoris": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hypertension": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hyperlipidemia": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_asthma": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hydronephrosis": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_urinary_tract_infection": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_bladder_stones": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_kidney_stones": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_ureter_stones": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_urinary_retention": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_IPMN": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_colon_polyp": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cataract": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_pneumonia": {
+      "total": 1050,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

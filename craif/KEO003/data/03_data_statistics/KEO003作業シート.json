@@ -1,0 +1,247 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\KEO003\\data\\00_raw\\【修正2】KEO003作業シート.csv",
+  "map": {
+    "tubeNo": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_date": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "sampletypeEN": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_timing_details": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patient_note": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patientID": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseEN": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_timing": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "recurrence_collection_timing": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "delivery_date": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "invasion_depth_original": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "n_L1": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "m_L1": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "invasion_depth": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "t_L2": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "t_L1": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_method": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_timing_detailsEN": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_chemotherapy": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_surgery": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_radiation": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_ESD": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_NAC": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "tubeNo": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_date": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "sampletypeEN": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_timing_details": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patient_note": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patientID": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseEN": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_timing": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "recurrence_collection_timing": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "delivery_date": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "invasion_depth_original": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "n_L1": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "m_L1": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "invasion_depth": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "t_L2": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "t_L1": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_method": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_timing_detailsEN": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_chemotherapy": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_surgery": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_radiation": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_ESD": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_NAC": {
+      "total": 18040,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

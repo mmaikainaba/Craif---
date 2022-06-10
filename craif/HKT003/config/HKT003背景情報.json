@@ -1,0 +1,777 @@
+{
+  "id": "00e99e76-c12d-494a-bd21-4ee6384434a1",
+  "name": "HKT003背景情報",
+  "file": "../data/00_raw/臨床情報リスト_北斗_背景情報.csv",
+  "column_line": 1,
+  "mapping": {
+    "inst_patientID": "患者番号",
+    "gender": "性別",
+    "age": "年齢",
+    "height": "身長",
+    "weight": "体重",
+    "smoking_history": "喫煙歴",
+    "smoking_years": "喫煙年数",
+    "smoking_perday": "1日の喫煙本数",
+    "alcohol": "飲酒歴",
+    "alcohol_frequency": "頻度",
+    "alcohol_perday": "1日当たりの飲酒量",
+    "disease_history_cancer_original": "癌/腫瘍(1)",
+    "disease_history_cancer2": "癌/腫瘍(2)",
+    "disease_history_others": "既往歴備考",
+    "disease_history_note": "既往歴備考",
+    "comorbidity_cancer_original": "癌/腫瘍",
+    "comorbidity_diabetes": "糖尿病",
+    "comorbidity_hypertension": "高血圧",
+    "comorbidity_note": "現病歴備考",
+    "family_history_related_diseases": "関連疾患",
+    "family_history_cancer_original": "家族歴備考",
+    "disease_history_cancer": "癌/腫瘍(1)",
+    "disease_history_cancer1": "癌/腫瘍(1)",
+    "comorbidity_cancer": "癌/腫瘍",
+    "comorbidity_cancer1": "癌/腫瘍",
+    "family_history_cancer": "家族歴備考",
+    "family_history_cancer1": "家族歴備考",
+    "family_member_cancer1": "家族歴備考",
+    "family_history_cancer2": "家族歴備考",
+    "family_member_cancer2": "家族歴備考",
+    "family_history_cancer3": "家族歴備考",
+    "family_member_cancer3": "家族歴備考",
+    "family_history_cancer4": "家族歴備考",
+    "family_member_cancer4": "家族歴備考",
+    "family_history_cancer5": "家族歴備考",
+    "family_member_cancer5": "家族歴備考",
+    "family_history_cancer6": "家族歴備考",
+    "family_member_cancer6": "家族歴備考",
+    "surgery_history": "既往歴備考",
+    "occurence_classification": "現病歴備考",
+    "meta_Liver": "現病歴備考"
+  },
+  "transform": [
+    {
+      "column": "disease_history_cancer",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "大腸がん": "(+)",
+            "non": "(-)",
+            "子宮頸がん": "(+)",
+            "乳がん": "(+)",
+            "甲状腺がん": "(+)",
+            "子宮内膜症": "benign",
+            "なし": "(-)",
+            "神経線維腫": "benign",
+            "髄膜腫": "benign",
+            "直腸がん": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cancer1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "大腸がん": "Colorectal",
+            "non": "",
+            "子宮頸がん": "Cervix",
+            "乳がん": "Breast",
+            "甲状腺がん": "Thyroid",
+            "子宮内膜症": "Endometriosis",
+            "なし": "",
+            "神経線維腫": "Neurofibroma",
+            "髄膜腫": "Meningioma",
+            "直腸がん": "Colorectal"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_cancer",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*がん).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_cancer1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*乳).*$",
+            "replacement": "Breast"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*胃).*$",
+            "replacement": "Stomach"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(Breast|Stomach)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_cancer",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": ".+",
+            "replacement": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_cancer1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "従姉妹（母方）3名乳癌。叔母子宮体癌、従姉妹が脳腫瘍、叔父が食道癌（肺転移）。": "Breast",
+            "母乳癌": "Breast",
+            "姉乳癌・父方祖母胃癌": "Breast",
+            "父胃癌": "Stomach",
+            "母乳癌・妹さんがHBOC": "Breast",
+            "姉乳癌・兄肝臓癌・母胆管癌": "Breast",
+            "父肺がん": "Lung",
+            "叔母（母方）→肺癌": "Lung",
+            "おば(母方)→乳癌 祖父(母方)→大腸癌 おば(母方)→直腸癌": "Breast",
+            "兄、弟→胃癌": "Stomach",
+            "祖母（母方）→右乳癌、祖父(母方)→肺癌、叔父(父方)→肝臓癌": "Breast",
+            "父→肝臓癌、母→子宮頚癌": "Liver",
+            "母→大腸癌、おば（父方）→胃癌、おじ（母方）→肝臓癌": "Colorectal",
+            "父": "",
+            "母　妹→膵臓癌": "Pancreas",
+            "叔母": "",
+            "姉・妹→乳癌   HBOCの可能性大": "Breast",
+            "父→腎臓癌、祖父(父方)→肺癌": "Kidney",
+            "叔母(母方)・叔母(父方)・いとこ(母方)→乳癌": "Breast",
+            "母→肺癌": "Lung",
+            "妹": "",
+            "父：胃癌": "Stomach",
+            "叔母（母方）乳癌、祖母（母方）→骨肉腫、祖母（父方）→膵臓癌、叔父（父方）→膀胱癌、叔母（母方）→胃癌": "Breast",
+            "母：膵癌、 姉：胃癌": "Pancreas",
+            "母：骨肉腫": "Bone",
+            "母：脳腫瘍、父：膀胱癌": "Brain",
+            "姉（三女）:胃癌、姉（四女）：肺癌、姉（五女）：腎臓癌": "Stomach",
+            "大腸癌：母、腎臓癌：妹": "Colorectal"
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_member_cancer1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "従姉妹（母方）3名乳癌。叔母子宮体癌、従姉妹が脳腫瘍、叔父が食道癌（肺転移）。": "Cousin",
+            "母乳癌": "Mother",
+            "姉乳癌・父方祖母胃癌": "Sister",
+            "父胃癌": "Father",
+            "母乳癌・妹さんがHBOC": "Mother",
+            "姉乳癌・兄肝臓癌・母胆管癌": "Sister",
+            "父肺がん": "Father",
+            "叔母（母方）→肺癌": "Aunt",
+            "おば(母方)→乳癌 祖父(母方)→大腸癌 おば(母方)→直腸癌": "Aunt",
+            "兄、弟→胃癌": "Brother",
+            "祖母（母方）→右乳癌、祖父(母方)→肺癌、叔父(父方)→肝臓癌": "Grandmother",
+            "父→肝臓癌、母→子宮頚癌": "Father",
+            "母→大腸癌、おば（父方）→胃癌、おじ（母方）→肝臓癌": "Mother",
+            "父": "Father",
+            "母　妹→膵臓癌": "Mother",
+            "叔母": "Aunt",
+            "姉・妹→乳癌   HBOCの可能性大": "Sister",
+            "父→腎臓癌、祖父(父方)→肺癌": "Father",
+            "叔母(母方)・叔母(父方)・いとこ(母方)→乳癌": "Aunt",
+            "母→肺癌": "Mother",
+            "妹": "Sister",
+            "父：胃癌": "Father",
+            "叔母（母方）乳癌、祖母（母方）→骨肉腫、祖母（父方）→膵臓癌、叔父（父方）→膀胱癌、叔母（母方）→胃癌": "Aunt",
+            "母：膵癌、 姉：胃癌": "Mother",
+            "母：骨肉腫": "Mother",
+            "母：脳腫瘍、父：膀胱癌": "Mother",
+            "姉（三女）:胃癌、姉（四女）：肺癌、姉（五女）：腎臓癌": "Sister",
+            "大腸癌：母、腎臓癌：妹": "Mother"
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_cancer2",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "従姉妹（母方）3名乳癌。叔母子宮体癌、従姉妹が脳腫瘍、叔父が食道癌（肺転移）。": "Uterus",
+            "母乳癌": "",
+            "姉乳癌・父方祖母胃癌": "Stomach",
+            "父胃癌": "",
+            "母乳癌・妹さんがHBOC": "HBOC",
+            "姉乳癌・兄肝臓癌・母胆管癌": "Liver",
+            "父肺がん": "",
+            "叔母（母方）→肺癌": "",
+            "おば(母方)→乳癌 祖父(母方)→大腸癌 おば(母方)→直腸癌": "Colorectal",
+            "兄、弟→胃癌": "Stomach",
+            "祖母（母方）→右乳癌、祖父(母方)→肺癌、叔父(父方)→肝臓癌": "Lung",
+            "父→肝臓癌、母→子宮頚癌": "Cervix",
+            "母→大腸癌、おば（父方）→胃癌、おじ（母方）→肝臓癌": "Stomach",
+            "父": "",
+            "母　妹→膵臓癌": "Pancreas",
+            "叔母": "",
+            "姉・妹→乳癌   HBOCの可能性大": "Breast",
+            "父→腎臓癌、祖父(父方)→肺癌": "Lung",
+            "叔母(母方)・叔母(父方)・いとこ(母方)→乳癌": "Breast",
+            "母→肺癌": "",
+            "妹": "",
+            "父：胃癌": "",
+            "叔母（母方）乳癌、祖母（母方）→骨肉腫、祖母（父方）→膵臓癌、叔父（父方）→膀胱癌、叔母（母方）→胃癌": "Bone",
+            "母：膵癌、 姉：胃癌": "Stomach",
+            "母：骨肉腫": "",
+            "母：脳腫瘍、父：膀胱癌": "Bladder",
+            "姉（三女）:胃癌、姉（四女）：肺癌、姉（五女）：腎臓癌": "Lung",
+            "大腸癌：母、腎臓癌：妹": "Kidney"
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_member_cancer2",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "従姉妹（母方）3名乳癌。叔母子宮体癌、従姉妹が脳腫瘍、叔父が食道癌（肺転移）。": "Aunt",
+            "母乳癌": "",
+            "姉乳癌・父方祖母胃癌": "Grandmother",
+            "父胃癌": "",
+            "母乳癌・妹さんがHBOC": "Sister",
+            "姉乳癌・兄肝臓癌・母胆管癌": "Brother",
+            "父肺がん": "",
+            "叔母（母方）→肺癌": "",
+            "おば(母方)→乳癌 祖父(母方)→大腸癌 おば(母方)→直腸癌": "Aunt",
+            "兄、弟→胃癌": "Brother",
+            "祖母（母方）→右乳癌、祖父(母方)→肺癌、叔父(父方)→肝臓癌": "Grandfather",
+            "父→肝臓癌、母→子宮頚癌": "Mother",
+            "母→大腸癌、おば（父方）→胃癌、おじ（母方）→肝臓癌": "Aunt",
+            "父": "",
+            "母　妹→膵臓癌": "Sister",
+            "叔母": "",
+            "姉・妹→乳癌   HBOCの可能性大": "Sister",
+            "父→腎臓癌、祖父(父方)→肺癌": "Grandfather",
+            "叔母(母方)・叔母(父方)・いとこ(母方)→乳癌": "Aunt",
+            "母→肺癌": "",
+            "妹": "",
+            "父：胃癌": "",
+            "叔母（母方）乳癌、祖母（母方）→骨肉腫、祖母（父方）→膵臓癌、叔父（父方）→膀胱癌、叔母（母方）→胃癌": "Grandmother",
+            "母：膵癌、 姉：胃癌": "Sister",
+            "母：骨肉腫": "",
+            "母：脳腫瘍、父：膀胱癌": "Father",
+            "姉（三女）:胃癌、姉（四女）：肺癌、姉（五女）：腎臓癌": "Sister",
+            "大腸癌：母、腎臓癌：妹": "Sister"
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_cancer3",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "従姉妹（母方）3名乳癌。叔母子宮体癌、従姉妹が脳腫瘍、叔父が食道癌（肺転移）。": "Brain",
+            "母乳癌": "",
+            "姉乳癌・父方祖母胃癌": "",
+            "父胃癌": "",
+            "母乳癌・妹さんがHBOC": "",
+            "姉乳癌・兄肝臓癌・母胆管癌": "Bile duct",
+            "父肺がん": "",
+            "叔母（母方）→肺癌": "",
+            "おば(母方)→乳癌 祖父(母方)→大腸癌 おば(母方)→直腸癌": "Colorectal",
+            "兄、弟→胃癌": "",
+            "祖母（母方）→右乳癌、祖父(母方)→肺癌、叔父(父方)→肝臓癌": "Liver",
+            "父→肝臓癌、母→子宮頚癌": "",
+            "母→大腸癌、おば（父方）→胃癌、おじ（母方）→肝臓癌": "Liver",
+            "父": "",
+            "母　妹→膵臓癌": "",
+            "叔母": "",
+            "姉・妹→乳癌   HBOCの可能性大": "",
+            "父→腎臓癌、祖父(父方)→肺癌": "",
+            "叔母(母方)・叔母(父方)・いとこ(母方)→乳癌": "Breast",
+            "母→肺癌": "",
+            "妹": "",
+            "父：胃癌": "",
+            "叔母（母方）乳癌、祖母（母方）→骨肉腫、祖母（父方）→膵臓癌、叔父（父方）→膀胱癌、叔母（母方）→胃癌": "Pancreas",
+            "母：膵癌、 姉：胃癌": "",
+            "母：骨肉腫": "",
+            "母：脳腫瘍、父：膀胱癌": "",
+            "姉（三女）:胃癌、姉（四女）：肺癌、姉（五女）：腎臓癌": "Kidney",
+            "大腸癌：母、腎臓癌：妹": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_member_cancer3",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "従姉妹（母方）3名乳癌。叔母子宮体癌、従姉妹が脳腫瘍、叔父が食道癌（肺転移）。": "Cousin",
+            "母乳癌": "",
+            "姉乳癌・父方祖母胃癌": "",
+            "父胃癌": "",
+            "母乳癌・妹さんがHBOC": "",
+            "姉乳癌・兄肝臓癌・母胆管癌": "Mother",
+            "父肺がん": "",
+            "叔母（母方）→肺癌": "",
+            "おば(母方)→乳癌 祖父(母方)→大腸癌 おば(母方)→直腸癌": "Aunt",
+            "兄、弟→胃癌": "",
+            "祖母（母方）→右乳癌、祖父(母方)→肺癌、叔父(父方)→肝臓癌": "Uncle",
+            "父→肝臓癌、母→子宮頚癌": "",
+            "母→大腸癌、おば（父方）→胃癌、おじ（母方）→肝臓癌": "Uncle",
+            "父": "",
+            "母　妹→膵臓癌": "",
+            "叔母": "",
+            "姉・妹→乳癌   HBOCの可能性大": "",
+            "父→腎臓癌、祖父(父方)→肺癌": "",
+            "叔母(母方)・叔母(父方)・いとこ(母方)→乳癌": "Cousin",
+            "母→肺癌": "",
+            "妹": "",
+            "父：胃癌": "",
+            "叔母（母方）乳癌、祖母（母方）→骨肉腫、祖母（父方）→膵臓癌、叔父（父方）→膀胱癌、叔母（母方）→胃癌": "Grandmother",
+            "母：膵癌、 姉：胃癌": "",
+            "母：骨肉腫": "",
+            "母：脳腫瘍、父：膀胱癌": "",
+            "姉（三女）:胃癌、姉（四女）：肺癌、姉（五女）：腎臓癌": "Sister",
+            "大腸癌：母、腎臓癌：妹": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_cancer4",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "従姉妹（母方）3名乳癌。叔母子宮体癌、従姉妹が脳腫瘍、叔父が食道癌（肺転移）。": "Esophageal",
+            "叔母（母方）乳癌、祖母（母方）→骨肉腫、祖母（父方）→膵臓癌、叔父（父方）→膀胱癌、叔母（母方）→胃癌": "Bladder"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(Bladder|Esophageal)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_member_cancer4",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "従姉妹（母方）3名乳癌。叔母子宮体癌、従姉妹が脳腫瘍、叔父が食道癌（肺転移）。": "Uncle",
+            "叔母（母方）乳癌、祖母（母方）→骨肉腫、祖母（父方）→膵臓癌、叔父（父方）→膀胱癌、叔母（母方）→胃癌": "Uncle"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!Uncle).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_cancer5",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "従姉妹（母方）3名乳癌。叔母子宮体癌、従姉妹が脳腫瘍、叔父が食道癌（肺転移）。": "Breast",
+            "叔母（母方）乳癌、祖母（母方）→骨肉腫、祖母（父方）→膵臓癌、叔父（父方）→膀胱癌、叔母（母方）→胃癌": "Stomach"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(Stomach|Breast)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_member_cancer5",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "従姉妹（母方）3名乳癌。叔母子宮体癌、従姉妹が脳腫瘍、叔父が食道癌（肺転移）。": "Cousin",
+            "叔母（母方）乳癌、祖母（母方）→骨肉腫、祖母（父方）→膵臓癌、叔父（父方）→膀胱癌、叔母（母方）→胃癌": "Aunt"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(Cousin|Aunt)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_cancer6",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "従姉妹（母方）3名乳癌。叔母子宮体癌、従姉妹が脳腫瘍、叔父が食道癌（肺転移）。": "Breast"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!Breast).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_member_cancer6",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "従姉妹（母方）3名乳癌。叔母子宮体癌、従姉妹が脳腫瘍、叔父が食道癌（肺転移）。": "Cousin"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!Cousin).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_others",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "右乳癌手術1998年2月": "",
+            "2010年、2014年右乳房石灰化・2011年右頭部腫瘍": "",
+            "2015年手術": "",
+            "甲状腺癌2016年手術": "",
+            "2011年2016年手術": "",
+            "子宮筋腫（35歳のとき全摘）": "Uterine fibroids",
+            "子宮筋腫（49歳のとき部分切除）": "",
+            "子宮内膜症(24歳のとき）": "Endometriosis",
+            "子宮内膜症": "Endometriosis",
+            "卵巣嚢腫（22歳のとき）": "Ovarian cysts",
+            "子宮全摘、卵巣摘出": "",
+            "2009右摘出": "",
+            "2013,2020手術": "",
+            "口蓋腫瘍": "Palatal neoplasm",
+            "甲状腺腫瘍": "Goiter",
+            "2017乳癌摘出": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "surgery_history",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*(術|摘|切除)).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "occurence_classification",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*再発).*$",
+            "replacement": "Recurrent"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!Recurrent).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Liver",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*肝).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "gender",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "男": "Male",
+            "女": "Female"
+          }
+        }
+      ]
+    },
+    {
+      "column": "smoking_history",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "吸っている": "Current use",
+            "過去に吸っていた": "Past used",
+            "吸っていない": "Never used",
+            "NA": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "smoking_perday",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "本",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "alcohol",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "yes",
+            "なし": "no",
+            "NA": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "alcohol_frequency",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "毎日": "every day",
+            "月に数日": "occasionally",
+            "週に3−４日": "3-4 days a week"
+          }
+        }
+      ]
+    },
+    {
+      "column": "alcohol_perday",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "ビール3合": "3 cans of beer",
+            "焼酎水割り4杯": "4 glasses of shochu with water",
+            "500mlビール2本": "1000 ml of beer",
+            "1合未満": "1 cup",
+            "1-2合未満": "1-2 cups",
+            "2-3合未満": "2-3 cups",
+            "ビール2缶": "2 cans of beer",
+            "3合以上": "3 cups",
+            "500ml": "500ml",
+            "NA": "",
+            "機会飲酒": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cancer2",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "咽頭がん": "Pharyngeal",
+            "甲状腺がん": "Thyroid",
+            "直腸S状結腸移行部がん": "Colorectal"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_others",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "卵巣嚢腫": "Ovarian cysts",
+            "良性乳腺疾患": "Benign breast disorders",
+            "急性腎盂腎炎": "Acute pyelonephritis",
+            "慢性腎不全": "Chronic renal insufficiency"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_diabetes",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_hypertension",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)",
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_related_diseases",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    { "name": "inst_patientID", "description": "患者番号" },
+    { "name": "gender", "description": "性別" },
+    { "name": "age", "description": "年齢" },
+    { "name": "height", "description": "身長" },
+    { "name": "weight", "description": "体重" },
+    { "name": "smoking_history", "description": "喫煙歴" },
+    { "name": "smoking_years", "description": "喫煙年数" },
+    { "name": "smoking_perday", "description": "1日の喫煙本数" },
+    { "name": "alcohol", "description": "飲酒歴" },
+    { "name": "alcohol_frequency", "description": "頻度" },
+    { "name": "alcohol_perday", "description": "1日当たりの飲酒量" },
+    { "name": "disease_history_cancer_original", "description": "癌/腫瘍(1)" },
+    { "name": "disease_history_cancer2", "description": "癌/腫瘍(2)" },
+    { "name": "disease_history_others", "description": "その他関連疾患" },
+    { "name": "disease_history_note", "description": "既往歴備考" },
+    { "name": "comorbidity_cancer_original", "description": "癌/腫瘍" },
+    { "name": "comorbidity_diabetes", "description": "糖尿病" },
+    { "name": "comorbidity_hypertension", "description": "高血圧" },
+    { "name": "comorbidity_note", "description": "現病歴備考" },
+    { "name": "family_history_related_diseases", "description": "関連疾患" },
+    { "name": "family_history_cancer_original", "description": "家族歴備考" },
+    { "name": "disease_history_cancer", "description": "癌/腫瘍(1)" },
+    { "name": "disease_history_cancer1", "description": "癌/腫瘍(1)" },
+    { "name": "comorbidity_cancer", "description": "癌/腫瘍" },
+    { "name": "comorbidity_cancer1", "description": "癌/腫瘍" },
+    { "name": "family_history_cancer", "description": "家族歴備考" },
+    { "name": "family_history_cancer1", "description": "家族歴備考" },
+    { "name": "family_member_cancer1", "description": "家族歴備考" },
+    { "name": "family_history_cancer2", "description": "家族歴備考" },
+    { "name": "family_member_cancer2", "description": "家族歴備考" },
+    { "name": "family_history_cancer3", "description": "家族歴備考" },
+    { "name": "family_member_cancer3", "description": "家族歴備考" },
+    { "name": "family_history_cancer4", "description": "家族歴備考" },
+    { "name": "family_member_cancer4", "description": "家族歴備考" },
+    { "name": "family_history_cancer5", "description": "家族歴備考" },
+    { "name": "family_member_cancer5", "description": "家族歴備考" },
+    { "name": "family_history_cancer6", "description": "家族歴備考" },
+    { "name": "family_member_cancer6", "description": "家族歴備考" },
+    { "name": "disease_history_others", "description": "既往歴備考" },
+    { "name": "surgery_history", "description": "既往歴備考" },
+    { "name": "occurence_classification", "description": "現病歴備考" },
+    { "name": "meta_Liver", "description": "現病歴備考" }
+  ]
+}

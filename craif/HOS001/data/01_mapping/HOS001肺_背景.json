@@ -1,0 +1,1046 @@
+[
+  {
+    "inst_patientID": "616505",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール1本",
+    "disease_history_note": "高血圧",
+    "disease_history_cancer": "高血圧",
+    "disease_history_cancer1": "高血圧",
+    "surgery_history": "高血圧"
+  },
+  {
+    "inst_patientID": "572461",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "子宮頸がんで手術歴あり",
+    "disease_history_cancer": "子宮頸がんで手術歴あり",
+    "disease_history_cancer1": "子宮頸がんで手術歴あり",
+    "surgery_history": "子宮頸がんで手術歴あり"
+  },
+  {
+    "inst_patientID": "131530",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "高血圧、脂質異常症、糖尿病、間質性肺炎",
+    "disease_history_cancer": "高血圧、脂質異常症、糖尿病、間質性肺炎",
+    "disease_history_cancer1": "高血圧、脂質異常症、糖尿病、間質性肺炎",
+    "surgery_history": "高血圧、脂質異常症、糖尿病、間質性肺炎"
+  },
+  {
+    "inst_patientID": "181133",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "635524",
+    "alcohol_frequency": "機会飲酒のみ",
+    "alcohol_perday": "",
+    "disease_history_note": "高血圧、脂質異常症",
+    "disease_history_cancer": "高血圧、脂質異常症",
+    "disease_history_cancer1": "高血圧、脂質異常症",
+    "surgery_history": "高血圧、脂質異常症"
+  },
+  {
+    "inst_patientID": "635096",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール8本",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "310559",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール1本",
+    "disease_history_note": "高血圧、糖尿病、脳梗塞",
+    "disease_history_cancer": "高血圧、糖尿病、脳梗塞",
+    "disease_history_cancer1": "高血圧、糖尿病、脳梗塞",
+    "surgery_history": "高血圧、糖尿病、脳梗塞"
+  },
+  {
+    "inst_patientID": "325687",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール1本",
+    "disease_history_note": "子宮筋腫で手術",
+    "disease_history_cancer": "子宮筋腫で手術",
+    "disease_history_cancer1": "子宮筋腫で手術",
+    "surgery_history": "子宮筋腫で手術"
+  },
+  {
+    "inst_patientID": "403226",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール2本",
+    "disease_history_note": "腫瘤形成性膵炎術後（膵体尾部切除）",
+    "disease_history_cancer": "腫瘤形成性膵炎術後（膵体尾部切除）",
+    "disease_history_cancer1": "腫瘤形成性膵炎術後（膵体尾部切除）",
+    "surgery_history": "腫瘤形成性膵炎術後（膵体尾部切除）"
+  },
+  {
+    "inst_patientID": "83419",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール3本",
+    "disease_history_note": "胃癌術後、補助化学療法でTS1内服後",
+    "disease_history_cancer": "胃癌術後、補助化学療法でTS1内服後",
+    "disease_history_cancer1": "胃癌術後、補助化学療法でTS1内服後",
+    "surgery_history": "胃癌術後、補助化学療法でTS1内服後"
+  },
+  {
+    "inst_patientID": "3718",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール3本",
+    "disease_history_note": "高血圧、脂質異常症、強皮症（自己免疫疾患）、間質性肺炎",
+    "disease_history_cancer": "高血圧、脂質異常症、強皮症（自己免疫疾患）、間質性肺炎",
+    "disease_history_cancer1": "高血圧、脂質異常症、強皮症（自己免疫疾患）、間質性肺炎",
+    "surgery_history": "高血圧、脂質異常症、強皮症（自己免疫疾患）、間質性肺炎"
+  },
+  {
+    "inst_patientID": "16816",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "",
+    "disease_history_note": "脂質異常症、糖尿病、COPD",
+    "disease_history_cancer": "脂質異常症、糖尿病、COPD",
+    "disease_history_cancer1": "脂質異常症、糖尿病、COPD",
+    "surgery_history": "脂質異常症、糖尿病、COPD"
+  },
+  {
+    "inst_patientID": "636096",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール500ml",
+    "disease_history_note": "高血圧、ASO、COPD",
+    "disease_history_cancer": "高血圧、ASO、COPD",
+    "disease_history_cancer1": "高血圧、ASO、COPD",
+    "surgery_history": "高血圧、ASO、COPD"
+  },
+  {
+    "inst_patientID": "15344",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "狭心症、脂質異常症、VSD術後",
+    "disease_history_cancer": "狭心症、脂質異常症、VSD術後",
+    "disease_history_cancer1": "狭心症、脂質異常症、VSD術後",
+    "surgery_history": "狭心症、脂質異常症、VSD術後"
+  },
+  {
+    "inst_patientID": "137004",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "焼酎1杯",
+    "disease_history_note": "高血圧、脂質異常症、糖尿病、ASO、慢性腎不全で透析中",
+    "disease_history_cancer": "高血圧、脂質異常症、糖尿病、ASO、慢性腎不全で透析中",
+    "disease_history_cancer1": "高血圧、脂質異常症、糖尿病、ASO、慢性腎不全で透析中",
+    "surgery_history": "高血圧、脂質異常症、糖尿病、ASO、慢性腎不全で透析中"
+  },
+  {
+    "inst_patientID": "111972",
+    "alcohol_frequency": "機会飲酒のみ",
+    "alcohol_perday": "",
+    "disease_history_note": "高血圧、脂質異常症、糖尿病、ASO、慢性腎不全で透析中",
+    "disease_history_cancer": "高血圧、脂質異常症、糖尿病、ASO、慢性腎不全で透析中",
+    "disease_history_cancer1": "高血圧、脂質異常症、糖尿病、ASO、慢性腎不全で透析中",
+    "surgery_history": "高血圧、脂質異常症、糖尿病、ASO、慢性腎不全で透析中"
+  },
+  {
+    "inst_patientID": "354156",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール500ml+日本酒1合",
+    "disease_history_note": "前立腺癌放射線治療後、高血圧",
+    "disease_history_cancer": "前立腺癌放射線治療後、高血圧",
+    "disease_history_cancer1": "前立腺癌放射線治療後、高血圧",
+    "surgery_history": "前立腺癌放射線治療後、高血圧"
+  },
+  {
+    "inst_patientID": "636315",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "脂質異常症",
+    "disease_history_cancer": "脂質異常症",
+    "disease_history_cancer1": "脂質異常症",
+    "surgery_history": "脂質異常症"
+  },
+  {
+    "inst_patientID": "245154",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "酎ハイ500ml×3本",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "137041",
+    "alcohol_frequency": "週1回",
+    "alcohol_perday": "日本酒1合",
+    "disease_history_note": "慢性関節リウマチ",
+    "disease_history_cancer": "慢性関節リウマチ",
+    "disease_history_cancer1": "慢性関節リウマチ",
+    "surgery_history": "慢性関節リウマチ"
+  },
+  {
+    "inst_patientID": "635793",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "胃癌術後、狭心症、COPD",
+    "disease_history_cancer": "胃癌術後、狭心症、COPD",
+    "disease_history_cancer1": "胃癌術後、狭心症、COPD",
+    "surgery_history": "胃癌術後、狭心症、COPD"
+  },
+  {
+    "inst_patientID": "325751",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "心房細動、COPD",
+    "disease_history_cancer": "心房細動、COPD",
+    "disease_history_cancer1": "心房細動、COPD",
+    "surgery_history": "心房細動、COPD"
+  },
+  {
+    "inst_patientID": "637170",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール850ml",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "621098",
+    "alcohol_frequency": "機会飲酒のみ",
+    "alcohol_perday": "",
+    "disease_history_note": "高血圧、脂質異常症、糖尿病",
+    "disease_history_cancer": "高血圧、脂質異常症、糖尿病",
+    "disease_history_cancer1": "高血圧、脂質異常症、糖尿病",
+    "surgery_history": "高血圧、脂質異常症、糖尿病"
+  },
+  {
+    "inst_patientID": "540799",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール1500ml",
+    "disease_history_note": "高血圧、COPD",
+    "disease_history_cancer": "高血圧、COPD",
+    "disease_history_cancer1": "高血圧、COPD",
+    "surgery_history": "高血圧、COPD"
+  },
+  {
+    "inst_patientID": "507247",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール700ml",
+    "disease_history_note": "高血圧、糖尿病",
+    "disease_history_cancer": "高血圧、糖尿病",
+    "disease_history_cancer1": "高血圧、糖尿病",
+    "surgery_history": "高血圧、糖尿病"
+  },
+  {
+    "inst_patientID": "432782",
+    "alcohol_frequency": "機会飲酒のみ",
+    "alcohol_perday": "",
+    "disease_history_note": "高血圧、脂質異常症、間質性肺炎",
+    "disease_history_cancer": "高血圧、脂質異常症、間質性肺炎",
+    "disease_history_cancer1": "高血圧、脂質異常症、間質性肺炎",
+    "surgery_history": "高血圧、脂質異常症、間質性肺炎"
+  },
+  {
+    "inst_patientID": "637546",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール700ml",
+    "disease_history_note": "COPD",
+    "disease_history_cancer": "COPD",
+    "disease_history_cancer1": "COPD",
+    "surgery_history": "COPD"
+  },
+  {
+    "inst_patientID": "354578",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "気管支喘息",
+    "disease_history_cancer": "気管支喘息",
+    "disease_history_cancer1": "気管支喘息",
+    "surgery_history": "気管支喘息"
+  },
+  {
+    "inst_patientID": "57909",
+    "alcohol_frequency": "機会飲酒のみ",
+    "alcohol_perday": "",
+    "disease_history_note": "食道癌術後、子宮癌術後、脂質異常症、COPD",
+    "disease_history_cancer": "食道癌術後、子宮癌術後、脂質異常症、COPD",
+    "disease_history_cancer1": "食道癌術後、子宮癌術後、脂質異常症、COPD",
+    "surgery_history": "食道癌術後、子宮癌術後、脂質異常症、COPD"
+  },
+  {
+    "inst_patientID": "296081",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール1000ml",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "622617",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "膀胱癌術後",
+    "disease_history_cancer": "膀胱癌術後",
+    "disease_history_cancer1": "膀胱癌術後",
+    "surgery_history": "膀胱癌術後"
+  },
+  {
+    "inst_patientID": "29952",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール2000ml",
+    "disease_history_note": "気管支喘息、脳梗塞",
+    "disease_history_cancer": "気管支喘息、脳梗塞",
+    "disease_history_cancer1": "気管支喘息、脳梗塞",
+    "surgery_history": "気管支喘息、脳梗塞"
+  },
+  {
+    "inst_patientID": "365277",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "COPD、間質性肺炎、狭心症",
+    "disease_history_cancer": "COPD、間質性肺炎、狭心症",
+    "disease_history_cancer1": "COPD、間質性肺炎、狭心症",
+    "surgery_history": "COPD、間質性肺炎、狭心症"
+  },
+  {
+    "inst_patientID": "13821",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール1000ml",
+    "disease_history_note": "高血圧、脂質異常症、COPD",
+    "disease_history_cancer": "高血圧、脂質異常症、COPD",
+    "disease_history_cancer1": "高血圧、脂質異常症、COPD",
+    "surgery_history": "高血圧、脂質異常症、COPD"
+  },
+  {
+    "inst_patientID": "638195",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "間質性肺炎",
+    "disease_history_cancer": "間質性肺炎",
+    "disease_history_cancer1": "間質性肺炎",
+    "surgery_history": "間質性肺炎"
+  },
+  {
+    "inst_patientID": "274178",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール1000ml",
+    "disease_history_note": "気管支喘息",
+    "disease_history_cancer": "気管支喘息",
+    "disease_history_cancer1": "気管支喘息",
+    "surgery_history": "気管支喘息"
+  },
+  {
+    "inst_patientID": "638025",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "高血圧、脳梗塞",
+    "disease_history_cancer": "高血圧、脳梗塞",
+    "disease_history_cancer1": "高血圧、脳梗塞",
+    "surgery_history": "高血圧、脳梗塞"
+  },
+  {
+    "inst_patientID": "619146",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "日本酒1合",
+    "disease_history_note": "大腸癌術後（術後補助化学療法あり）",
+    "disease_history_cancer": "大腸癌術後（術後補助化学療法あり）",
+    "disease_history_cancer1": "大腸癌術後（術後補助化学療法あり）",
+    "surgery_history": "大腸癌術後（術後補助化学療法あり）"
+  },
+  {
+    "inst_patientID": "311991",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "胃癌術後",
+    "disease_history_cancer": "胃癌術後",
+    "disease_history_cancer1": "胃癌術後",
+    "surgery_history": "胃癌術後"
+  },
+  {
+    "inst_patientID": "638901",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "COPD",
+    "disease_history_cancer": "COPD",
+    "disease_history_cancer1": "COPD",
+    "surgery_history": "COPD"
+  },
+  {
+    "inst_patientID": "353247",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール2000ml",
+    "disease_history_note": "高血圧、脂質異常症、COPD",
+    "disease_history_cancer": "高血圧、脂質異常症、COPD",
+    "disease_history_cancer1": "高血圧、脂質異常症、COPD",
+    "surgery_history": "高血圧、脂質異常症、COPD"
+  },
+  {
+    "inst_patientID": "114664",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "高血圧、乳癌術後",
+    "disease_history_cancer": "高血圧、乳癌術後",
+    "disease_history_cancer1": "高血圧、乳癌術後",
+    "surgery_history": "高血圧、乳癌術後"
+  },
+  {
+    "inst_patientID": "159105",
+    "alcohol_frequency": "機械飲酒のみ",
+    "alcohol_perday": "",
+    "disease_history_note": "脂質異常症、膵臓癌術後",
+    "disease_history_cancer": "脂質異常症、膵臓癌術後",
+    "disease_history_cancer1": "脂質異常症、膵臓癌術後",
+    "surgery_history": "脂質異常症、膵臓癌術後"
+  },
+  {
+    "inst_patientID": "53912",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "高血圧、糖尿病、肝臓癌",
+    "disease_history_cancer": "高血圧、糖尿病、肝臓癌",
+    "disease_history_cancer1": "高血圧、糖尿病、肝臓癌",
+    "surgery_history": "高血圧、糖尿病、肝臓癌"
+  },
+  {
+    "inst_patientID": "639355",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール500ml",
+    "disease_history_note": "高血圧、糖尿病、COPD",
+    "disease_history_cancer": "高血圧、糖尿病、COPD",
+    "disease_history_cancer1": "高血圧、糖尿病、COPD",
+    "surgery_history": "高血圧、糖尿病、COPD"
+  },
+  {
+    "inst_patientID": "393113",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "639434",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "大腸癌術後",
+    "disease_history_cancer": "大腸癌術後",
+    "disease_history_cancer1": "大腸癌術後",
+    "surgery_history": "大腸癌術後"
+  },
+  {
+    "inst_patientID": "489167",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "高血圧",
+    "disease_history_cancer": "高血圧",
+    "disease_history_cancer1": "高血圧",
+    "surgery_history": "高血圧"
+  },
+  {
+    "inst_patientID": "582466",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール1000ml",
+    "disease_history_note": "COPD",
+    "disease_history_cancer": "COPD",
+    "disease_history_cancer1": "COPD",
+    "surgery_history": "COPD"
+  },
+  {
+    "inst_patientID": "640570",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール250ml",
+    "disease_history_note": "脂質異常症、前立腺肥大",
+    "disease_history_cancer": "脂質異常症、前立腺肥大",
+    "disease_history_cancer1": "脂質異常症、前立腺肥大",
+    "surgery_history": "脂質異常症、前立腺肥大"
+  },
+  {
+    "inst_patientID": "641352",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "脂質異常症",
+    "disease_history_cancer": "脂質異常症",
+    "disease_history_cancer1": "脂質異常症",
+    "surgery_history": "脂質異常症"
+  },
+  {
+    "inst_patientID": "198654",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "大腸癌術後",
+    "disease_history_cancer": "大腸癌術後",
+    "disease_history_cancer1": "大腸癌術後",
+    "surgery_history": "大腸癌術後"
+  },
+  {
+    "inst_patientID": "193430",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール1500ml",
+    "disease_history_note": "高血圧、気管支喘息",
+    "disease_history_cancer": "高血圧、気管支喘息",
+    "disease_history_cancer1": "高血圧、気管支喘息",
+    "surgery_history": "高血圧、気管支喘息"
+  },
+  {
+    "inst_patientID": "366125",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール700ml",
+    "disease_history_note": "大腸癌術後",
+    "disease_history_cancer": "大腸癌術後",
+    "disease_history_cancer1": "大腸癌術後",
+    "surgery_history": "大腸癌術後"
+  },
+  {
+    "inst_patientID": "216318",
+    "alcohol_frequency": "週3回",
+    "alcohol_perday": "ビール350ml",
+    "disease_history_note": "子宮の絨毛上皮腫治療後",
+    "disease_history_cancer": "子宮の絨毛上皮腫治療後",
+    "disease_history_cancer1": "子宮の絨毛上皮腫治療後",
+    "surgery_history": "子宮の絨毛上皮腫治療後"
+  },
+  {
+    "inst_patientID": "223372",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "高血圧",
+    "disease_history_cancer": "高血圧",
+    "disease_history_cancer1": "高血圧",
+    "surgery_history": "高血圧"
+  },
+  {
+    "inst_patientID": "504737",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "脂質異常症",
+    "disease_history_cancer": "脂質異常症",
+    "disease_history_cancer1": "脂質異常症",
+    "surgery_history": "脂質異常症"
+  },
+  {
+    "inst_patientID": "641057",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール350ml",
+    "disease_history_note": "間質性肺炎",
+    "disease_history_cancer": "間質性肺炎",
+    "disease_history_cancer1": "間質性肺炎",
+    "surgery_history": "間質性肺炎"
+  },
+  {
+    "inst_patientID": "420070",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール350ml",
+    "disease_history_note": "高血圧、脂質異常症、外耳癌術後",
+    "disease_history_cancer": "高血圧、脂質異常症、外耳癌術後",
+    "disease_history_cancer1": "高血圧、脂質異常症、外耳癌術後",
+    "surgery_history": "高血圧、脂質異常症、外耳癌術後"
+  },
+  {
+    "inst_patientID": "132885",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "高血圧、慢性心不全、大腸癌術後",
+    "disease_history_cancer": "高血圧、慢性心不全、大腸癌術後",
+    "disease_history_cancer1": "高血圧、慢性心不全、大腸癌術後",
+    "surgery_history": "高血圧、慢性心不全、大腸癌術後"
+  },
+  {
+    "inst_patientID": "614475",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "焼酎5-6杯",
+    "disease_history_note": "高血圧、糖尿病",
+    "disease_history_cancer": "高血圧、糖尿病",
+    "disease_history_cancer1": "高血圧、糖尿病",
+    "surgery_history": "高血圧、糖尿病"
+  },
+  {
+    "inst_patientID": "184420",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール1500ml",
+    "disease_history_note": "高血圧、糖尿病、大腸癌術後",
+    "disease_history_cancer": "高血圧、糖尿病、大腸癌術後",
+    "disease_history_cancer1": "高血圧、糖尿病、大腸癌術後",
+    "surgery_history": "高血圧、糖尿病、大腸癌術後"
+  },
+  {
+    "inst_patientID": "594103",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "高血圧、間質性肺炎",
+    "disease_history_cancer": "高血圧、間質性肺炎",
+    "disease_history_cancer1": "高血圧、間質性肺炎",
+    "surgery_history": "高血圧、間質性肺炎"
+  },
+  {
+    "inst_patientID": "167459",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール500ml",
+    "disease_history_note": "脂質異常症",
+    "disease_history_cancer": "脂質異常症",
+    "disease_history_cancer1": "脂質異常症",
+    "surgery_history": "脂質異常症"
+  },
+  {
+    "inst_patientID": "136658",
+    "alcohol_frequency": "月1回",
+    "alcohol_perday": "ビール350ml",
+    "disease_history_note": "高血圧、COPD",
+    "disease_history_cancer": "高血圧、COPD",
+    "disease_history_cancer1": "高血圧、COPD",
+    "surgery_history": "高血圧、COPD"
+  },
+  {
+    "inst_patientID": "598153",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "高血圧、脂質異常症、慢性腎不全",
+    "disease_history_cancer": "高血圧、脂質異常症、慢性腎不全",
+    "disease_history_cancer1": "高血圧、脂質異常症、慢性腎不全",
+    "surgery_history": "高血圧、脂質異常症、慢性腎不全"
+  },
+  {
+    "inst_patientID": "477827",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "日本酒2合",
+    "disease_history_note": "高血圧、糖尿病、慢性関節リウマチ",
+    "disease_history_cancer": "高血圧、糖尿病、慢性関節リウマチ",
+    "disease_history_cancer1": "高血圧、糖尿病、慢性関節リウマチ",
+    "surgery_history": "高血圧、糖尿病、慢性関節リウマチ"
+  },
+  {
+    "inst_patientID": "609967",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "ビール350ml",
+    "disease_history_note": "脂質異常症、乳癌術後",
+    "disease_history_cancer": "脂質異常症、乳癌術後",
+    "disease_history_cancer1": "脂質異常症、乳癌術後",
+    "surgery_history": "脂質異常症、乳癌術後"
+  },
+  {
+    "inst_patientID": "131421",
+    "alcohol_frequency": "毎日",
+    "alcohol_perday": "焼酎水割り3杯",
+    "disease_history_note": "高血圧、COPD",
+    "disease_history_cancer": "高血圧、COPD",
+    "disease_history_cancer1": "高血圧、COPD",
+    "surgery_history": "高血圧、COPD"
+  },
+  {
+    "inst_patientID": "475733",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "髄膜腫で手術歴あり",
+    "disease_history_cancer": "髄膜腫で手術歴あり",
+    "disease_history_cancer1": "髄膜腫で手術歴あり",
+    "surgery_history": "髄膜腫で手術歴あり"
+  },
+  {
+    "inst_patientID": "339046",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "643784",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "635473",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "552352",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "634411",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "9682",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "532038",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "129893",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "644271",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "148166",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "345183",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "645392",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "497191",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "242042",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "497743",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "273504",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "198994",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "450792",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "645900",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "642484",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "334703",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "644228",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "646740",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "165362",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "136524",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "249719",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "645997",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "647098",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "647381",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "647515",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "420049",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "611965",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "494136",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "153109",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "85842",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "210615",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "647740",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "339095",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "142940",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "164522",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "17513",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "541377",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "644049",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "217673",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  },
+  {
+    "inst_patientID": "416728",
+    "alcohol_frequency": "",
+    "alcohol_perday": "",
+    "disease_history_note": "",
+    "disease_history_cancer": "",
+    "disease_history_cancer1": "",
+    "surgery_history": ""
+  }
+]

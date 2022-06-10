@@ -1,0 +1,102 @@
+{
+  "id": "092be2da-9900-4e7f-9087-3f542c7d8c0a",
+  "name": "JFC001背景情報",
+  "file": "../data/00_raw/JFC001背景情報.csv",
+  "column_line": 1,
+  "mapping": {
+    "inst_patientID": "患者番号",
+    "gender": "性別",
+    "age": "年齢",
+    "menopausal_status": "閉経前(0)後(1)",
+    "collection_during_menstruation": "月経中",
+    "childbirth": "出産",
+    "partner_presence": "パートナー",
+    "height": "身長",
+    "weight": "体重",
+    "smoking_history": "喫煙_なし(0)いままで(1)現在(2)",
+    "smoking_index": "喫煙指数(本数×年)",
+    "alcohol": "飲酒_なし(0)1日20gまで(1)それ以上_毎日(2)",
+    "family_history_breast_cancer": "3頭身以内_乳がん",
+    "family_history_ovary_cancer": "3頭身以内_卵巣がん",
+    "BRCA_mutation": "BRACAnalysis適応",
+    "BRACAnalysis": "BRACAnalysis施行",
+    "pathogenic_variants_VUS": "PVなし(0)あり(1)VUS(2)",
+    "smoking_perday": "喫煙指数(本数×年)",
+    "smoking_years": "喫煙指数(本数×年)"
+  },
+  "transform": [
+    {
+      "column": "menopausal_status",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "premenopause",
+            "1": "postmenopause"
+          }
+        }
+      ]
+    },
+    {
+      "column": "collection_during_menstruation",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "(-)",
+            "1": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "childbirth",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "(-)"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    { "name": "inst_patientID", "description": "患者番号" },
+    { "name": "gender", "description": "性別" },
+    { "name": "age", "description": "年齢" },
+    { "name": "menopausal_status", "description": "閉経前(0)後(1)" },
+    { "name": "collection_during_menstruation", "description": "月経中" },
+    { "name": "childbirth", "description": "出産" },
+    { "name": "partner_presence", "description": "パートナー" },
+    { "name": "height", "description": "身長" },
+    { "name": "weight", "description": "体重" },
+    {
+      "name": "smoking_history",
+      "description": "喫煙_なし(0)いままで(1)現在(2)"
+    },
+    { "name": "smoking_index", "description": "喫煙指数(本数×年)" },
+    {
+      "name": "alcohol",
+      "description": "飲酒_なし(0)1日20gまで(1)それ以上_毎日(2)"
+    },
+    {
+      "name": "family_history_breast_cancer",
+      "description": "3頭身以内_乳がん"
+    },
+    {
+      "name": "family_history_ovary_cancer",
+      "description": "3頭身以内_卵巣がん"
+    },
+    { "name": "BRCA_mutation", "description": "BRACAnalysis適応" },
+    { "name": "BRACAnalysis", "description": "BRACAnalysis施行" },
+    {
+      "name": "pathogenic_variants_VUS",
+      "description": "PVなし(0)あり(1)VUS(2)"
+    },
+    { "name": "smoking_perday", "description": "喫煙指数(本数×年)" },
+    { "name": "smoking_years", "description": "喫煙指数(本数×年)" }
+  ]
+}

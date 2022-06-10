@@ -1,0 +1,197 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\KEO001\\data\\00_raw\\臨床情報リスト_慶應_泌尿器_v2 のコピー - 入力リスト_検体情報.csv",
+  "map": {
+    "boxNo": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tubeNo": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_date": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "sampletypeEN": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_timing": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "recurrence": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "dispense_note": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "send_date": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patientID": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID2": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseEN": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "delivery_date": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "dispense_date": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "dispense_staffEN": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "occurence_classification": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "hemolyzed": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer1": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "boxNo": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tubeNo": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_date": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "sampletypeEN": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_timing": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "recurrence": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "dispense_note": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "send_date": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patientID": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID2": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diseaseEN": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "delivery_date": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "dispense_date": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "dispense_staffEN": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "occurence_classification": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "hemolyzed": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer1": {
+      "total": 5408,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

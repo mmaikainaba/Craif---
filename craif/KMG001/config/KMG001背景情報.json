@@ -1,0 +1,1163 @@
+{
+  "id": "9d34bb6f-a159-4bb8-a36e-4727003fc8b8",
+  "name": "KMG001背景情報",
+  "file": "../data/00_raw/臨床情報リスト_熊谷_乳がん_v3 のコピー - 乳_背景情報.csv",
+  "column_line": 1,
+  "mapping": {
+    "inst_patientID": "患者番号",
+    "institution_department": "施設名称",
+    "gender": "性別",
+    "age": "年齢",
+    "height": "身長",
+    "weight": "体重",
+    "smoking_history": "喫煙歴",
+    "smoking_years": "喫煙年数",
+    "smoking_perday": "1日の喫煙本数",
+    "alcohol": "飲酒歴",
+    "alcohol_frequency": "頻度",
+    "alcohol_perday": "1日当たりの飲酒量",
+    "disease_history_related_disease": "その他関連疾患",
+    "disease_history": "既往歴備考",
+    "family_history_cancer_note": "関連疾患",
+    "family_history_cancer_original": "家族歴備考",
+    "family_history_cancer": "家族歴備考",
+    "family_history_cancer1": "家族歴備考",
+    "family_member_cancer1": "家族歴備考",
+    "family_history_cancer2": "家族歴備考",
+    "family_member_cancer2": "家族歴備考",
+    "family_history_cancer3": "家族歴備考",
+    "family_member_cancer3": "家族歴備考",
+    "family_history_cancer4": "家族歴備考",
+    "family_member_cancer4": "家族歴備考",
+    "family_history_cancer5": "家族歴備考",
+    "family_member_cancer5": "家族歴備考",
+    "family_history_cancer6": "家族歴備考",
+    "family_member_cancer6": "家族歴備考",
+    "disease_history_cancer": "既往歴備考",
+    "disease_history_cancer1": "既往歴備考",
+    "disease_history_cancer2": "既往歴備考",
+    "disease_history_cancer3": "既往歴備考",
+    "disease_history_BPH": "既往歴備考",
+    "disease_history_cerebral_infarction": "既往歴備考",
+    "disease_history_hypertension": "既往歴備考",
+    "disease_history_dyslipidemia": "既往歴備考",
+    "disease_history_diabetes": "既往歴備考",
+    "disease_history_COPD": "既往歴備考",
+    "disease_history_asthma": "既往歴備考",
+    "disease_history_pneumonia": "既往歴備考",
+    "disease_history_cataract": "既往歴備考",
+    "disease_history_ appendicitis": "既往歴備考",
+    "disease_history_colon_polyp": "既往歴備考",
+    "disease_history_atrophic_gastritis": "既往歴備考",
+    "disease_history_gallstone": "既往歴備考",
+    "disease_history_hepatitis_C": "既往歴備考",
+    "disease_history_stomach_ulcer": "既往歴備考"
+  },
+  "transform": [
+    {
+      "column": "family_history_cancer",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "狭心症・頭頚部腫瘍(父)": "blunc",
+            "パーキンソン病(姉)": "blunc",
+            "胃潰瘍(母)": "benign"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(blunc|benign)).+$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "blunc": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_cancer1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "乳がん (姉)": "Breast",
+            "肝臓癌(母、夫)": "Liver",
+            "乳がん (叔母)、胃癌(叔父)": "Breast",
+            "胃癌(母、妹)": "Stomach",
+            "食道癌・前立腺癌(父)": "Esophagus",
+            "子宮癌(母)": "Cervix",
+            "乳がん (妹２人)": "Breast",
+            "胃癌(父)": "Stomach",
+            "大腸癌(父)": "Colorectal",
+            "肺癌(父),多発性硬化症(母),婦人科系の癌(姉)": "Lung",
+            "(兄)": "Colorectal",
+            "膵癌(父),脳梗塞(母)": "Pancreas",
+            "大腸癌,咽頭癌(いとこ)": "Colorectal",
+            "膵癌か肝癌(兄)": "Unknown",
+            "悪性リンパ腫(息子)": "Lymphoma",
+            "肺癌,肝癌,白血病(叔母)": "Lung",
+            "パーキンソン病(姉)": "",
+            "膵癌": "Pancreas",
+            "(母),前立腺癌(父),咽頭・胃癌(兄),子宮癌(妹),血液疾患(妹)": "Colorectal",
+            "(妹),胃癌(父,弟)": "Colorectal",
+            "狭心症・頭頚部腫瘍(父)": "",
+            "乳癌(母),子宮癌(姉)": "Breast",
+            "肝臓癌(父)": "Liver",
+            "卵巣癌(母)": "Ovary",
+            "胃癌(姉,母)": "Stomach",
+            "胃癌(両親,祖父母)": "Stomach",
+            "胃潰瘍(母)": "Stomach Benign",
+            "胃癌(叔父)": "Stomach",
+            "胃癌(弟)": "Stomach",
+            "胃癌(兄)": "Stomach",
+            "乳癌(妹)": "Breast",
+            "胃癌(祖母)": "Stomach",
+            "食道癌(母)": "Esophagus",
+            "血液のがん(父)、胃癌(叔父": "Leukemia",
+            "癌家系(詳細不明)": "",
+            "大腸癌(祖母,悪性リンパ腫)": "Colorectal",
+            "肝癌・肺癌(兄)": "Liver",
+            "乳癌(母)、ASL(父)": "Breast",
+            "兄、姉共に詳細不明の癌": "Unknown",
+            "姉、詳細不明の癌": "Unknown",
+            "肝臓癌(母)": "Liver"
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_member_cancer1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "乳がん (姉)": "Sister",
+            "肝臓癌(母、夫)": "Mother",
+            "乳がん (叔母)、胃癌(叔父)": "Grandmother",
+            "胃癌(母、妹)": "Mother",
+            "食道癌・前立腺癌(父)": "Father",
+            "子宮癌(母)": "Mother",
+            "乳がん (妹２人)": "Sister",
+            "胃癌(父)": "Father",
+            "大腸癌(父)": "Father",
+            "肺癌(父),多発性硬化症(母),婦人科系の癌(姉)": "Father",
+            "(兄)": "Brother",
+            "膵癌(父),脳梗塞(母)": "Father",
+            "大腸癌,咽頭癌(いとこ)": "Cousin",
+            "膵癌か肝癌(兄)": "Brother",
+            "悪性リンパ腫(息子)": "Son",
+            "肺癌,肝癌,白血病(叔母)": "Aunt",
+            "パーキンソン病(姉)": "",
+            "膵癌": "",
+            "(母),前立腺癌(父),咽頭・胃癌(兄),子宮癌(妹),血液疾患(妹)": "Mother",
+            "(妹),胃癌(父,弟)": "Sister",
+            "狭心症・頭頚部腫瘍(父)": "",
+            "乳癌(母),子宮癌(姉)": "Mother",
+            "肝臓癌(父)": "Father",
+            "卵巣癌(母)": "Mother",
+            "胃癌(姉,母)": "Mother",
+            "胃癌(両親,祖父母)": "Mother",
+            "胃潰瘍(母)": "Mother",
+            "胃癌(叔父)": "Uncle",
+            "胃癌(弟)": "Brother",
+            "胃癌(兄)": "Brother",
+            "乳癌(妹)": "Sister",
+            "胃癌(祖母)": "Grandmother",
+            "食道癌(母)": "Mother",
+            "血液のがん(父)、胃癌(叔父": "Father",
+            "癌家系(詳細不明)": "",
+            "大腸癌(祖母,悪性リンパ腫)": "Grandmother",
+            "肝癌・肺癌(兄)": "Brother",
+            "乳癌(母)、ASL(父)": "Mother",
+            "兄、姉共に詳細不明の癌": "Brother",
+            "姉、詳細不明の癌": "Sister",
+            "肝臓癌(母)": "Mother"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(Grandmother|Brother|Uncle|Father|Mother|Sister|Aunt|Son|Cousin)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_cancer2",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "乳がん (姉)": "",
+            "肝臓癌(母、夫)": "Liver",
+            "乳がん (叔母)、胃癌(叔父)": "Stomach",
+            "胃癌(母、妹)": "Stomach",
+            "食道癌・前立腺癌(父)": "Prostate",
+            "子宮癌(母)": "",
+            "乳がん (妹２人)": "",
+            "胃癌(父)": "",
+            "大腸癌(父)": "",
+            "肺癌(父),多発性硬化症(母),婦人科系の癌(姉)": "Gynecological",
+            "(兄)": "",
+            "膵癌(父),脳梗塞(母)": "Brain",
+            "大腸癌,咽頭癌(いとこ)": "Pharyngeal",
+            "膵癌か肝癌(兄)": "",
+            "悪性リンパ腫(息子)": "",
+            "肺癌,肝癌,白血病(叔母)": "Liver",
+            "パーキンソン病(姉)": "",
+            "膵癌": "",
+            "(母),前立腺癌(父),咽頭・胃癌(兄),子宮癌(妹),血液疾患(妹)": "Prostate",
+            "(妹),胃癌(父,弟)": "Stomach",
+            "狭心症・頭頚部腫瘍(父)": "",
+            "乳癌(母),子宮癌(姉)": "Cervix",
+            "肝臓癌(父)": "",
+            "卵巣癌(母)": "",
+            "胃癌(姉,母)": "Stomach",
+            "胃癌(両親,祖父母)": "Stomach",
+            "胃潰瘍(母)": "",
+            "胃癌(叔父)": "",
+            "胃癌(弟)": "",
+            "胃癌(兄)": "",
+            "乳癌(妹)": "",
+            "胃癌(祖母)": "",
+            "食道癌(母)": "",
+            "血液のがん(父)、胃癌(叔父": "Stomach",
+            "癌家系(詳細不明)": "",
+            "大腸癌(祖母,悪性リンパ腫)": "",
+            "肝癌・肺癌(兄)": "Lung",
+            "乳癌(母)、ASL(父)": "",
+            "兄、姉共に詳細不明の癌": "",
+            "姉、詳細不明の癌": "",
+            "肝臓癌(母)": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_member_cancer2",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "乳がん (姉)": "",
+            "肝臓癌(母、夫)": "Husband",
+            "乳がん (叔母)、胃癌(叔父)": "Grandfather",
+            "胃癌(母、妹)": "Sister",
+            "食道癌・前立腺癌(父)": "Father",
+            "子宮癌(母)": "",
+            "乳がん (妹２人)": "",
+            "胃癌(父)": "",
+            "大腸癌(父)": "",
+            "肺癌(父),多発性硬化症(母),婦人科系の癌(姉)": "",
+            "(兄)": "",
+            "膵癌(父),脳梗塞(母)": "Mother",
+            "大腸癌,咽頭癌(いとこ)": "Cousin",
+            "膵癌か肝癌(兄)": "",
+            "悪性リンパ腫(息子)": "",
+            "肺癌,肝癌,白血病(叔母)": "Aunt",
+            "パーキンソン病(姉)": "",
+            "膵癌": "",
+            "(母),前立腺癌(父),咽頭・胃癌(兄),子宮癌(妹),血液疾患(妹)": "Father",
+            "(妹),胃癌(父,弟)": "Father",
+            "狭心症・頭頚部腫瘍(父)": "",
+            "乳癌(母),子宮癌(姉)": "Sister",
+            "肝臓癌(父)": "",
+            "卵巣癌(母)": "",
+            "胃癌(姉,母)": "Sister",
+            "胃癌(両親,祖父母)": "Father",
+            "胃潰瘍(母)": "",
+            "胃癌(叔父)": "",
+            "胃癌(弟)": "",
+            "胃癌(兄)": "",
+            "乳癌(妹)": "",
+            "胃癌(祖母)": "",
+            "食道癌(母)": "",
+            "血液のがん(父)、胃癌(叔父": "Grandfather",
+            "癌家系(詳細不明)": "",
+            "大腸癌(祖母,悪性リンパ腫)": "",
+            "肝癌・肺癌(兄)": "Brother",
+            "乳癌(母)、ASL(父)": "",
+            "兄、姉共に詳細不明の癌": "Sister",
+            "姉、詳細不明の癌": "",
+            "肝臓癌(母)": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_cancer3",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "乳がん (姉)": "",
+            "肝臓癌(母、夫)": "",
+            "乳がん (叔母)、胃癌(叔父)": "",
+            "胃癌(母、妹)": "",
+            "食道癌・前立腺癌(父)": "",
+            "子宮癌(母)": "",
+            "乳がん (妹２人)": "",
+            "胃癌(父)": "",
+            "大腸癌(父)": "",
+            "肺癌(父),多発性硬化症(母),婦人科系の癌(姉)": "",
+            "(兄)": "",
+            "膵癌(父),脳梗塞(母)": "",
+            "大腸癌,咽頭癌(いとこ)": "",
+            "膵癌か肝癌(兄)": "",
+            "悪性リンパ腫(息子)": "",
+            "肺癌,肝癌,白血病(叔母)": "Leukemia",
+            "パーキンソン病(姉)": "",
+            "膵癌": "",
+            "(母),前立腺癌(父),咽頭・胃癌(兄),子宮癌(妹),血液疾患(妹)": "Pharyngeal",
+            "(妹),胃癌(父,弟)": "Stomach",
+            "狭心症・頭頚部腫瘍(父)": "",
+            "乳癌(母),子宮癌(姉)": "",
+            "肝臓癌(父)": "",
+            "卵巣癌(母)": "",
+            "胃癌(姉,母)": "",
+            "胃癌(両親,祖父母)": "Stomach",
+            "胃潰瘍(母)": "",
+            "胃癌(叔父)": "",
+            "胃癌(弟)": "",
+            "胃癌(兄)": "",
+            "乳癌(妹)": "",
+            "胃癌(祖母)": "",
+            "食道癌(母)": "",
+            "血液のがん(父)、胃癌(叔父": "",
+            "癌家系(詳細不明)": "",
+            "大腸癌(祖母,悪性リンパ腫)": "",
+            "肝癌・肺癌(兄)": "",
+            "乳癌(母)、ASL(父)": "",
+            "兄、姉共に詳細不明の癌": "",
+            "姉、詳細不明の癌": "",
+            "肝臓癌(母)": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_member_cancer3",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "乳がん (姉)": "",
+            "肝臓癌(母、夫)": "",
+            "乳がん (叔母)、胃癌(叔父)": "",
+            "胃癌(母、妹)": "",
+            "食道癌・前立腺癌(父)": "",
+            "子宮癌(母)": "",
+            "乳がん (妹２人)": "",
+            "胃癌(父)": "",
+            "大腸癌(父)": "",
+            "肺癌(父),多発性硬化症(母),婦人科系の癌(姉)": "",
+            "(兄)": "",
+            "膵癌(父),脳梗塞(母)": "",
+            "大腸癌,咽頭癌(いとこ)": "",
+            "膵癌か肝癌(兄)": "",
+            "悪性リンパ腫(息子)": "",
+            "肺癌,肝癌,白血病(叔母)": "Aunt",
+            "パーキンソン病(姉)": "",
+            "膵癌": "",
+            "(母),前立腺癌(父),咽頭・胃癌(兄),子宮癌(妹),血液疾患(妹)": "Brother",
+            "(妹),胃癌(父,弟)": "Brother",
+            "狭心症・頭頚部腫瘍(父)": "",
+            "乳癌(母),子宮癌(姉)": "",
+            "肝臓癌(父)": "",
+            "卵巣癌(母)": "",
+            "胃癌(姉,母)": "",
+            "胃癌(両親,祖父母)": "Grandfather",
+            "胃潰瘍(母)": "",
+            "胃癌(叔父)": "",
+            "胃癌(弟)": "",
+            "胃癌(兄)": "",
+            "乳癌(妹)": "",
+            "胃癌(祖母)": "",
+            "食道癌(母)": "",
+            "血液のがん(父)、胃癌(叔父": "",
+            "癌家系(詳細不明)": "",
+            "大腸癌(祖母,悪性リンパ腫)": "",
+            "肝癌・肺癌(兄)": "",
+            "乳癌(母)、ASL(父)": "",
+            "兄、姉共に詳細不明の癌": "",
+            "姉、詳細不明の癌": "",
+            "肝臓癌(母)": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_cancer4",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "(母),前立腺癌(父),咽頭・胃癌(兄),子宮癌(妹),血液疾患(妹)": "Stomach"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!Stomach).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_cancer5",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "(母),前立腺癌(父),咽頭・胃癌(兄),子宮癌(妹),血液疾患(妹)": "Cervix"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!Cervix).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_member_cancer4",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "(母),前立腺癌(父),咽頭・胃癌(兄),子宮癌(妹),血液疾患(妹)": "Brother"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!Brother).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_member_cancer5",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "(母),前立腺癌(父),咽頭・胃癌(兄),子宮癌(妹),血液疾患(妹)": "Sister"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!Sister).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cancer",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "早期胃癌,子宮筋腫": "(+)",
+            "乳癌,胆摘,大腸ポリープ": "(+)",
+            "萎縮性胃炎,左頸部腫瘤": "benign",
+            "子宮筋腫,早期胃がん,盲腸がん": "(+)",
+            "肝臓癌(母)": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*(筋腫|前立腺肥大|ポリープ|良性腫瘍)).*$",
+            "replacement": "benign"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*(癌|白血病|がん|腫瘍)).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(\\(\\+\\)|benign)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cancer1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "直腸癌(内視鏡治療)": "Stomach",
+            "子宮筋腫,両目白内障,やけど(皮膚移植)": "Uterus Benign",
+            "虫垂炎,バセドウ病,喘息,子宮筋腫,卵巣嚢腫,子宮ポリープ": "Uterus Benign",
+            "腰部良性腫瘍": "Bone Benign",
+            "白血病,大腿骨・手首骨折": "Leukemia",
+            "早期胃癌,子宮筋腫": "Stomach",
+            "胃癌,高血圧": "Stomach",
+            "早期大腸癌,食道穿孔ヘルニア,逆流性食道炎,慢性胃炎": "Colorectal",
+            "右乳癌,胆摘,虫垂炎": "Breast",
+            "乳癌,左肘部骨折": "Breast",
+            "右肩悪性腫瘍,乳癌": "Breast",
+            "子宮筋腫,早期胃がん,盲腸がん": "Stomach",
+            "前立腺癌,糖尿病": "Prostate",
+            "S状結腸癌,膿胸,高血圧,糖尿病": "Colorectal",
+            "高血圧症,糖尿病,胆石,肺癌,胃潰瘍": "Lung",
+            "頸椎損傷,直腸癌,急性心不全,頚椎症性脊髄症": "Stomach",
+            "胆摘,胃潰瘍(内視鏡治療),H.P除菌": "Stomach Benign",
+            "前立腺肥大症,花粉症": "Prostate Benign",
+            "心筋梗塞,高血圧,糖尿病,前立腺肥大症": "Prostate Benign",
+            "高血圧,大腸ポリープ,胃潰瘍": "Colon polyps",
+            "乳癌,胆摘,大腸ポリープ": "Breast",
+            "大腸ポリープ": "Colon polyps",
+            "萎縮性胃炎,左頸部腫瘤": "Neck Benign",
+            "S状結腸癌,虫垂炎,肺結核": "Colorectal",
+            "胆嚢癌": "Gallbladdder cancer",
+            "卵巣嚢腫、上行結腸癌、肝転移": "Colorectal",
+            "胃ポリープ": "Stomach polyps",
+            "膀胱癌": "Urothelial",
+            "胃癌、前立腺癌、胆石症": "Stomach",
+            "胃癌": "Stomach",
+            "子宮内膜症,右乳腺腫瘍": "Breast",
+            "子宮癌、乳癌、骨粗鬆症": "Breast",
+            "高血圧、前立腺肥大症": "Prostate Benign",
+            "前立腺肥大症": "Prostate Benign",
+            "乳癌": "Breast",
+            "慢性胆嚢炎,胃潰瘍": "Stomach Benign"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(Colon polyps|Stomach Benign|Bone Benign|Lung|Uterus Benign|Prostate Benign|Breast|Prostate|Neck Benign|Colorectal|Gallbladdder cancer|Colorectal|Stomach polyp|Urothelial|Stomach|Leukemia)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cancer2",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "虫垂炎,バセドウ病,喘息,子宮筋腫,卵巣嚢腫,子宮ポリープ": "Ovary Benign",
+            "早期胃癌,子宮筋腫": "Uterus Benign",
+            "子宮筋腫,早期胃がん,盲腸がん": "Colorectal",
+            "乳癌(2011年),胆摘,大腸ポリープ": "benign",
+            "卵巣嚢腫、上行結腸癌、肝転移": "Meta Liver",
+            "胃癌、前立腺癌、胆石症": "Prostate",
+            "子宮内膜症,右乳腺腫瘍": "Endometriosis"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(Ovary Benign|Uterus Benign|Colorectal|benign|Meta Liver|Prostate|Endometriosis)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cancer3",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "子宮筋腫,早期胃がん,盲腸がん": "Uterus Benign",
+            "卵巣嚢腫、上行結腸癌、肝転移": "Ovary Benign",
+            "乳癌,胆摘,大腸ポリープ": "Colon polyps"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(Uterus Benign|Ovary Benign|Colon polyps)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_cancer6",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "(母),前立腺癌(父),咽頭・胃癌(兄),子宮癌(妹),血液疾患(妹)": "Leukemia"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!Leukemia).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_member_cancer6",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "(母),前立腺癌(父),咽頭・胃癌(兄),子宮癌(妹),血液疾患(妹)": "Sister"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!Sister).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_BPH",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*前立腺肥大).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_hypertension",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*高血圧).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_dyslipidemia",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*脂質異常).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_diabetes",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*糖尿).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_COPD",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*COPD).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_asthma",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*喘息).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_pneumonia",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*肺炎).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cataract",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*白内障).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_ appendicitis",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*虫垂).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_colon_polyp",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*大腸ポリープ).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_atrophic_gastritis",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*萎縮性胃炎).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_gallstone",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*胆石).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cerebral_infarction",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*脳梗塞).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_hepatitis_C",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*C型).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_stomach_ulcer",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*胃潰瘍).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).*$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "institution_department",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "熊谷": "社会医療法人熊谷総合病院_医療技術部・検査科病理"
+          }
+        }
+      ]
+    },
+    {
+      "column": "gender",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "女": "Female",
+            "男": "Male"
+          }
+        }
+      ]
+    },
+    {
+      "column": "smoking_history",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "吸っている": "Current use",
+            "吸っていない": "Never used",
+            "過去に吸っていた": "Past used"
+          }
+        }
+      ]
+    },
+    {
+      "column": "smoking_perday",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "5~6": "6",
+            "3~5": "4",
+            "5~10": "8",
+            "20-40": "30",
+            "15-16": "16"
+          }
+        }
+      ]
+    },
+    {
+      "column": "alcohol",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "no",
+            "あり": "yes"
+          }
+        }
+      ]
+    },
+    {
+      "column": "alcohol_frequency",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "週に1-2日": "1-2 days a week",
+            "毎日": "every day",
+            "週に3−４日": "3-4 days a week",
+            "月に数日": "occasionally"
+          }
+        }
+      ]
+    },
+    {
+      "column": "alcohol_perday",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "機会飲酒": "",
+            "350mL+1合": "350ml",
+            "2020年11月禁酒": "",
+            "焼酎10杯": "10 cups of shochu",
+            "350mL×2本": "700ml",
+            "ビール１本": "1 bottle of beer",
+            "500mL": "500ml",
+            "500ｍL（ビール）": "500ml of beer",
+            "1合": "1 cup",
+            "缶酎ハイ２本": "2 cans of chuhai",
+            "日本酒１合": "1 cup of nihonshu",
+            "１合": "1 cup",
+            "焼酎４合": "4 cups of shochu",
+            "焼酎1.5合": "1.5 cup of shochu",
+            "日本酒２合": "2 cups of nihonshu",
+            "ビール500ｍL": "500ml of beer",
+            "喫煙不明,飲酒詳細不明": "",
+            "ビール500ｍL×6本": "6 cans of beer ",
+            "喫煙,飲酒記載なし": "",
+            "焼酎20度の水割り2杯": "2 cups of shochu",
+            "30歳頃禁酒": "",
+            "缶ビール1本": "1 can of beer",
+            "ビール1本(55-65歳禁酒)": "1 bottle of beer",
+            "ビール350ｍL": "350ml of beer",
+            "焼酎2合.機会飲酒": "2 cups of shochu",
+            "ビール350ｍL,ウイスキー1杯": "350ml of beer, 1 glass of whiskey",
+            "7-8年前まで飲酒": "",
+            "ビール1本,ウィスキー水割り3杯": "1 bottle of beer, 3 glasses of whiskey",
+            "ビール2本": "2 bottles of beer",
+            "ビール1合、日本酒0.5合": "1 glass of beer, 0.5 cup of nihonshu",
+            "焼酎2合": "2 cups of shochu",
+            "ビール350ｍL,ウイスキー1杯": "350ml of beer, 1 glass of whiskey",
+            "7-8年前まで飲酒": "",
+            "ビール1本,ウィスキー水割り3杯": "1 bottle of beer, 3 glasses of whiskey",
+            "ビール2本": "2 bottles of beer",
+            "ビール1合、日本酒0.5合": "1 glass of beer, 0.5 cup of nihonshu",
+            "焼酎3合": "3 cups of shochu",
+            "焼酎2-3杯、ビール500ｍL": "3 cups of shochu, 500ml of beer",
+            "焼酎200ｍＬ": "200ml of shochu",
+            "焼酎1合": "1 cup of shochu",
+            "2合(詳細不明)": "2 cups",
+            "1000ｍL(詳細不明)": "1000ml",
+            "日本酒1-2合+焼酎": "1-2 cups of nihonshu, shochu",
+            "ビール350ｍLを2-3本": "2 bottles of beer",
+            "焼酎": "",
+            "日本酒2合": "2 cups of nihonshu",
+            "ビール350ｍL×3本、日本酒コップ1杯": "3 bottles of beer, 1 cup of nihonshu"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_related_disease",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "C型慢性肝炎": "Chronic hepatitis C",
+            "大腸ポリープ": "Colorectal polyps",
+            "肝硬変": "Cirrhosis of the liver"
+          }
+        }
+      ]
+    },
+    {
+      "column": "alcohol_frequency",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "週に1-2日": "1-2 days a week",
+            "毎日": "every day",
+            "週に3−４日": "3-4 days a week",
+            "月に数日": "occasionally"
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_cancer_note",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "乳がん": "Breast",
+            "乳・卵巣以外のがん": "Other than Breast or Ovary",
+            "膵以外のがん": "Other than Pancreas",
+            "大腸がん": "Colorectal",
+            "大腸以外のがん": "Other than Colorectal",
+            "胆管以外のがん": "Other than Liver",
+            "胃以外のがん": "Other than Stomach",
+            "肝以外のがん": "Other than Liver"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    { "name": "inst_patientID", "description": "患者番号" },
+    { "name": "institution_department", "description": "施設名称" },
+    { "name": "gender", "description": "性別" },
+    { "name": "age", "description": "年齢" },
+    { "name": "height", "description": "身長" },
+    { "name": "weight", "description": "体重" },
+    { "name": "smoking_history", "description": "喫煙歴" },
+    { "name": "smoking_years", "description": "喫煙年数" },
+    { "name": "smoking_perday", "description": "1日の喫煙本数" },
+    { "name": "alcohol", "description": "飲酒歴" },
+    { "name": "alcohol_frequency", "description": "頻度" },
+    { "name": "alcohol_perday", "description": "1日当たりの飲酒量" },
+    {
+      "name": "disease_history_related_disease",
+      "description": "その他関連疾患"
+    },
+    { "name": "disease_history", "description": "既往歴備考" },
+    { "name": "family_history_cancer_note", "description": "関連疾患" },
+    { "name": "family_history_cancer_original", "description": "家族歴備考" },
+    { "name": "family_history_cancer", "description": "家族歴備考" },
+    { "name": "family_history_cancer1", "description": "家族歴備考" },
+    { "name": "family_member_cancer1", "description": "家族歴備考" },
+    { "name": "family_history_cancer2", "description": "家族歴備考" },
+    { "name": "family_member_cancer2", "description": "家族歴備考" },
+    { "name": "family_history_cancer3", "description": "家族歴備考" },
+    { "name": "family_member_cancer3", "description": "家族歴備考" },
+    { "name": "family_history_cancer4", "description": "家族歴備考" },
+    { "name": "family_member_cancer4", "description": "家族歴備考" },
+    { "name": "family_history_cancer5", "description": "家族歴備考" },
+    { "name": "family_member_cancer5", "description": "家族歴備考" },
+    { "name": "family_history_cancer6", "description": "家族歴備考" },
+    { "name": "family_member_cancer6", "description": "家族歴備考" },
+    { "name": "disease_history_cancer", "description": "既往歴備考" },
+    { "name": "disease_history_cancer1", "description": "既往歴備考" },
+    { "name": "disease_history_cancer2", "description": "既往歴備考" },
+    { "name": "disease_history_cancer3", "description": "既往歴備考" },
+    { "name": "disease_history_BPH", "description": "既往歴備考" },
+    {
+      "name": "disease_history_cerebral_infarction",
+      "description": "既往歴備考"
+    },
+    { "name": "disease_history_hypertension", "description": "既往歴備考" },
+    { "name": "disease_history_dyslipidemia", "description": "既往歴備考" },
+    { "name": "disease_history_diabetes", "description": "既往歴備考" },
+    { "name": "disease_history_COPD", "description": "既往歴備考" },
+    { "name": "disease_history_asthma", "description": "既往歴備考" },
+    { "name": "disease_history_pneumonia", "description": "既往歴備考" },
+    { "name": "disease_history_cataract", "description": "既往歴備考" },
+    { "name": "disease_history_ appendicitis", "description": "既往歴備考" },
+    { "name": "disease_history_colon_polyp", "description": "既往歴備考" },
+    {
+      "name": "disease_history_atrophic_gastritis",
+      "description": "既往歴備考"
+    },
+    { "name": "disease_history_gallstone", "description": "既往歴備考" },
+    { "name": "disease_history_hepatitis_C", "description": "既往歴備考" },
+    { "name": "disease_history_stomach_ulcer", "description": "既往歴備考" }
+  ]
+}

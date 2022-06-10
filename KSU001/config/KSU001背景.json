@@ -1,0 +1,760 @@
+{
+  "id": "823108be-ed07-41bf-85bd-a4d93f88fb47",
+  "name": "KSU001背景",
+  "file": "../data/00_raw/臨床情報リスト_川崎医大_膵臓001_v1 のコピー - 膵_背景情報.csv",
+  "column_line": 1,
+  "mapping": {
+    "inst_patientID": "患者番号",
+    "gender": "性別",
+    "age": "年齢",
+    "height": "身長",
+    "weight": "体重",
+    "smoking_history": "喫煙歴",
+    "smoking_years": "喫煙年数",
+    "smoking_perday": "本/日",
+    "alcohol": "飲酒歴",
+    "alcohol_frequency": "頻度",
+    "alcohol_perday": "1日当たりの飲酒量",
+    "disease_history_cancer_original": "既往歴_癌/腫瘍1",
+    "disease_history_cancer2": "既往歴_癌/腫瘍2",
+    "disease_history_diabetes": "既往歴_糖尿病",
+    "disease_history_chronic_pancreatitis": "既往歴_慢性膵炎",
+    "disease_history_IPMN": "既往歴_IPMN",
+    "disease_history_MCN": "既往歴_MCN",
+    "disease_history_PanIN": "既往歴_PanIN",
+    "disease_history_pancreatic_cyst": "既往歴_膵嚢胞",
+    "disease_history": "既往歴備考",
+    "comorbidity_cancer_original": "現病歴_癌/腫瘍",
+    "comorbidity_diabetes": "現病歴_糖尿病",
+    "comorbidity_chronic_pancreatitis": "現病歴_慢性膵炎",
+    "comorbidity_duct_dilation": "膵管拡張",
+    "disease_history_duct_deformity": "変形",
+    "comorbidity_pancreatic_stone": "膵石",
+    "comorbidity_pancreatic_mass": "膵腫瘤",
+    "comorbidity_pancreatic_tumor": "膵腫瘍",
+    "comorbidity_pancreatic_cyst": "現病歴_膵嚢胞",
+    "comorbidity_IPMN": "現病歴_IPMN",
+    "comorbidity_MCN": "現病歴_MCN",
+    "comorbidity_PanIN": "現病歴_PanIN",
+    "comorbidity_pancreatic_atrophy": "膵萎縮",
+    "comorbidity_pancreatic_hypertrophy": "膵腫大",
+    "comorbidity_others": "現病歴備考",
+    "family_history_cancer_original": "膵癌",
+    "family_history_hereditary_pancreatitis_syndrome": "遺伝性膵癌症候群",
+    "family_history_cancer": "膵癌",
+    "family_history_cancer1": "膵癌",
+    "disease_history_cancer": "既往歴_癌/腫瘍1",
+    "disease_history_cancer1": "既往歴_癌/腫瘍1",
+    "comorbidity_cancer": "現病歴_癌/腫瘍",
+    "comorbidity_cancer1": "現病歴_癌/腫瘍",
+    "comorbidity_cancer2": "現病歴_癌/腫瘍",
+    "comorbidity_hypertension": "現病歴備考",
+    "comorbidity_choledocholithiasis": "現病歴備考",
+    "comorbidity_cholangitis": "現病歴備考",
+    "disease_history_hypertension": "既往歴_癌/腫瘍1",
+    "disease_history_dyslipidemia": "既往歴_癌/腫瘍1",
+    "disease_history_cerebral_infarction": "既往歴_癌/腫瘍1",
+    "disease_history_stomach_ulcer": "既往歴_癌/腫瘍1"
+  },
+  "transform": [
+    {
+      "column": "family_history_cancer",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)",
+            "膵がん": "(+)",
+            "がん（膵がん以外）": "(+)",
+            "がん（がん種不明）": "(+)",
+            "NA": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_cancer1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "膵がん": "Pancreas"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!Pancreas).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cancer",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*疑い).*$",
+            "replacement": "suspected"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!suspected).+$",
+            "replacement": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cancer1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "甲状腺乳頭腺癌疑い": "Suspected Thyroid",
+            "乳がん": "Breast",
+            "前立腺がん": "Prostate",
+            "膵頭部がん": "Pancreas",
+            "胃がん": "Stomach",
+            "盲腸がん": "Colorectal",
+            "大腸がん": "Colorectal",
+            "直腸S状結腸移行部がん": "Colorectal",
+            "膵がん": "Pancreas",
+            "胆のうがん": "Gallbladder",
+            "左腎癌": "Kidney",
+            "子宮がん": "Cervix"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_cancer",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "乳がん・膵がん疑い": "乳がん・膵がん"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*疑い).*$",
+            "replacement": "suspected"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!suspected).+$",
+            "replacement": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_cancer1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "膵がん疑い": "Suspected Pancreas",
+            "膵体部がん": "Pancreas",
+            "膵がん": "Pancreas",
+            "膵頭部がん": "Pancreas",
+            "膵鉤部がん": "Pancreas",
+            "肝門部胆管がん": "Liver",
+            "乳がん・膵がん疑い": "Breast",
+            "肝細胞がん": "Liver",
+            "肝外胆管がん": "Liver",
+            "膵癌": "Pancreas",
+            "前立腺癌": "Prostate",
+            "膵頭部癌": "Pancreas",
+            "十二指腸乳頭部癌疑い": "Suspected Gallbladder",
+            "肝細胞癌": "Liver",
+            "胃癌": "Stomach",
+            "膵体部癌": "Pancreas",
+            "膵頭部癌、前立腺癌": "Pancreas",
+            "胆のう癌疑い": "Suspected Gallbladder",
+            "膵頭部癌疑い": "Suspected Pancreas",
+            "S状結腸癌": "Stomach",
+            "胆管癌": "Gallbladder"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_cancer2",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "乳がん・膵がん疑い": "Suspected Pancreas",
+            "膵頭部癌、前立腺癌": "Prostate"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!(Suspected Pancreas|Prostate)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_hypertension",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*高血圧).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_choledocholithiasis",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "肝内胆管結石": "肝内胆管"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*石).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_cholangitis",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*胆管炎).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_hypertension",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*高血圧).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_dyslipidemia",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*脂質異常).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cerebral_infarction",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*脳梗塞).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cerebral_infarction",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "脳梗塞": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*脳梗塞).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_stomach_ulcer",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "脳梗塞": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*胃潰瘍).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "gender",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "男": "Male",
+            "女": "Female"
+          }
+        }
+      ]
+    },
+    {
+      "column": "height",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "NA": "",
+            "不明": "",
+            "-": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "weight",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "NA": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "smoking_history",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "吸っている": "Current use",
+            "吸っていない": "Never used",
+            "過去に吸っていた": "Past used"
+          }
+        }
+      ]
+    },
+    {
+      "column": "alcohol",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "yes",
+            "なし": "no",
+            "NA": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "alcohol_frequency",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "毎日": "every day",
+            "月に数日": "occasionally",
+            "週に3−４日": "3-4 days a week",
+            "NA": "",
+            "週に5−６日": "5-6 days a week",
+            "週に1−２日": "1-2 days a week"
+          }
+        }
+      ]
+    },
+    {
+      "column": "alcohol_perday",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "2合": "2 cups",
+            "焼酎2杯": "2 cups of shochu",
+            "ビール7本": "7 bottles of beer",
+            "焼酎3杯": "3 cups of shochu",
+            "ビール350ml×3": "3 bottles of 350ml beer",
+            "日本酒350ml": "350ml of nihonshu",
+            "機会飲酒": "Opportunity drinks",
+            "焼酎コップ1杯": "1 cup of shochu",
+            "焼酎1杯": "1 cup of shochu",
+            "焼酎水割り3杯": "3 cups of shochu with water",
+            "ビール350ml": "350ml of beer",
+            "日本酒2杯": "2 glasses of nihonshu",
+            "ビール700ml": "700ml of beer",
+            "日本酒3-4合/40年間": "3-4 cups of nihonshu",
+            "チューハイ1杯/10年間": "1 glass of chikkyuhai",
+            "日本酒2合+缶チューハイ1000ml": "2 cups of nihonshu 1000ml of chuhai",
+            "焼酎水割りコップ1杯": "1 cup of shochu with water",
+            "15年まえから禁酒": "",
+            "日本酒2合": "2 cups of nihonshu",
+            "日本酒5尺+缶ビール350ml": "5 cups of nihonshu and 350ml of beer"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_cancer2",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "甲状腺がん": "Thyroid",
+            "肝細胞がん": "Liver",
+            "結腸がん": "Colorectal"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_diabetes",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_chronic_pancreatitis",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_IPMN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "disease_history_pancreatic_cyst",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_diabetes",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_pancreatic_stone",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_pancreatic_mass",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_pancreatic_tumor",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_pancreatic_cyst",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_IPMN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_MCN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "(+)",
+            "疑い": "Suspected (+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_PanIN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_pancreatic_atrophy",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_duct_dilation",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_chronic_pancreatitis",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "family_history_hereditary_pancreatitis_syndrome",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "あり": "(+)"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    { "name": "inst_patientID", "description": "患者番号" },
+    { "name": "gender", "description": "性別" },
+    { "name": "age", "description": "年齢" },
+    { "name": "height", "description": "身長" },
+    { "name": "weight", "description": "体重" },
+    { "name": "smoking_history", "description": "喫煙歴" },
+    { "name": "smoking_years", "description": "喫煙年数" },
+    { "name": "smoking_perday", "description": "本/日" },
+    { "name": "alcohol", "description": "飲酒歴" },
+    { "name": "alcohol_frequency", "description": "頻度" },
+    { "name": "alcohol_perday", "description": "1日当たりの飲酒量" },
+    {
+      "name": "disease_history_cancer_original",
+      "description": "既往歴_癌/腫瘍1"
+    },
+    { "name": "disease_history_cancer2", "description": "既往歴_癌/腫瘍2" },
+    { "name": "disease_history_diabetes", "description": "既往歴_糖尿病" },
+    {
+      "name": "disease_history_chronic_pancreatitis",
+      "description": "既往歴_慢性膵炎"
+    },
+    { "name": "disease_history_IPMN", "description": "既往歴_IPMN" },
+    { "name": "disease_history_MCN", "description": "既往歴_MCN" },
+    { "name": "disease_history_PanIN", "description": "既往歴_PanIN" },
+    {
+      "name": "disease_history_pancreatic_cyst",
+      "description": "既往歴_膵嚢胞"
+    },
+    { "name": "disease_history", "description": "既往歴備考" },
+    { "name": "comorbidity_cancer_original", "description": "現病歴_癌/腫瘍" },
+    { "name": "comorbidity_diabetes", "description": "現病歴_糖尿病" },
+    {
+      "name": "comorbidity_chronic_pancreatitis",
+      "description": "現病歴_慢性膵炎"
+    },
+    { "name": "comorbidity_duct_dilation", "description": "膵管拡張" },
+    { "name": "disease_history_duct_deformity", "description": "変形" },
+    { "name": "comorbidity_pancreatic_stone", "description": "膵石" },
+    { "name": "comorbidity_pancreatic_mass", "description": "膵腫瘤" },
+    { "name": "comorbidity_pancreatic_tumor", "description": "膵腫瘍" },
+    { "name": "comorbidity_pancreatic_cyst", "description": "現病歴_膵嚢胞" },
+    { "name": "comorbidity_IPMN", "description": "現病歴_IPMN" },
+    { "name": "comorbidity_MCN", "description": "現病歴_MCN" },
+    { "name": "comorbidity_PanIN", "description": "現病歴_PanIN" },
+    { "name": "comorbidity_pancreatic_atrophy", "description": "膵萎縮" },
+    { "name": "comorbidity_pancreatic_hypertrophy", "description": "膵腫大" },
+    { "name": "comorbidity_others", "description": "現病歴備考" },
+    { "name": "family_history_cancer_original", "description": "膵癌" },
+    {
+      "name": "family_history_hereditary_pancreatitis_syndrome",
+      "description": "遺伝性膵癌症候群"
+    },
+    { "name": "family_history_cancer", "description": "膵癌" },
+    { "name": "family_history_cancer1", "description": "膵癌" },
+    { "name": "disease_history_cancer", "description": "既往歴_癌/腫瘍1" },
+    { "name": "disease_history_cancer1", "description": "既往歴_癌/腫瘍1" },
+    { "name": "comorbidity_cancer", "description": "現病歴_癌/腫瘍" },
+    { "name": "comorbidity_cancer1", "description": "現病歴_癌/腫瘍" },
+    { "name": "comorbidity_cancer2", "description": "現病歴_癌/腫瘍" },
+    { "name": "comorbidity_hypertension", "description": "現病歴備考" },
+    { "name": "comorbidity_choledocholithiasis", "description": "現病歴備考" },
+    { "name": "comorbidity_cholangitis", "description": "現病歴備考" },
+    {
+      "name": "disease_history_hypertension",
+      "description": "既往歴_癌/腫瘍1"
+    },
+    {
+      "name": "disease_history_dyslipidemia",
+      "description": "既往歴_癌/腫瘍1"
+    },
+    {
+      "name": "disease_history_cerebral_infarction",
+      "description": "既往歴_癌/腫瘍1"
+    },
+    {
+      "name": "disease_history_stomach_ulcer",
+      "description": "既往歴_癌/腫瘍1"
+    }
+  ]
+}

@@ -1,0 +1,4106 @@
+[
+  {
+    "tubeNo": "HKTURC-20-004",
+    "inst_patientID": "HC-0004",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURC-20-001",
+    "inst_patientID": "HC-0001",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURC-20-002",
+    "inst_patientID": "HC-0002",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURC-20-003",
+    "inst_patientID": "HC-0003",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURC-20-005",
+    "inst_patientID": "HC-0005",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURC-20-006",
+    "inst_patientID": "HC-0006",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURC-20-007",
+    "inst_patientID": "HC-0002",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURC-20-008",
+    "inst_patientID": "HC-0007",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURC-20-009",
+    "inst_patientID": "HC-0008",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURC-21-010",
+    "inst_patientID": "HC-0009",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURC-21-011",
+    "inst_patientID": "HC-0010",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURC-21-012",
+    "inst_patientID": "HC-0011",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURC-21-013",
+    "inst_patientID": "HC-0012",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-001",
+    "inst_patientID": "HB-0001",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-002",
+    "inst_patientID": "HB-0002",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-003",
+    "inst_patientID": "HB-0003",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-004",
+    "inst_patientID": "HB-0004",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-005",
+    "inst_patientID": "HB-0005",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-006",
+    "inst_patientID": "HB-0006",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-007",
+    "inst_patientID": "HB-0007",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-008",
+    "inst_patientID": "HB-0008",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-009",
+    "inst_patientID": "HB-0009",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-010",
+    "inst_patientID": "HB-0010",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-011",
+    "inst_patientID": "HB-0011",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-012",
+    "inst_patientID": "HB-0012",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-013",
+    "inst_patientID": "HB-0013",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-014",
+    "inst_patientID": "HB-0014",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-015",
+    "inst_patientID": "HB-0015",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-016",
+    "inst_patientID": "HB-0016",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-017",
+    "inst_patientID": "HB-0017",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-018",
+    "inst_patientID": "HB-0018",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-019",
+    "inst_patientID": "HB-0019",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-020",
+    "inst_patientID": "HB-0020",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-021",
+    "inst_patientID": "HB-0021",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-022",
+    "inst_patientID": "HB-0022",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-023",
+    "inst_patientID": "HB-0023",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-024",
+    "inst_patientID": "HB-0024",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-025",
+    "inst_patientID": "HB-0025",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-026",
+    "inst_patientID": "HB-0026",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-027",
+    "inst_patientID": "HB-0027",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-028",
+    "inst_patientID": "HB-0028",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-029",
+    "inst_patientID": "HB-0029",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-030",
+    "inst_patientID": "HB-0030",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-031",
+    "inst_patientID": "HB-0031",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-032",
+    "inst_patientID": "HB-0032",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-033",
+    "inst_patientID": "HB-0033",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-034",
+    "inst_patientID": "HB-0034",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-035",
+    "inst_patientID": "HB-0035",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-036",
+    "inst_patientID": "HB-0036",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-20-037",
+    "inst_patientID": "HB-0037",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-038",
+    "inst_patientID": "HB-0038",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-039",
+    "inst_patientID": "HB-0039",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-040",
+    "inst_patientID": "HB-0040",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-041",
+    "inst_patientID": "HB-0041",
+    "cancer_status": "がん有り",
+    "dispense_note": "再発",
+    "treatment_ESD": "再発",
+    "treatment_NAC": "再発"
+  },
+  {
+    "tubeNo": "HKTURB-21-042",
+    "inst_patientID": "HB-0042",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-043",
+    "inst_patientID": "HB-0043",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-044",
+    "inst_patientID": "HB-0044",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-045",
+    "inst_patientID": "HB-0045",
+    "cancer_status": "がん有り",
+    "dispense_note": "NAC後",
+    "treatment_ESD": "NAC後",
+    "treatment_NAC": "NAC後"
+  },
+  {
+    "tubeNo": "HKTURB-21-046",
+    "inst_patientID": "HB-0046",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-047",
+    "inst_patientID": "HB-0047",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-048",
+    "inst_patientID": "HB-0048",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-049",
+    "inst_patientID": "HB-0049",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-050",
+    "inst_patientID": "HB-0050",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-051",
+    "inst_patientID": "HB-0051",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-052",
+    "inst_patientID": "HB-0052",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-053",
+    "inst_patientID": "HB-0053",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-054",
+    "inst_patientID": "HB-0054",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-055",
+    "inst_patientID": "HB-0055",
+    "cancer_status": "がん有り",
+    "dispense_note": "NAC後",
+    "treatment_ESD": "NAC後",
+    "treatment_NAC": "NAC後"
+  },
+  {
+    "tubeNo": "HKTURB-21-056",
+    "inst_patientID": "HB-0056",
+    "cancer_status": "がん有り",
+    "dispense_note": "NAC後",
+    "treatment_ESD": "NAC後",
+    "treatment_NAC": "NAC後"
+  },
+  {
+    "tubeNo": "HKTURB-21-057",
+    "inst_patientID": "HB-0057",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURB-21-058",
+    "inst_patientID": "HB-0058",
+    "cancer_status": "がん有り",
+    "dispense_note": "NAC後",
+    "treatment_ESD": "NAC後",
+    "treatment_NAC": "NAC後"
+  },
+  {
+    "tubeNo": "HKTURB-21-059",
+    "inst_patientID": "HB-0059",
+    "cancer_status": "がん有り",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-001",
+    "inst_patientID": "HH-0001",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-002",
+    "inst_patientID": "HH-0002",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-003",
+    "inst_patientID": "HH-0003",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-004",
+    "inst_patientID": "HH-0004",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-005",
+    "inst_patientID": "HH-0005",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-006",
+    "inst_patientID": "HH-0006",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-007",
+    "inst_patientID": "HH-0007",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-008",
+    "inst_patientID": "HH-0008",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-009",
+    "inst_patientID": "HH-0009",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-010",
+    "inst_patientID": "HH-0010",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-011",
+    "inst_patientID": "HH-0011",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-012",
+    "inst_patientID": "HH-0012",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-013",
+    "inst_patientID": "HH-0013",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-014",
+    "inst_patientID": "HH-0014",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-015",
+    "inst_patientID": "HH-0015",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-016",
+    "inst_patientID": "HH-0016",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-017",
+    "inst_patientID": "HH-0017",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-018",
+    "inst_patientID": "HH-0018",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-019",
+    "inst_patientID": "HH-0019",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-020",
+    "inst_patientID": "HH-0020",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-021",
+    "inst_patientID": "HH-0021",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-022",
+    "inst_patientID": "HH-0022",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-023",
+    "inst_patientID": "HH-0023",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-024",
+    "inst_patientID": "HH-0024",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-025",
+    "inst_patientID": "HH-0025",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-026",
+    "inst_patientID": "HH-0026",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-027",
+    "inst_patientID": "HH-0027",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-028",
+    "inst_patientID": "HH-0028",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-029",
+    "inst_patientID": "HH-0029",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-030",
+    "inst_patientID": "HH-0030",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-031",
+    "inst_patientID": "HH-0031",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-032",
+    "inst_patientID": "HH-0032",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-033",
+    "inst_patientID": "HH-0033",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-034",
+    "inst_patientID": "HH-0034",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-035",
+    "inst_patientID": "HH-0035",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-036",
+    "inst_patientID": "HH-0036",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-037",
+    "inst_patientID": "HH-0037",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-038",
+    "inst_patientID": "HH-0038",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-039",
+    "inst_patientID": "HH-0039",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-040",
+    "inst_patientID": "HH-0040",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-041",
+    "inst_patientID": "HH-0041",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-045",
+    "inst_patientID": "HH-0045",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-042",
+    "inst_patientID": "HH-0042",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-043",
+    "inst_patientID": "HH-0043",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-044",
+    "inst_patientID": "HH-0044",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-046",
+    "inst_patientID": "HH-0046",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-047",
+    "inst_patientID": "HH-0047",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-048",
+    "inst_patientID": "HH-0048",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-049",
+    "inst_patientID": "HH-0049",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-050",
+    "inst_patientID": "HH-0050",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-051",
+    "inst_patientID": "HH-0051",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-052",
+    "inst_patientID": "HH-0052",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-053",
+    "inst_patientID": "HH-0053",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-054",
+    "inst_patientID": "HH-0054",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-055",
+    "inst_patientID": "HH-0055",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-056",
+    "inst_patientID": "HH-0056",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-057",
+    "inst_patientID": "HH-0057",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-058",
+    "inst_patientID": "HH-0058",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-059",
+    "inst_patientID": "HH-0059",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-060",
+    "inst_patientID": "HH-0060",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-061",
+    "inst_patientID": "HH-0061",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-062",
+    "inst_patientID": "HH-0062",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-063",
+    "inst_patientID": "HH-0063",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-064",
+    "inst_patientID": "HH-0064",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-065",
+    "inst_patientID": "HH-0065",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-066",
+    "inst_patientID": "HH-0066",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-067",
+    "inst_patientID": "HH-0067",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-068",
+    "inst_patientID": "HH-0068",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-069",
+    "inst_patientID": "HH-0069",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-070",
+    "inst_patientID": "HH-0070",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-071",
+    "inst_patientID": "HH-0071",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-072",
+    "inst_patientID": "HH-0072",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-073",
+    "inst_patientID": "HH-0073",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-074",
+    "inst_patientID": "HH-0074",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-075",
+    "inst_patientID": "HH-0075",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-076",
+    "inst_patientID": "HH-0076",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-077",
+    "inst_patientID": "HH-0077",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-078",
+    "inst_patientID": "HH-0078",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-079",
+    "inst_patientID": "HH-0079",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-080",
+    "inst_patientID": "HH-0080",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-081",
+    "inst_patientID": "HH-0081",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-082",
+    "inst_patientID": "HH-0082",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-083",
+    "inst_patientID": "HH-0083",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-084",
+    "inst_patientID": "HH-0084",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-085",
+    "inst_patientID": "HH-0085",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-086",
+    "inst_patientID": "HH-0086",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-087",
+    "inst_patientID": "HH-0087",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-088",
+    "inst_patientID": "HH-0088",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-089",
+    "inst_patientID": "HH-0089",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-090",
+    "inst_patientID": "HH-0090",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-091",
+    "inst_patientID": "HH-0091",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-092",
+    "inst_patientID": "HH-0092",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-093",
+    "inst_patientID": "HH-0093",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-094",
+    "inst_patientID": "HH-0094",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-095",
+    "inst_patientID": "HH-0095",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-096",
+    "inst_patientID": "HH-0096",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-097",
+    "inst_patientID": "HH-0097",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-098",
+    "inst_patientID": "HH-0098",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-099",
+    "inst_patientID": "HH-0099",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-100",
+    "inst_patientID": "HH-0100",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-101",
+    "inst_patientID": "HH-0101",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-102",
+    "inst_patientID": "HH-0102",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-103",
+    "inst_patientID": "HH-0103",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-104",
+    "inst_patientID": "HH-0104",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-105",
+    "inst_patientID": "HH-0105",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-106",
+    "inst_patientID": "HH-0106",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-107",
+    "inst_patientID": "HH-0107",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-108",
+    "inst_patientID": "HH-0108",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-109",
+    "inst_patientID": "HH-0109",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-110",
+    "inst_patientID": "HH-0110",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-111",
+    "inst_patientID": "HH-0111",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-112",
+    "inst_patientID": "HH-0112",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-113",
+    "inst_patientID": "HH-0113",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-114",
+    "inst_patientID": "HH-0114",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-115",
+    "inst_patientID": "HH-0115",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-116",
+    "inst_patientID": "HH-0116",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-117",
+    "inst_patientID": "HH-0117",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-118",
+    "inst_patientID": "HH-0118",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-119",
+    "inst_patientID": "HH-0119",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-120",
+    "inst_patientID": "HH-0120",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-121",
+    "inst_patientID": "HH-0121",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-122",
+    "inst_patientID": "HH-0122",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-123",
+    "inst_patientID": "HH-0123",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-124",
+    "inst_patientID": "HH-0124",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-125",
+    "inst_patientID": "HH-0125",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-126",
+    "inst_patientID": "HH-0126",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-127",
+    "inst_patientID": "HH-0127",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-128",
+    "inst_patientID": "HH-0128",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-129",
+    "inst_patientID": "HH-0129",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-130",
+    "inst_patientID": "HH-0130",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-131",
+    "inst_patientID": "HH-0131",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-132",
+    "inst_patientID": "HH-0132",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-133",
+    "inst_patientID": "HH-0133",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-134",
+    "inst_patientID": "HH-0134",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-135",
+    "inst_patientID": "HH-0135",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-136",
+    "inst_patientID": "HH-0136",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-137",
+    "inst_patientID": "HH-0137",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-138",
+    "inst_patientID": "HH-0138",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-139",
+    "inst_patientID": "HH-0139",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-140",
+    "inst_patientID": "HH-0140",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-141",
+    "inst_patientID": "HH-0141",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-142",
+    "inst_patientID": "HH-0142",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-143",
+    "inst_patientID": "HH-0143",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-144",
+    "inst_patientID": "HH-0144",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-145",
+    "inst_patientID": "HH-0145",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-146",
+    "inst_patientID": "HH-0146",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-147",
+    "inst_patientID": "HH-0147",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-148",
+    "inst_patientID": "HH-0148",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-149",
+    "inst_patientID": "HH-0149",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-150",
+    "inst_patientID": "HH-0150",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-151",
+    "inst_patientID": "HH-0151",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-152",
+    "inst_patientID": "HH-0152",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-153",
+    "inst_patientID": "HH-0153",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-154",
+    "inst_patientID": "HH-0154",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-155",
+    "inst_patientID": "HH-0155",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-156",
+    "inst_patientID": "HH-0156",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-157",
+    "inst_patientID": "HH-0157",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-158",
+    "inst_patientID": "HH-0158",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-159",
+    "inst_patientID": "HH-0159",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-160",
+    "inst_patientID": "HH-0160",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-161",
+    "inst_patientID": "HH-0161",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-162",
+    "inst_patientID": "HH-0162",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-163",
+    "inst_patientID": "HH-0163",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-164",
+    "inst_patientID": "HH-0164",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-165",
+    "inst_patientID": "HH-0165",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-166",
+    "inst_patientID": "HH-0166",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-167",
+    "inst_patientID": "HH-0167",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-168",
+    "inst_patientID": "HH-0168",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-169",
+    "inst_patientID": "HH-0169",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-170",
+    "inst_patientID": "HH-0170",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-171",
+    "inst_patientID": "HH-0171",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-172",
+    "inst_patientID": "HH-0172",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-173",
+    "inst_patientID": "HH-0173",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-174",
+    "inst_patientID": "HH-0174",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-175",
+    "inst_patientID": "HH-0175",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-176",
+    "inst_patientID": "HH-0176",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-177",
+    "inst_patientID": "HH-0177",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-178",
+    "inst_patientID": "HH-0178",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-179",
+    "inst_patientID": "HH-0179",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-180",
+    "inst_patientID": "HH-0180",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-181",
+    "inst_patientID": "HH-0181",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-182",
+    "inst_patientID": "HH-0182",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-183",
+    "inst_patientID": "HH-0183",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-184",
+    "inst_patientID": "HH-0184",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-185",
+    "inst_patientID": "HH-0185",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-186",
+    "inst_patientID": "HH-0186",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-187",
+    "inst_patientID": "HH-0187",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-188",
+    "inst_patientID": "HH-0188",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-189",
+    "inst_patientID": "HH-0189",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-190",
+    "inst_patientID": "HH-0190",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-191",
+    "inst_patientID": "HH-0191",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-192",
+    "inst_patientID": "HH-0192",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-193",
+    "inst_patientID": "HH-0193",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-194",
+    "inst_patientID": "HH-0194",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-195",
+    "inst_patientID": "HH-0195",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-196",
+    "inst_patientID": "HH-0196",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-197",
+    "inst_patientID": "HH-0197",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-198",
+    "inst_patientID": "HH-0198",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-199",
+    "inst_patientID": "HH-0199",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-200",
+    "inst_patientID": "HH-0200",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-201",
+    "inst_patientID": "HH-0201",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-202",
+    "inst_patientID": "HH-0202",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-203",
+    "inst_patientID": "HH-0203",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-204",
+    "inst_patientID": "HH-0204",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-205",
+    "inst_patientID": "HH-0205",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-206",
+    "inst_patientID": "HH-0206",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-207",
+    "inst_patientID": "HH-0207",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-208",
+    "inst_patientID": "HH-0208",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-209",
+    "inst_patientID": "HH-0209",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-210",
+    "inst_patientID": "HH-0210",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-211",
+    "inst_patientID": "HH-0211",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-212",
+    "inst_patientID": "HH-0212",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-213",
+    "inst_patientID": "HH-0213",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-214",
+    "inst_patientID": "HH-0214",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-215",
+    "inst_patientID": "HH-0215",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-216",
+    "inst_patientID": "HH-0216",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-217",
+    "inst_patientID": "HH-0217",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-218",
+    "inst_patientID": "HH-0218",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-219",
+    "inst_patientID": "HH-0219",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-220",
+    "inst_patientID": "HH-0220",
+    "cancer_status": "",
+    "dispense_note": "同意書未確認",
+    "treatment_ESD": "同意書未確認",
+    "treatment_NAC": "同意書未確認"
+  },
+  {
+    "tubeNo": "HKTURH-21-221",
+    "inst_patientID": "HH-0221",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-222",
+    "inst_patientID": "HH-0222",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-223",
+    "inst_patientID": "HH-0223",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-224",
+    "inst_patientID": "HH-0224",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-225",
+    "inst_patientID": "HH-0225",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-226",
+    "inst_patientID": "HH-0226",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-227",
+    "inst_patientID": "HH-0227",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-228",
+    "inst_patientID": "HH-0228",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-229",
+    "inst_patientID": "HH-0229",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-230",
+    "inst_patientID": "HH-0230",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-231",
+    "inst_patientID": "HH-0231",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-232",
+    "inst_patientID": "HH-0232",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-233",
+    "inst_patientID": "HH-0233",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-234",
+    "inst_patientID": "HH-0234",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-235",
+    "inst_patientID": "HH-0235",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-236",
+    "inst_patientID": "HH-0236",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-237",
+    "inst_patientID": "HH-0237",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-238",
+    "inst_patientID": "HH-0238",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-239",
+    "inst_patientID": "HH-0012",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-240",
+    "inst_patientID": "HH-0239",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-241",
+    "inst_patientID": "HH-0009",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-242",
+    "inst_patientID": "HH-0240",
+    "cancer_status": "",
+    "dispense_note": "同意書未確認",
+    "treatment_ESD": "同意書未確認",
+    "treatment_NAC": "同意書未確認"
+  },
+  {
+    "tubeNo": "HKTURH-21-243",
+    "inst_patientID": "HH-0241",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-244",
+    "inst_patientID": "HH-0242",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-245",
+    "inst_patientID": "HH-0243",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-246",
+    "inst_patientID": "HH-0244",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-247",
+    "inst_patientID": "HH-0245",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-248",
+    "inst_patientID": "HH-0246",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-249",
+    "inst_patientID": "HH-0247",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-250",
+    "inst_patientID": "HH-0248",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-251",
+    "inst_patientID": "HH-0249",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-252",
+    "inst_patientID": "HH-0250",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-253",
+    "inst_patientID": "HH-0251",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-254",
+    "inst_patientID": "HH-0252",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-255",
+    "inst_patientID": "HH-0253",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-256",
+    "inst_patientID": "HH-0254",
+    "cancer_status": "",
+    "dispense_note": "同意書未確認",
+    "treatment_ESD": "同意書未確認",
+    "treatment_NAC": "同意書未確認"
+  },
+  {
+    "tubeNo": "HKTURH-21-257",
+    "inst_patientID": "HH-0255",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-258",
+    "inst_patientID": "HH-0256",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-259",
+    "inst_patientID": "HH-0257",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-260",
+    "inst_patientID": "HH-0258",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-261",
+    "inst_patientID": "HH-0259",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-262",
+    "inst_patientID": "HH-0260",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-263",
+    "inst_patientID": "HH-0261",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-264",
+    "inst_patientID": "HH-0262",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-265",
+    "inst_patientID": "HH-0263",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-266",
+    "inst_patientID": "HH-0264",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-267",
+    "inst_patientID": "HH-0265",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-268",
+    "inst_patientID": "HH-0266",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-269",
+    "inst_patientID": "HH-0267",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-270",
+    "inst_patientID": "HH-0268",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-271",
+    "inst_patientID": "HH-0269",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-272",
+    "inst_patientID": "HH-0270",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-273",
+    "inst_patientID": "HH-0271",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-274",
+    "inst_patientID": "HH-0272",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-275",
+    "inst_patientID": "HH-0273",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-276",
+    "inst_patientID": "HH-0274",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-277",
+    "inst_patientID": "HH-0275",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-278",
+    "inst_patientID": "HH-0276",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-279",
+    "inst_patientID": "HH-0277",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-280",
+    "inst_patientID": "HH-0278",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-281",
+    "inst_patientID": "HH-0279",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-282",
+    "inst_patientID": "HH-0280",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-283",
+    "inst_patientID": "HH-0281",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-284",
+    "inst_patientID": "HH-0282",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-285",
+    "inst_patientID": "HH-0283",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-286",
+    "inst_patientID": "HH-0284",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-287",
+    "inst_patientID": "HH-0285",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-288",
+    "inst_patientID": "HH-0286",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-289",
+    "inst_patientID": "HH-0287",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-290",
+    "inst_patientID": "HH-0288",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-291",
+    "inst_patientID": "HH-0289",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-292",
+    "inst_patientID": "HH-0290",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-293",
+    "inst_patientID": "HH-0291",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-294",
+    "inst_patientID": "HH-0292",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-295",
+    "inst_patientID": "HH-0293",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-296",
+    "inst_patientID": "HH-0294",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-297",
+    "inst_patientID": "HH-0295",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-298",
+    "inst_patientID": "HH-0296",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-299",
+    "inst_patientID": "HH-0297",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-300",
+    "inst_patientID": "HH-0298",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-301",
+    "inst_patientID": "HH-0299",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-302",
+    "inst_patientID": "HH-0300",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-303",
+    "inst_patientID": "HH-0301",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-304",
+    "inst_patientID": "HH-0058",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-305",
+    "inst_patientID": "HH-0302",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-306",
+    "inst_patientID": "HH-0303",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-307",
+    "inst_patientID": "HH-0304",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-308",
+    "inst_patientID": "HH-0305",
+    "cancer_status": "",
+    "dispense_note": "同意書未確認",
+    "treatment_ESD": "同意書未確認",
+    "treatment_NAC": "同意書未確認"
+  },
+  {
+    "tubeNo": "HKTURH-21-309",
+    "inst_patientID": "HH-0306",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-310",
+    "inst_patientID": "HH-0307",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-311",
+    "inst_patientID": "HH-0308",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-312",
+    "inst_patientID": "HH-0112",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-313",
+    "inst_patientID": "HH-0106",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-314",
+    "inst_patientID": "HH-0064",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-315",
+    "inst_patientID": "HH-0110",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-316",
+    "inst_patientID": "HH-0309",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-317",
+    "inst_patientID": "HH-0107",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-318",
+    "inst_patientID": "HH-0310",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-319",
+    "inst_patientID": "HH-0311",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-320",
+    "inst_patientID": "HH-0312",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-321",
+    "inst_patientID": "HH-0313",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-322",
+    "inst_patientID": "HH-0314",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-323",
+    "inst_patientID": "HH-0315",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-324",
+    "inst_patientID": "HH-0316",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-325",
+    "inst_patientID": "HH-0317",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-326",
+    "inst_patientID": "HH-0318",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-327",
+    "inst_patientID": "HH-0319",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-328",
+    "inst_patientID": "HH-0320",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-329",
+    "inst_patientID": "HH-0321",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-330",
+    "inst_patientID": "HH-0322",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-331",
+    "inst_patientID": "HH-0323",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-332",
+    "inst_patientID": "HH-0324",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-333",
+    "inst_patientID": "HH-0325",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-334",
+    "inst_patientID": "HH-0326",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-335",
+    "inst_patientID": "HH-0327",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-336",
+    "inst_patientID": "HH-0328",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-337",
+    "inst_patientID": "HH-0329",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-338",
+    "inst_patientID": "HH-0330",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-339",
+    "inst_patientID": "HH-0331",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-340",
+    "inst_patientID": "HH-0332",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-341",
+    "inst_patientID": "HH-0059",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-342",
+    "inst_patientID": "HH-0333",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-343",
+    "inst_patientID": "HH-0334",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-344",
+    "inst_patientID": "HH-0335",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-345",
+    "inst_patientID": "HH-0336",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-346",
+    "inst_patientID": "HH-0337",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-347",
+    "inst_patientID": "HH-0008",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-348",
+    "inst_patientID": "HH-0057",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-349",
+    "inst_patientID": "HH-0045",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-350",
+    "inst_patientID": "HH-0338",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-351",
+    "inst_patientID": "HH-0339",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-352",
+    "inst_patientID": "HH-0340",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-353",
+    "inst_patientID": "HH-0036",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-354",
+    "inst_patientID": "HH-0341",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-355",
+    "inst_patientID": "HH-0037",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-356",
+    "inst_patientID": "HH-0342",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-21-357",
+    "inst_patientID": "HH-0255",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-358",
+    "inst_patientID": "HP-0343",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-359",
+    "inst_patientID": "HP-0344",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-360",
+    "inst_patientID": "HH-0023",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-361",
+    "inst_patientID": "HP-0345",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-362",
+    "inst_patientID": "HP-0346",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-363",
+    "inst_patientID": "HP-0347",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-364",
+    "inst_patientID": "HH-0029",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-365",
+    "inst_patientID": "HP-0348",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-366",
+    "inst_patientID": "HH-0039",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-367",
+    "inst_patientID": "HH-0042",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-368",
+    "inst_patientID": "HP-0349",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-369",
+    "inst_patientID": "HH-0235",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-370",
+    "inst_patientID": "HH-0009",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-371",
+    "inst_patientID": "HP-0350",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-372",
+    "inst_patientID": "HH-0007",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-373",
+    "inst_patientID": "HP-0351",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-374",
+    "inst_patientID": "HP-0352",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-375",
+    "inst_patientID": "HP-0353",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-376",
+    "inst_patientID": "HP-0354",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-377",
+    "inst_patientID": "HP-0355",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-378",
+    "inst_patientID": "HP-0356",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-379",
+    "inst_patientID": "HH-0013",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-380",
+    "inst_patientID": "HH-0056",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-381",
+    "inst_patientID": "HP-0357",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-382",
+    "inst_patientID": "HH-0062",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-383",
+    "inst_patientID": "HP-0358",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-384",
+    "inst_patientID": "HP-0359",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-385",
+    "inst_patientID": "HP-0360",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-386",
+    "inst_patientID": "HP-0361",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-387",
+    "inst_patientID": "HH-0090",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-388",
+    "inst_patientID": "HH-0362",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-389",
+    "inst_patientID": "HH-0363",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-390",
+    "inst_patientID": "HH-0097",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-391",
+    "inst_patientID": "HH-0095",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-392",
+    "inst_patientID": "HH-0364",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-393",
+    "inst_patientID": "HH-0088",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-394",
+    "inst_patientID": "HH-0087",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-395",
+    "inst_patientID": "HH-0072",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-396",
+    "inst_patientID": "HH-0085",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-397",
+    "inst_patientID": "HH-0365",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-398",
+    "inst_patientID": "HH-0073",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-399",
+    "inst_patientID": "HH-0084",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-400",
+    "inst_patientID": "HH-0080",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-401",
+    "inst_patientID": "HH-0074",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-402",
+    "inst_patientID": "HH-0079",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-403",
+    "inst_patientID": "HH-0082",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-404",
+    "inst_patientID": "HH-0093",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-405",
+    "inst_patientID": "HH-0366",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-406",
+    "inst_patientID": "HH-0367",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-407",
+    "inst_patientID": "HH-0368",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-408",
+    "inst_patientID": "HH-0114",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-409",
+    "inst_patientID": "HH-0006",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-410",
+    "inst_patientID": "HH-0022",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-411",
+    "inst_patientID": "HH-0308",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-412",
+    "inst_patientID": "HH-0265",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-413",
+    "inst_patientID": "HH-0129",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-414",
+    "inst_patientID": "HH-0132",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-415",
+    "inst_patientID": "HH-0271",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-416",
+    "inst_patientID": "HH-0126",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-417",
+    "inst_patientID": "HH-0260",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-418",
+    "inst_patientID": "HH-0369",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-419",
+    "inst_patientID": "HH-0370",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-420",
+    "inst_patientID": "HH-0371",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-421",
+    "inst_patientID": "HH-0372",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-422",
+    "inst_patientID": "HH-0373",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-423",
+    "inst_patientID": "HH-0374",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-424",
+    "inst_patientID": "HH-0375",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-425",
+    "inst_patientID": "HH-0146",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-426",
+    "inst_patientID": "HH-0376",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-427",
+    "inst_patientID": "HH-0377",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-428",
+    "inst_patientID": "HH-0127",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURH-22-429",
+    "inst_patientID": "HH-0144",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURS-20-002",
+    "inst_patientID": "HS-0002",
+    "cancer_status": "",
+    "dispense_note": "膵癌エクソソームから移動",
+    "treatment_ESD": "膵癌エクソソームから移動",
+    "treatment_NAC": "膵癌エクソソームから移動"
+  },
+  {
+    "tubeNo": "HKTURS-20-001",
+    "inst_patientID": "HS-0001",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURS-20-003",
+    "inst_patientID": "HS-0003",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURS-20-004",
+    "inst_patientID": "HS-0004",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURS-20-005",
+    "inst_patientID": "HS-0005",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURS-20-006",
+    "inst_patientID": "HS-0006",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURS-20-007",
+    "inst_patientID": "HS-0007",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURS-20-008",
+    "inst_patientID": "HS-0008",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURS-20-009",
+    "inst_patientID": "HS-0004",
+    "cancer_status": "",
+    "dispense_note": "がん有りESD後",
+    "treatment_ESD": "がん有りESD後",
+    "treatment_NAC": "がん有りESD後"
+  },
+  {
+    "tubeNo": "HKTURS-21-010",
+    "inst_patientID": "HS-0008",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURS-21-011",
+    "inst_patientID": "HS-0009",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  },
+  {
+    "tubeNo": "HKTURS-21-012",
+    "inst_patientID": "HS-0004",
+    "cancer_status": "",
+    "dispense_note": "",
+    "treatment_ESD": "",
+    "treatment_NAC": ""
+  }
+]

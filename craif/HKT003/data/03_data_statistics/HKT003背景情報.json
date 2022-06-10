@@ -1,0 +1,417 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\HKT003\\data\\00_raw\\臨床情報リスト_北斗_背景情報.csv",
+  "map": {
+    "inst_patientID": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "gender": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "age": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "height": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "weight": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_history": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_years": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_perday": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_frequency": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_perday": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer_original": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer2": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_others": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_note": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer_original": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_diabetes": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_hypertension": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_note": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_related_diseases": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer_original": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer1": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer1": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer1": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer1": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer2": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer2": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer3": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer3": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer4": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer4": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer5": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer5": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer6": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer6": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_history": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "occurence_classification": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Liver": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "inst_patientID": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "gender": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "age": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "height": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "weight": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_history": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_years": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_perday": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_frequency": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_perday": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer_original": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer2": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_others": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_note": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer_original": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_diabetes": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_hypertension": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_note": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_related_diseases": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer_original": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer1": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "comorbidity_cancer1": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer1": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer1": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer2": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer2": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer3": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer3": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer4": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer4": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer5": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer5": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_history_cancer6": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "family_member_cancer6": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_history": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "occurence_classification": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Liver": {
+      "total": 515,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

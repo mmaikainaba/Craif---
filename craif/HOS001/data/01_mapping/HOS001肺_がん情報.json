@@ -1,0 +1,1162 @@
+[
+  {
+    "inst_patientID": "616505",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/03/23",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "28",
+    "size_y": "18"
+  },
+  {
+    "inst_patientID": "572461",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/01/05",
+    "RECIST_evaluation": "PR",
+    "evaluation_timing": "4コース終了後",
+    "notes": "CBDCA+PTX4コース+RT62Gy後、イミフィンジ維持療法",
+    "size_x": "15",
+    "size_y": "15"
+  },
+  {
+    "inst_patientID": "131530",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/01/14",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "CBDCA+nabPTX+アテゾリズマブ4コース",
+    "size_x": "46",
+    "size_y": "46"
+  },
+  {
+    "inst_patientID": "181133",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/01/26",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "22",
+    "size_y": "4"
+  },
+  {
+    "inst_patientID": "635524",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/02/09",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "19",
+    "size_y": "17"
+  },
+  {
+    "inst_patientID": "635096",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/01/28",
+    "RECIST_evaluation": "PR",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "70",
+    "size_y": "70"
+  },
+  {
+    "inst_patientID": "310559",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/02/16",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "30",
+    "size_y": "15"
+  },
+  {
+    "inst_patientID": "325687",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "2021/02/04",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "12",
+    "size_y": "12"
+  },
+  {
+    "inst_patientID": "403226",
+    "Lung_type": "SCLC",
+    "clinical_diagnosis_date": "2021/02/25",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "54",
+    "size_y": "54"
+  },
+  {
+    "inst_patientID": "83419",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/03/09",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "45",
+    "size_y": "35"
+  },
+  {
+    "inst_patientID": "3718",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/02/25",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "CBDCA+nabPTX",
+    "size_x": "44",
+    "size_y": "44"
+  },
+  {
+    "inst_patientID": "16816",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/03/02",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "15",
+    "size_y": "15"
+  },
+  {
+    "inst_patientID": "636096",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/02/15",
+    "RECIST_evaluation": "PR",
+    "evaluation_timing": "",
+    "notes": "CBDCA+nabPTX+ペンブロリズマブ1コース目で発熱性好中球減少症と敗血症性ショックと呼吸不全で人工呼吸器管理）",
+    "size_x": "37",
+    "size_y": "37"
+  },
+  {
+    "inst_patientID": "15344",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/01/19",
+    "RECIST_evaluation": "PR",
+    "evaluation_timing": "",
+    "notes": "分子標的剤（ザーコリ）でPRだが、間質性肺炎発症し、治療関連死亡",
+    "size_x": "22",
+    "size_y": "13"
+  },
+  {
+    "inst_patientID": "137004",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/02/18",
+    "RECIST_evaluation": "PR",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "55",
+    "size_y": "55"
+  },
+  {
+    "inst_patientID": "111972",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/02/16",
+    "RECIST_evaluation": "SD",
+    "evaluation_timing": "",
+    "notes": "複合免疫療法1コース後、病勢増悪し、20210514原病死",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "354156",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/06/22",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "17",
+    "size_y": "11"
+  },
+  {
+    "inst_patientID": "636315",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/03/16",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "20",
+    "size_y": "12"
+  },
+  {
+    "inst_patientID": "245154",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/02/12",
+    "RECIST_evaluation": "PR",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "37",
+    "size_y": "37"
+  },
+  {
+    "inst_patientID": "137041",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/03/30",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "30",
+    "size_y": "30"
+  },
+  {
+    "inst_patientID": "635793",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/03/16",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "28",
+    "size_y": "22"
+  },
+  {
+    "inst_patientID": "325751",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/03/04",
+    "RECIST_evaluation": "SD",
+    "evaluation_timing": "",
+    "notes": "複合免疫療法1コース目で発熱性好中球減少症、間質性肺炎急性増悪発症",
+    "size_x": "48",
+    "size_y": "48"
+  },
+  {
+    "inst_patientID": "637170",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/03/11",
+    "RECIST_evaluation": "PR",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "55",
+    "size_y": "55"
+  },
+  {
+    "inst_patientID": "621098",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/03/18",
+    "RECIST_evaluation": "SD",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "22",
+    "size_y": "22"
+  },
+  {
+    "inst_patientID": "540799",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/04/06",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "15",
+    "size_y": "13"
+  },
+  {
+    "inst_patientID": "507247",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/03/24",
+    "RECIST_evaluation": "PR",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "75",
+    "size_y": "25"
+  },
+  {
+    "inst_patientID": "432782",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "2021/04/06",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "10",
+    "size_y": "10"
+  },
+  {
+    "inst_patientID": "637546",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/04/13",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "20",
+    "size_y": "6"
+  },
+  {
+    "inst_patientID": "354578",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "2021/03/29",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "57909",
+    "Lung_type": "SCLC",
+    "clinical_diagnosis_date": "2021/03/31",
+    "RECIST_evaluation": "PR",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "68",
+    "size_y": "68"
+  },
+  {
+    "inst_patientID": "296081",
+    "Lung_type": "SCLC",
+    "clinical_diagnosis_date": "2021/04/01",
+    "RECIST_evaluation": "PR",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "75",
+    "size_y": "75"
+  },
+  {
+    "inst_patientID": "622617",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "2021/04/05",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "29952",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/04/08",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "33",
+    "size_y": "33"
+  },
+  {
+    "inst_patientID": "365277",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/04/27",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "45",
+    "size_y": "40"
+  },
+  {
+    "inst_patientID": "13821",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/04/20",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "16",
+    "size_y": "16"
+  },
+  {
+    "inst_patientID": "638195",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "2021/04/12",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "274178",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "2021/04/13",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "638025",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/05/11",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "45",
+    "size_y": "25"
+  },
+  {
+    "inst_patientID": "619146",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "2021/05/11",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "12",
+    "size_y": "12"
+  },
+  {
+    "inst_patientID": "311991",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/06/08",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "17",
+    "size_y": "0"
+  },
+  {
+    "inst_patientID": "638901",
+    "Lung_type": "SCLC",
+    "clinical_diagnosis_date": "2021/04/26",
+    "RECIST_evaluation": "PR",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "40",
+    "size_y": "35"
+  },
+  {
+    "inst_patientID": "353247",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/05/13",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "90",
+    "size_y": "90"
+  },
+  {
+    "inst_patientID": "114664",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/05/18",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "30",
+    "size_y": "15"
+  },
+  {
+    "inst_patientID": "159105",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/05/18",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "8",
+    "size_y": "8"
+  },
+  {
+    "inst_patientID": "53912",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "2021/05/25",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "14",
+    "size_y": "14"
+  },
+  {
+    "inst_patientID": "639355",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/05/20",
+    "RECIST_evaluation": "PR",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "120",
+    "size_y": "120"
+  },
+  {
+    "inst_patientID": "393113",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/06/15",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "15",
+    "size_y": "6"
+  },
+  {
+    "inst_patientID": "639434",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "2021/06/22",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "10",
+    "size_y": "10"
+  },
+  {
+    "inst_patientID": "489167",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/06/15",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "35",
+    "size_y": "25"
+  },
+  {
+    "inst_patientID": "582466",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/05/24",
+    "RECIST_evaluation": "PR",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "10",
+    "size_y": "10"
+  },
+  {
+    "inst_patientID": "640570",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/06/08",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "40",
+    "size_y": "35"
+  },
+  {
+    "inst_patientID": "641352",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/06/10",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "53",
+    "size_y": "53"
+  },
+  {
+    "inst_patientID": "198654",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "2021/06/22",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "9",
+    "size_y": "9"
+  },
+  {
+    "inst_patientID": "193430",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/07/06",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "12",
+    "size_y": "12"
+  },
+  {
+    "inst_patientID": "366125",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "2021/07/13",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "8",
+    "size_y": "8"
+  },
+  {
+    "inst_patientID": "216318",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/07/13",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "27",
+    "size_y": "27"
+  },
+  {
+    "inst_patientID": "223372",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/07/15",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "未治療",
+    "size_x": "23",
+    "size_y": "23"
+  },
+  {
+    "inst_patientID": "504737",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/07/20",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "12",
+    "size_y": "8"
+  },
+  {
+    "inst_patientID": "641057",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/07/20",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "25",
+    "size_y": "25"
+  },
+  {
+    "inst_patientID": "420070",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "2021/07/07",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "未治療",
+    "size_x": "80",
+    "size_y": "80"
+  },
+  {
+    "inst_patientID": "132885",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/08/10",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "20",
+    "size_y": "3"
+  },
+  {
+    "inst_patientID": "614475",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/08/03",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "タグリッソ",
+    "size_x": "23",
+    "size_y": "15"
+  },
+  {
+    "inst_patientID": "184420",
+    "Lung_type": "SCLC",
+    "clinical_diagnosis_date": "2021/08/03",
+    "RECIST_evaluation": "PR",
+    "evaluation_timing": "",
+    "notes": "化学放射線治療",
+    "size_x": "13",
+    "size_y": "13"
+  },
+  {
+    "inst_patientID": "594103",
+    "Lung_type": "SCLC",
+    "clinical_diagnosis_date": "2021/08/10",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "19",
+    "size_y": "19"
+  },
+  {
+    "inst_patientID": "167459",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/07/29",
+    "RECIST_evaluation": "PR",
+    "evaluation_timing": "",
+    "notes": "タグリッソ",
+    "size_x": "48",
+    "size_y": "48"
+  },
+  {
+    "inst_patientID": "136658",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/08/17",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "30",
+    "size_y": "20"
+  },
+  {
+    "inst_patientID": "598153",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/08/05",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "複合免疫療法",
+    "size_x": "52",
+    "size_y": "52"
+  },
+  {
+    "inst_patientID": "477827",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/08/24",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "17",
+    "size_y": "10"
+  },
+  {
+    "inst_patientID": "609967",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/08/12",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "33",
+    "size_y": "33"
+  },
+  {
+    "inst_patientID": "131421",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/08/05",
+    "RECIST_evaluation": "SD",
+    "evaluation_timing": "",
+    "notes": "化学放射線治療",
+    "size_x": "40",
+    "size_y": "40"
+  },
+  {
+    "inst_patientID": "475733",
+    "Lung_type": "NSCLC",
+    "clinical_diagnosis_date": "2021/08/24",
+    "RECIST_evaluation": "CR",
+    "evaluation_timing": "",
+    "notes": "手術",
+    "size_x": "50",
+    "size_y": "40"
+  },
+  {
+    "inst_patientID": "339046",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "643784",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "635473",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "552352",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "634411",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "9682",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "532038",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "129893",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "644271",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "148166",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "345183",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "645392",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "497191",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "242042",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "497743",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "273504",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "198994",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "450792",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "645900",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "642484",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "334703",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "644228",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "646740",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "165362",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "136524",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "249719",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "645997",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "647098",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "647381",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "647515",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "420049",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "611965",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "494136",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "153109",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "85842",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "210615",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "647740",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "339095",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "142940",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "164522",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "17513",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "541377",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "644049",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "217673",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  },
+  {
+    "inst_patientID": "416728",
+    "Lung_type": "",
+    "clinical_diagnosis_date": "",
+    "RECIST_evaluation": "",
+    "evaluation_timing": "",
+    "notes": "",
+    "size_x": "",
+    "size_y": ""
+  }
+]

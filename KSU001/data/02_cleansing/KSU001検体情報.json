@@ -1,0 +1,398 @@
+[
+  {
+    "tubeNo": "20190730-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20190730-②-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20190806-②-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20190822-②-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20191001-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20191018-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20191031-②-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20191126-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20191128-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20191204-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200114-①-1,2,3,4",
+    "cancer_status": "(+)",
+    "collection_timing": "post-ope",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200116-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200116-③-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200201-②-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200201-④-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200214-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200214-③-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200214-④-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200304-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200309-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200311-①-1,2,3,4",
+    "cancer_status": "(-)",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200311-②-1,2,3,4",
+    "cancer_status": "(-)",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200317-①-1,2,3,4",
+    "cancer_status": "(+)",
+    "collection_timing": "pre-ope",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200318-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200326-①-1,2,3,4",
+    "cancer_status": "(-)",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200327-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200327-③-1,2,3",
+    "cancer_status": "(+)",
+    "collection_timing": "pre-ope",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200330-①-1,2,3,4",
+    "cancer_status": "(+)",
+    "collection_timing": "pre-ope",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200331-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200331-②-1,2,3,4",
+    "cancer_status": "(-)",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200403-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200407-①-1,2,3,4",
+    "cancer_status": "(+)",
+    "collection_timing": "pre-ope",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200407-②-1,2,3,4",
+    "cancer_status": "(+)",
+    "collection_timing": "pre-ope",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200408-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200408-②-1,2,3,4",
+    "cancer_status": "(-)",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200408-③-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200414-①-1,2,3,4",
+    "cancer_status": "(-)",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200414-②-1,2,3,4",
+    "cancer_status": "(-)",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200414-③-1,2,3,4",
+    "cancer_status": "(+)",
+    "collection_timing": "post-ope",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200414-④-1,2,3,4",
+    "cancer_status": "(-)",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200415-①-1,2,3,4",
+    "cancer_status": "(+)",
+    "collection_timing": "post-ope",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200415-②-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200415-③-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200415-④-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200420-①-1,2,3,4",
+    "cancer_status": "(+)",
+    "collection_timing": "post-ope",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200420-②-1,2,3,4",
+    "cancer_status": "(-)",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200422-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200422-②-1,2,3,4\r\n",
+    "cancer_status": "(-)",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200422-③-1,2,3,4",
+    "cancer_status": "(+)",
+    "collection_timing": "pre-ope",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200425-①-1,2,3,4",
+    "cancer_status": "(-)",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200428-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200501-①-1,2,3,4",
+    "cancer_status": "(+)",
+    "collection_timing": "post-ope",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200510-①-1,2,3,4",
+    "cancer_status": "(+)",
+    "collection_timing": "pre-ope",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200511-①-1,2,3,4",
+    "cancer_status": "(-)",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200511-②-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200511-③-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200518-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200521-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200528-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200529-①-1,2,3,4",
+    "cancer_status": "(+)",
+    "collection_timing": "pre-ope",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200529-②-1,2,3,4",
+    "cancer_status": "(+)",
+    "collection_timing": "pre-ope",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200605-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200610-①-1,2,3,4",
+    "cancer_status": "(-)",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20202615-①-1,2,3,4",
+    "cancer_status": "",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200619-①-1,2,3,4",
+    "cancer_status": "(-)",
+    "collection_timing": "",
+    "dispense_note": ""
+  },
+  {
+    "tubeNo": "20200623-①-1,2,3,4",
+    "cancer_status": "(+)",
+    "collection_timing": "pre-ope",
+    "dispense_note": ""
+  }
+]

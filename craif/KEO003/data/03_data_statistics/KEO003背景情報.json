@@ -1,0 +1,337 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\KEO003\\data\\00_raw\\KEO003_conversion_背景情報 のコピー - raw.csv",
+  "map": {
+    "inst_patientID": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "age": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "gender": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "height": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "weight": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "performance_status": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_history": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_years": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_perday": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_frequency": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_perday": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_note": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_history": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_history_note": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "malignancy_history": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer_original": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "chest_imaging": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "abdominal_imaging": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "fecal_test": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "scan_results_history": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_method_original": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer1": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_pneumonia": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_irritative_diarrhea": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treament_surgery": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_chemotherapy": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_ESD": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hypertension": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_diabetes": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_dyslipidemia": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_COPD": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "inst_patientID": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "age": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "gender": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "height": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "weight": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "performance_status": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_history": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_years": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "smoking_perday": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_frequency": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_perday": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_note": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_history": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_history_note": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "malignancy_history": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer_original": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "chest_imaging": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "abdominal_imaging": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "fecal_test": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "scan_results_history": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_method_original": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer1": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_pneumonia": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_irritative_diarrhea": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treament_surgery": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_chemotherapy": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_ESD": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_hypertension": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_diabetes": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_dyslipidemia": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_COPD": {
+      "total": 68,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

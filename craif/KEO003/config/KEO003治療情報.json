@@ -1,0 +1,375 @@
+{
+  "id": "ed5131bd-4b79-48e1-be79-c4c94afa264a",
+  "name": "KEO003治療情報",
+  "file": "../data/00_raw/KEO003_conversion_治療情報 のコピー - raw.csv",
+  "column_line": 1,
+  "mapping": {
+    "inst_patient": "患者番号",
+    "tumor_location": "location",
+    "horizontal_location": "周在性",
+    "macroscopic_tumor_type": "肉眼型",
+    "clinical_invasion_depth": "cT",
+    "clinical_n_L1": "cN",
+    "clinical_m_L1": "cM",
+    "treatment_date": "治療日",
+    "ESD_frequency": "一括or分割",
+    "size_x": "病変長径(mm)",
+    "Resected_lesion": "切除病変数",
+    "histology_original": "病理組織型",
+    "pathological_invasion_depth": "pT",
+    "pathological_n_L1": "pN",
+    "pathological_m_L1": "pM",
+    "lymphatic_invasion": "ly(0/1)",
+    "venous_invasion": "v(0/1)",
+    "pathological_horizontal_margin": "pHM",
+    "pathological_vertical_margin": "pVM",
+    "size_y": "腫瘍長径(mm)",
+    "curativity": "0:治癒切除or1:非治癒切除",
+    "Posterior_bleeding": "後出血の有無",
+    "Postoperative_perforation": "術後穿孔の有無",
+    "comorbidity_pneumonia": "肺炎の有無",
+    "grade": "その他",
+    "histology": "病理組織型",
+    "subtype": "病理組織型",
+    "pathological_t_L2": "pT",
+    "clinical_t_L2": "cT",
+    "clinical_t_L1": "cT",
+    "inst_patientID": "患者番号",
+    "part of cancer": "患者番号"
+  },
+  "transform": [
+    {
+      "column": "histology",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "SCC": "Malignant epithelial tumor"
+          }
+        }
+      ]
+    },
+    {
+      "column": "subtype",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "SCC": "Squamous cell carcinoma"
+          }
+        }
+      ]
+    },
+    {
+      "column": "pathological_t_L2",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!T3).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "clinical_t_L2",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\\-|LPM|EP|MM|SM3|SM1)",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "clinical_t_L1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "[^(T1|T2|T4|T3)]",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "T13": "T1",
+            "T11": "T1"
+          }
+        }
+      ]
+    },
+    {
+      "column": "inst_patientID",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(①病変|②病変|③病変)",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "part of cancer",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "[^(①病変|②病変|③病変)]",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "horizontal_location",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "亜全周": "whole",
+            "1/4周": "44200",
+            "1/2周": "44198",
+            "1/4周以下": "<1/4"
+          }
+        }
+      ]
+    },
+    {
+      "column": "clinical_n_L1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^",
+            "replacement": "N"
+          }
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "N": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "pathological_n_L1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^",
+            "replacement": "N"
+          }
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "N": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "pathological_m_L1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "M0"
+          }
+        }
+      ]
+    },
+    {
+      "column": "lymphatic_invasion",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "ly0"
+          }
+        }
+      ]
+    },
+    {
+      "column": "venous_invasion",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "v0",
+            "1": "v1"
+          }
+        }
+      ]
+    },
+    {
+      "column": "pathological_horizontal_margin",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "HM0",
+            "1": "HM1",
+            "X": "HMX"
+          }
+        }
+      ]
+    },
+    {
+      "column": "pathological_vertical_margin",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "VM0"
+          }
+        }
+      ]
+    },
+    {
+      "column": "curativity",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "0": "Cur A",
+            "1": "Cur C"
+          }
+        }
+      ]
+    },
+    {
+      "column": "Posterior_bleeding",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "無": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "Postoperative_perforation",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "無": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_pneumonia",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "無": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "grade",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "grade2": "G2",
+            "grade1b": "G1",
+            "grade1a": "G1",
+            "CRT": "",
+            "-": "",
+            "grade0": "G0"
+          }
+        }
+      ]
+    },
+    {
+      "column": "clinical_m_L1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^",
+            "replacement": "M"
+          }
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "M": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "macroscopic_tumor_type",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": " ",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "valueMap",
+          "options": {
+            "1": "Type 1",
+            "2": "Type 2",
+            "3": "Type 3",
+            "0-Ⅱc+Ⅱa": "0-IIa+IIc"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    { "name": "inst_patient", "description": "患者番号" },
+    { "name": "tumor_location", "description": "location" },
+    { "name": "horizontal_location", "description": "周在性" },
+    { "name": "macroscopic_tumor_type", "description": "肉眼型" },
+    { "name": "clinical_invasion_depth", "description": "cT" },
+    { "name": "clinical_n_L1", "description": "cN" },
+    { "name": "clinical_m_L1", "description": "cM" },
+    { "name": "treatment_date", "description": "治療日" },
+    { "name": "ESD_frequency", "description": "一括or分割" },
+    { "name": "size_x", "description": "病変長径(mm)" },
+    { "name": "Resected_lesion", "description": "切除病変数" },
+    { "name": "histology_original", "description": "病理組織型" },
+    { "name": "pathological_invasion_depth", "description": "pT" },
+    { "name": "pathological_n_L1", "description": "pN" },
+    { "name": "pathological_m_L1", "description": "pM" },
+    { "name": "lymphatic_invasion", "description": "ly(0/1)" },
+    { "name": "venous_invasion", "description": "v(0/1)" },
+    { "name": "pathological_horizontal_margin", "description": "pHM" },
+    { "name": "pathological_vertical_margin", "description": "pVM" },
+    { "name": "size_y", "description": "腫瘍長径(mm)" },
+    { "name": "curativity", "description": "0:治癒切除or1:非治癒切除" },
+    { "name": "Posterior_bleeding", "description": "後出血の有無" },
+    { "name": "Postoperative_perforation", "description": "術後穿孔の有無" },
+    { "name": "comorbidity_pneumonia", "description": "肺炎の有無" },
+    { "name": "grade", "description": "その他" },
+    { "name": "histology", "description": "病理組織型" },
+    { "name": "subtype", "description": "病理組織型" },
+    { "name": "pathological_t_L2", "description": "pT" },
+    { "name": "clinical_t_L2", "description": "cT" },
+    { "name": "clinical_t_L1", "description": "cT" },
+    { "name": "inst_patientID", "description": "患者番号" },
+    { "name": "part of cancer", "description": "患者番号" }
+  ]
+}

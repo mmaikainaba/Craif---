@@ -1,0 +1,757 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\KMG001\\data\\00_raw\\KMG001がん情報.csv",
+  "map": {
+    "inst_patientID": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_diagnosis_note": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_diagnosis_date": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_diagnosis_method": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tumor_location": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "specific_tumor_location": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_EMR": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_diagnosis_result": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_diagnosis_note": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_date": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_note": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology_original": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology_differentiation": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "intrinsic_subtype": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "ER": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "PgR": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "HER2": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "MIB1": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype_note": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "stage": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "t_L1": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_x": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_y": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "n_L1": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "m_L1": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diagnosis_date": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_mammography": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "BI_RADS_score": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_ultrasound": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "ultrasound_result": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_CT": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_MRM": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_note": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "lymph_metastasis": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Brain": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_HeadNeck": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Oral": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Thyroid": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Lung": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Esophagus": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Stomach": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Duodenal": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_SmallBowel": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Pancreas": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Liver": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Colon": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Gallbladder": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Spleen": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Breast": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Uterus": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Ovary": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Vulvar": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Prostate": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Testicular": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Bone": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Skin": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Others": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_note": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_history": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_history_radiation": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "medication_history": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_note": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_surgery": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_chemotherapy": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_CNB": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_MRI": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_PET-CT": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_PET": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tumor_location_notes": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "specific_tumor_location_notes": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology_note": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "stage_L2": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "stage_L1": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "inst_patientID": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "clinical_diagnosis_note": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_diagnosis_date": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_diagnosis_method": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tumor_location": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "specific_tumor_location": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_EMR": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_diagnosis_result": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "pathological_diagnosis_note": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_date": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_note": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology_original": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology_differentiation": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "intrinsic_subtype": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "ER": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "PgR": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "HER2": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "MIB1": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype_note": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "stage": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "t_L1": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_x": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "size_y": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "n_L1": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "m_L1": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "diagnosis_date": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_mammography": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "BI_RADS_score": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_ultrasound": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "ultrasound_result": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_CT": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_MRM": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_note": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "lymph_metastasis": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Brain": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_HeadNeck": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Oral": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Thyroid": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Lung": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Esophagus": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Stomach": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Duodenal": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_SmallBowel": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Pancreas": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Liver": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Colon": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Gallbladder": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Spleen": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Breast": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Uterus": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Ovary": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Vulvar": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Prostate": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Testicular": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Bone": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Skin": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_Others": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "meta_note": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_history": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_history_radiation": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "medication_history": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_note": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_surgery": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_chemotherapy": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "treatment_CNB": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_MRI": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_PET-CT": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "imaging_PET": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "tumor_location_notes": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "specific_tumor_location_notes": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology_note": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "histology": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "subtype": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "stage_L2": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    },
+    "stage_L1": {
+      "total": 18,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "id": "cc29d493-a78e-430b-8eb8-96ee2ae03f04",
+  "name": "KEO001作業シート",
+  "file": "../data/00_raw/臨床情報リスト_慶應_泌尿器_v2 のコピー - 入力リスト_検体情報.csv",
+  "column_line": 1,
+  "mapping": {
+    "boxNo": "Box番号",
+    "tubeNo": "チューブ番号",
+    "inst_patientID": "患者番号",
+    "collection_date": "試料採取日",
+    "sampletypeEN": "検体",
+    "collection_timing": "手術の有無",
+    "recurrence": "再発",
+    "dispense_note": "備考",
+    "send_date": "ラボ送付日",
+    "patientID": "Craif患者番号",
+    "inst_patientID2": "uniqueID",
+    "diseaseEN": "診断",
+    "delivery_date": "受取日",
+    "dispense_date": "dispense_date",
+    "dispense_staffEN": "dispense_staffEN",
+    "occurence_classification": "再発カラム",
+    "hemolyzed": "備考",
+    "comorbidity_cancer": "備考",
+    "comorbidity_cancer1": "備考"
+  },
+  "transform": [
+    {
+      "column": "hemolyzed",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*溶血).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_cancer",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*癌).*$",
+            "replacement": "(+)"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!\\(\\+\\)).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "comorbidity_cancer1",
+      "operations": [
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "(\n|\r)",
+            "replacement": ""
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?=.*前立腺癌).*$",
+            "replacement": "Prostate"
+          }
+        },
+        {
+          "name": "replaceAll",
+          "options": {
+            "target": "^(?!Prostate).+$",
+            "replacement": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "sampletypeEN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "尿": "Urine",
+            "血清": "Serum"
+          }
+        }
+      ]
+    },
+    {
+      "column": "collection_timing",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "術前": "pre-ope",
+            "術後": "post-ope",
+            "再手術前": "recur_pre_re_treatment"
+          }
+        }
+      ]
+    },
+    {
+      "column": "recurrence",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "初発": "no"
+          }
+        }
+      ]
+    },
+    {
+      "column": "diseaseEN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "膀胱癌": "Bladder cancer",
+            "腎盂尿管癌": "Renal pelvis cancer",
+            "前立腺癌": "Prostate gland cancer",
+            "去勢抵抗性前立腺癌": "Prostate gland cancer",
+            "腎癌": "Kidney cancer",
+            "前立腺肥大": "Benign prostatic hyperplasia",
+            "尿路結石症": "Ureteral stone",
+            "間質性膀胱炎／膀胱痛症候群": "Cystitis",
+            "精巣癌": "Testicular cancer",
+            "神経内分泌細胞癌": "Malignant neoplasm without specification of site",
+            "腹圧性尿失禁": "Other urinary disorders",
+            "骨盤臓器脱": "Genital prolapse",
+            "尿道狭窄症": "Urethral stricture",
+            "膀胱憩室": "Other bladder disorders",
+            "褐色細胞腫": "",
+            "副腎癌": "Adrenal cancer"
+          }
+        }
+      ]
+    },
+    {
+      "column": "occurence_classification",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "再発": "Recurrent",
+            "初発": "Primary"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    { "name": "boxNo", "description": "Box番号" },
+    { "name": "tubeNo", "description": "チューブ番号" },
+    { "name": "inst_patientID", "description": "患者番号" },
+    { "name": "collection_date", "description": "試料採取日" },
+    { "name": "sampletypeEN", "description": "検体" },
+    { "name": "collection_timing", "description": "手術の有無" },
+    { "name": "recurrence", "description": "再発" },
+    { "name": "dispense_note", "description": "備考" },
+    { "name": "send_date", "description": "ラボ送付日" },
+    { "name": "patientID", "description": "Craif患者番号" },
+    { "name": "inst_patientID2", "description": "uniqueID" },
+    { "name": "diseaseEN", "description": "診断" },
+    { "name": "delivery_date", "description": "受取日" },
+    { "name": "dispense_date", "description": "dispense_date" },
+    { "name": "dispense_staffEN", "description": "dispense_staffEN" },
+    { "name": "occurence_classification", "description": "再発カラム" },
+    { "name": "hemolyzed", "description": "備考" },
+    { "name": "comorbidity_cancer", "description": "備考" },
+    { "name": "comorbidity_cancer1", "description": "備考" }
+  ]
+}

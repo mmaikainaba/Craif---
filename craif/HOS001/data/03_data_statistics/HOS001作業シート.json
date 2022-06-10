@@ -1,0 +1,97 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\HOS001\\data\\00_raw\\臨床情報リスト_東大阪_肺 のコピー - Craif作業シート.csv",
+  "map": {
+    "tubeNo": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patientID": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_date": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "sampletypeEN": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_timing": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "total_tubes": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "institution_department": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "delivery_date": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "tubeNo": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "inst_patientID": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "patientID": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_date": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "sampletypeEN": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "collection_timing": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "total_tubes": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "institution_department": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    },
+    "delivery_date": {
+      "total": 119,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

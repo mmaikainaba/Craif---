@@ -1,0 +1,77 @@
+{
+  "fileName": "C:\\Users\\ymed_mai\\Documents\\Craif修正分\\craif\\HOS001\\data\\00_raw\\臨床情報リスト_東大阪_肺 のコピー - 肺_背景情報.csv",
+  "map": {
+    "inst_patientID": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_frequency": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_perday": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_note": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer1": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_history": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    }
+  },
+  "cleansing": {
+    "inst_patientID": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_frequency": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "alcohol_perday": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_note": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "disease_history_cancer1": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    },
+    "surgery_history": {
+      "total": 116,
+      "missing": 0,
+      "isNA": 0
+    }
+  }
+}

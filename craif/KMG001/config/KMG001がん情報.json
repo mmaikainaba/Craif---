@@ -1,0 +1,1422 @@
+{
+  "id": "674feaa5-b56f-4977-b006-b071ab463ec0",
+  "name": "KMG001がん情報",
+  "file": "..\\data\\00_raw\\KMG001がん情報.csv",
+  "column_line": 1,
+  "mapping": {
+    "inst_patientID": "患者番号",
+    "clinical_diagnosis_note": "臨床診断_備考",
+    "pathological_diagnosis_date": "病理診断日",
+    "pathological_diagnosis_method": "生検",
+    "tumor_location": "部位",
+    "specific_tumor_location": "部位2",
+    "treatment_EMR": "EMR",
+    "pathological_diagnosis_result": "病理診断結果",
+    "pathological_diagnosis_note": "病理診断_備考",
+    "surgery_date": "手術日",
+    "surgery_note": "手術_備考",
+    "histology_original": "組織型",
+    "histology_differentiation": "分化度",
+    "intrinsic_subtype": "Intirinsic subtype",
+    "ER": "ER",
+    "PgR": "PgR",
+    "HER2": "HER2",
+    "MIB1": "MIB-1(%)",
+    "subtype_note": "組織型_備考",
+    "stage": "Stage分類",
+    "t_L1": "T",
+    "size_x": "腫瘍径1(mm)",
+    "size_y": "腫瘍径2(mm)",
+    "n_L1": "N",
+    "m_L1": "M",
+    "diagnosis_date": "画像診断日",
+    "imaging_mammography": "マンモグラフィー",
+    "BI_RADS_score": "カテゴリー",
+    "imaging_ultrasound": "超音波",
+    "ultrasound_result": "結果",
+    "imaging_CT": "CT",
+    "imaging_MRM": "MRM",
+    "imaging_note": "画像診断_詳細（自由記述）",
+    "lymph_metastasis": "リンパ節転移",
+    "meta_Brain": "脳",
+    "meta_HeadNeck": "頭頚部",
+    "meta_Oral": "口腔",
+    "meta_Thyroid": "甲状腺",
+    "meta_Lung": "肺",
+    "meta_Esophagus": "食道",
+    "meta_Stomach": "胃",
+    "meta_Duodenal": "十二指腸",
+    "meta_SmallBowel": "小腸",
+    "meta_Pancreas": "膵",
+    "meta_Liver": "肝臓",
+    "meta_Colon": "大腸",
+    "meta_Gallbladder": "胆嚢・胆管",
+    "meta_Spleen": "脾臓",
+    "meta_Breast": "乳房",
+    "meta_Uterus": "子宮",
+    "meta_Ovary": "卵巣",
+    "meta_Vulvar": "外陰部",
+    "meta_Prostate": "前立腺",
+    "meta_Testicular": "精巣",
+    "meta_Bone": "骨",
+    "meta_Skin": "皮膚",
+    "meta_Others": "その他",
+    "meta_note": "遠隔転移_備考",
+    "surgery_history": "手術歴",
+    "treatment_history_radiation": "放射線治療歴",
+    "medication_history": "薬物療法歴",
+    "treatment_note": "がん治療歴詳細",
+    "treatment_surgery": "がん治療歴詳細",
+    "treatment_chemotherapy": "がん治療歴詳細",
+    "treatment_CNB": "がん治療歴詳細",
+    "imaging_MRI": "画像診断_詳細（自由記述）",
+    "imaging_PET-CT": "画像診断_詳細（自由記述）",
+    "imaging_PET": "画像診断_詳細（自由記述）",
+    "tumor_location_notes": "病理診断_備考",
+    "specific_tumor_location_notes": "病理診断_備考",
+    "histology_note": "病理診断_備考",
+    "histology": "組織型",
+    "subtype": "組織型",
+    "stage_L2": "Stage分類",
+    "stage_L1": "Stage分類"
+  },
+  "transform": [
+    {
+      "column": "treatment_surgery",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "CNB施行後ケモ実施": "",
+            "胃癌ope後にケモ": "(+)",
+            "ope不能でケモ治療": "(-)",
+            "2018年→S状結腸癌(stageⅡa)": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_chemotherapy",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "CNB施行後ケモ実施": "(+)",
+            "胃癌ope後にケモ": "(+)",
+            "ope不能でケモ治療": "(+)",
+            "2018年→S状結腸癌(stageⅡa)": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_CNB",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "CNB施行後ケモ実施": "(+)",
+            "胃癌ope後にケモ": "",
+            "ope不能でケモ治療": "",
+            "2018年→S状結腸癌(stageⅡa)": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_MRI",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "他院より紹介": "",
+            "超音波 葉状腫瘍疑い": "",
+            "MM カテゴリー4～5": "",
+            "超音波 乳腺腫瘤": "",
+            "分類 N2": "",
+            "PET-CT": "",
+            "CT": "",
+            "一般撮影": "",
+            "PET": "",
+            "MRI": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_PET-CT",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "他院より紹介": "",
+            "超音波 葉状腫瘍疑い": "",
+            "MM カテゴリー4～5": "",
+            "超音波 乳腺腫瘤": "",
+            "分類 N2": "",
+            "PET-CT": "(+)",
+            "CT": "",
+            "一般撮影": "",
+            "PET": "",
+            "MRI": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_PET",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "他院より紹介": "",
+            "超音波 葉状腫瘍疑い": "",
+            "MM カテゴリー4～5": "",
+            "超音波 乳腺腫瘤": "",
+            "分類 N2": "",
+            "PET-CT": "",
+            "CT": "",
+            "一般撮影": "",
+            "PET": "(+)",
+            "MRI": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_PET",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "他院より紹介": "",
+            "超音波 葉状腫瘍疑い": "",
+            "MM カテゴリー4～5": "",
+            "超音波 乳腺腫瘤": "",
+            "分類 N2": "",
+            "PET-CT": "",
+            "CT": "",
+            "一般撮影": "",
+            "PET": "(+)",
+            "MRI": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_CT",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "他院より紹介": "",
+            "超音波 葉状腫瘍疑い": "",
+            "MM カテゴリー4～5": "",
+            "超音波 乳腺腫瘤": "",
+            "分類 N2": "",
+            "PET-CT": "",
+            "CT": "(+)",
+            "一般撮影": "",
+            "PET": "",
+            "MRI": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_ultrasound",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "他院より紹介": "",
+            "超音波 葉状腫瘍疑い": "(+)",
+            "MM カテゴリー4～5": "",
+            "超音波 乳腺腫瘤": "(+)",
+            "分類 N2": "",
+            "PET-CT": "",
+            "CT": "",
+            "一般撮影": "",
+            "PET": "",
+            "MRI": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "tumor_location_notes",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "(部位2) B,D": "",
+            "リンパ節生検": "Lymph node biopsy",
+            "病理検査未実施": "Pathological examination not performed",
+            "部位→回腸": "Ileum",
+            "suggestive SPN": "",
+            "部位補足→S4,8": "",
+            "low and high grade adenoma": "",
+            "部位→十二指腸": "",
+            "部位補足→S4,5,8": "",
+            "atypical cell": "",
+            "部位→横行結腸(生検),S状結腸": "Transverse colon (biopsy), sigmoid colon",
+            "部位→胃": "Stomach",
+            "部位→左葉(S3),右葉(S4)": "left lobe, right lobe",
+            "SPN疑い": "",
+            "生検では明らかな悪性所見なし": "",
+            "部位補足→S1~4": "",
+            "部位補足→S6.7": "",
+            "部位補足→S5.6": "",
+            "生検→胃(group1)": "Stomach",
+            "同時期に前立腺生検採取(Adenocarcinoma)": "",
+            "部位補足→S2.3": "",
+            "high grade adenoma": "",
+            "higt grade adenoma": "",
+            "部位→S4-8": "",
+            "部位→S4.6": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "specific_tumor_location_notes",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "(部位2) B,D": "B, D",
+            "リンパ節生検": "",
+            "病理検査未実施": "",
+            "部位→回腸": "",
+            "suggestive SPN": "",
+            "部位補足→S4,8": "S4, S8",
+            "low and high grade adenoma": "",
+            "部位→十二指腸": "",
+            "部位補足→S4,5,8": "S4, S5, S8",
+            "atypical cell": "",
+            "部位→横行結腸(生検),S状結腸": "",
+            "部位→胃": "",
+            "部位→左葉(S3),右葉(S4)": "S3, S4",
+            "SPN疑い": "",
+            "生検では明らかな悪性所見なし": "",
+            "部位補足→S1~4": "S1, S2, S3, S4",
+            "部位補足→S6.7": "S6, S7",
+            "部位補足→S5.6": "S5, S6",
+            "生検→胃(group1)": "",
+            "同時期に前立腺生検採取(Adenocarcinoma)": "",
+            "部位補足→S2.3": "S2, S3",
+            "high grade adenoma": "",
+            "higt grade adenoma": "",
+            "部位→S4-8": "S4, S5, S6, S7, S8",
+            "部位→S4.6": "S4, S6"
+          }
+        }
+      ]
+    },
+    {
+      "column": "histology_note",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "(部位2) B,D": "",
+            "リンパ節生検": "",
+            "病理検査未実施": "",
+            "部位→回腸": "",
+            "suggestive SPN": "Suspected SPN",
+            "部位補足→S4,8": "",
+            "low and high grade adenoma": "Low and high grade adenoma",
+            "部位→十二指腸": "",
+            "部位補足→S4,5,8": "",
+            "atypical cell": "Atypical cell",
+            "部位→横行結腸(生検),S状結腸": "",
+            "部位→胃": "",
+            "部位→左葉(S3),右葉(S4)": "",
+            "SPN疑い": "Suspected SPN",
+            "生検では明らかな悪性所見なし": "",
+            "部位補足→S1~4": "",
+            "部位補足→S6.7": "",
+            "部位補足→S5.6": "",
+            "生検→胃(group1)": "",
+            "同時期に前立腺生検採取(Adenocarcinoma)": "Adenocarcinoma, NOS",
+            "部位補足→S2.3": "",
+            "high grade adenoma": "High grade adenoma",
+            "higt grade adenoma": "High grade adenoma",
+            "部位→S4-8": "",
+            "部位→S4.6": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "histology",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "Invasive ductal carcinoma": "Invasive breast carcinoma",
+            "その他": "Others",
+            "Invasice carcinoma": "Invasive breast carcinoma",
+            "扁平上皮がん": "Malignant epithelial tumor",
+            "Invasive ductal carcinomas (IDCs)": "Invasive breast carcinoma",
+            "腺がん": "Adenocarcinoma, NOS",
+            "肝細胞癌": "",
+            "Adenocarcinoma": "Adenocarcinoma, NOS",
+            "Solid-pseudopappillary neoplasm (SPN)": "Papillary cystadenoca, NOS",
+            "肝内胆管癌": "",
+            "Intraductal pappillary mucinous neoplasms (IPMNs)": "Intraductal papillary mucinous neoplasms"
+          }
+        }
+      ]
+    },
+    {
+      "column": "subtype",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "Invasive ductal carcinoma": "Infiltrating duct carcinoma, NOS",
+            "その他": "",
+            "Invasice carcinoma": "Infiltrating duct carcinoma, NOS",
+            "扁平上皮がん": "Squamous cell carcinoma",
+            "Invasive ductal carcinomas (IDCs)": "Infiltrating duct carcinoma, NOS",
+            "腺がん": "",
+            "肝細胞癌": "",
+            "Adenocarcinoma": "",
+            "Solid-pseudopappillary neoplasm (SPN)": "Solid pseudopapillary carcinoma",
+            "肝内胆管癌": "",
+            "Intraductal pappillary mucinous neoplasms (IPMNs)": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "stage_L2",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "Stage IIB": "IIB",
+            "Stage IA": "IA",
+            "Stage IIA": "IIA",
+            "Stage IV": "IV",
+            "Stage III": "III",
+            "Stage 0": "0",
+            "Stage IB": "IB"
+          }
+        }
+      ]
+    },
+    {
+      "column": "stage_L1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "Stage IIB": "II",
+            "Stage IA": "I",
+            "Stage IIA": "II",
+            "Stage IV": "IV",
+            "Stage III": "III",
+            "Stage 0": "0",
+            "Stage IB": "I"
+          }
+        }
+      ]
+    },
+    {
+      "column": "clinical_diagnosis_note",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "葉状腫瘍": "Invasive lobular carcinoma",
+            "疑い": "Suspected",
+            "後腹膜腫瘍": "Malignant neoplasm of retroperitoneum",
+            "回腸リンパ腫疑い": "Suspected Lymphoma",
+            "SPN": "Solid pseudopapillary neoplasm",
+            "十二指腸癌": "Malignant neoplasm of duodenum",
+            "ope不能": "no surgery",
+            "肝血管腫": "Hepatic hemangioma",
+            "No,25と同一患者": "Same with patient #25",
+            "No,36と同一患者": "Same with patient #36",
+            "No,49と同一患者": "Same with patient #49",
+            "No,31と同一患者": "Same with patient #31",
+            "No,38と同一患者": "Same with patient #38",
+            "大腸癌転移": "Colorectal cancer metastasis",
+            "膵癌転移(提出検体は結節のみ)": "Pancreatic cancer metastasis (only nodule has been received)",
+            "No,60と同一患者": "Same with patient #60",
+            "No,55と同一患者": "Same with patient #55",
+            "No,45と同一患者": "Same with patient #45",
+            "No,42と同一患者": "Same with patient #42",
+            "No,67と同一患者": "Same with patient #67",
+            "転院のため検査中止": "test cancelled due to hospital transfer",
+            "No,71と同一患者": "Same with patient #71",
+            "No,62と同一患者": "Same with patient #62",
+            "No,69と同一患者": "Same with patient #69",
+            "No,50と同一患者": "Same with patient #50",
+            "No,72と同一患者": "Same with patient #72",
+            "No,77と同一患者": "Same with patient #77",
+            "No,82と同一患者": "Same with patient #82",
+            "No,86と同一患者": "Same with patient #86",
+            "No,78と同一患者": "Same with patient #78",
+            "腸管壊死": "Intestinal necrosis",
+            "No,83と同一患者": "Same with patient #83",
+            "No,15と同一患者": "Same with patient #15",
+            "腹膜結節": "Peritoneal metastases",
+            "胃GIST": "Gastrointestinal stromal tumors",
+            "higt grade adenoma（大腸全摘）": "High grade adenoma (total colorectal removal)",
+            "脂肪肉腫": "Liposarcoma",
+            "十二指腸乳頭部腫瘍": "Duodenal papillary ulcer",
+            "盲腸癌転移": "Transplanted appendix cancer",
+            "胆管癌+NET": "Bile duct cancer, NET",
+            "大腸癌+IPMC": "Colorectal cancer, IPMC",
+            "IPMC": "IPMC"
+          }
+        }
+      ]
+    },
+    {
+      "column": "pathological_diagnosis_method",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "実施": "Biopsy"
+          }
+        }
+      ]
+    },
+    {
+      "column": "tumor_location",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "右": "right breast",
+            "左": "left breast",
+            "胸部食道": "thoracic esophagus",
+            "その他": "others",
+            "膵体": "body of the pancreas",
+            "胆管": "bile duct",
+            "右葉": "right lobe",
+            "膵頭": "head of the pancreas",
+            "直腸": "rectum",
+            "盲腸": "cecum",
+            "S状結腸": "sigmoid colon",
+            "上行結腸": "ascending colon",
+            "下行結腸": "descending colon",
+            "胆のう": "gallbladder",
+            "左葉": "left lobe",
+            "横行結腸": "transverse colon"
+          }
+        }
+      ]
+    },
+    {
+      "column": "specific_tumor_location",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "C": "C",
+            "D": "D",
+            "A": "A",
+            "B": "B",
+            "その他": "Others",
+            "S4": "S4",
+            "S8": "S8",
+            "S7": "S7",
+            "S2": "S2",
+            "S3": "S3"
+          }
+        }
+      ]
+    },
+    {
+      "column": "treatment_EMR",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "実施": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "pathological_diagnosis_result",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "悪性": "malignant",
+            "良性": "benign",
+            "その他": "other",
+            "腺腫": "malignant",
+            "悪性疑い": "suspected malignant"
+          }
+        }
+      ]
+    },
+    {
+      "column": "surgery_note",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "手術未施工": "no surgery performed",
+            "ope未実施": "no surgery performed",
+            "播種のみ採取": "collection limited to dissemination",
+            "腺癌（大腸癌転移）": "colorectal cancer metastasis",
+            "肝結節,腹腔内結節のみ": "Liver nodule, intra-abdominal nodule only"
+          }
+        }
+      ]
+    },
+    {
+      "column": "histology_differentiation",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "高分化": "well-differentiated",
+            "中分化": "moderately-differentiated",
+            "低分化": "poorly-differentiated"
+          }
+        }
+      ]
+    },
+    {
+      "column": "intrinsic_subtype",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "Luminal B": "Luminal B",
+            "Luminal A": "Luminal A",
+            "Her2 Rich": "HER2-enriched",
+            "Triple Negative": "Triple-negative"
+          }
+        }
+      ]
+    },
+    {
+      "column": "ER",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "+": "(+)",
+            "-": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "PgR",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "-": "(-)",
+            "+": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "HER2",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "-": "(-)",
+            "+": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "MIB1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "40-50%": "0.45",
+            "1-3%": "0.015",
+            "5-8%": "0.065",
+            "60-80%": "0.7",
+            "20-30%": "0.25",
+            "5-10%": "0.075",
+            "10-20%": "0.15",
+            "<5%": "<0.05",
+            "0.1": "0.1",
+            "0.22": "0.22",
+            "0.03": "0.03"
+          }
+        }
+      ]
+    },
+    {
+      "column": "subtype_note",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "ope材：No residual carcinoma(完全奏功)": "No residual carcinoma",
+            "HER2 境界域": "equivocal HER2",
+            "低分化腺癌の可能性": "Candidate for hypofractionated radiation therapy",
+            "DLBCL": "Diffuse large B-cell lymphoma",
+            "SPN": "Solid pseudopapillary neoplasm",
+            "(腫瘍径)大小多数": "Many large and small tumors",
+            "肝細胞癌+胆管細胞癌（分類は肝細胞癌）": "Hepatocellular carcinoma, Cholangiocarcinoma",
+            "脂肪性肝炎（腫瘍性変化なし）": "Fatty hepatitis, no neoplastic change",
+            "腺癌（大腸転移）": "Adenocarcinoma, colorectal metastasis",
+            "転移性肝癌（原発巣同定困難）": "Metastatic hepatocellular carcinoma, unknown primary site",
+            "SPN (low grade malignancy)": "Solid pseudopapillary neoplasm, low grade malignancy",
+            "十二指腸浸潤あり": "Duodenal invasion",
+            "N2、胆管壁浸潤あり": "N2, with bile duct wall invasion",
+            "StageⅡ": "Stage II",
+            "W Ca": {
+              "（分類は共通）": "W Ca., classification is the same"
+            },
+            "腸管壊死(悪性所見なし)": "Intestinal necrosis, no malignant findings",
+            "腺癌": "Adenocarcinoma"
+          }
+        }
+      ]
+    },
+    {
+      "column": "t_L1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "T2": "T2",
+            "T1": "T1",
+            "T3": "T3",
+            "T4": "T4",
+            "T0": "T0"
+          }
+        }
+      ]
+    },
+    {
+      "column": "n_L1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "N0": "N0",
+            "N1": "N1",
+            "NX": "NX",
+            "NA": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "m_L1",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "M0": "M0",
+            "M1": "M1"
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_mammography",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "実施": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "BI_RADS_score",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "カテゴリー4": "Category 4",
+            "カテゴリー5": "Category 5",
+            "カテゴリー1": "Category 1",
+            "カテゴリー3": "Category 3"
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_ultrasound",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "実施": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "ultrasound_result",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "悪性疑い": "suspected malignant",
+            "その他": "other",
+            "悪性": "malignant"
+          }
+        }
+      ]
+    },
+    {
+      "column": "imaging_CT",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "実施": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "lymph_metastasis",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)",
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Brain",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_HeadNeck",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Oral",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Thyroid",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Lung",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Esophagus",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Stomach",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Duodenal",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)",
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_SmallBowel",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Pancreas",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Liver",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)",
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Colon",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Gallbladder",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Spleen",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Breast",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Uterus",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Ovary",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Vulvar",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Prostate",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Testicular",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Bone",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)",
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Skin",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_Others",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)",
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "meta_note",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "傍大動脈リンパ節転移": "paravalvular lymph node metastasis",
+            "腹膜播種": "peritoneal dissemination",
+            "大腸原発": "colorectal primary",
+            "原発巣同定困難": "difficult to identify the primary site",
+            "転移性肝癌（術後）": "metastatic liver cancer (postoperative)",
+            "腺癌転移": "adenocarcinoma metastasis",
+            "肝細胞癌破裂": "rupture of hepatocellular carcinoma",
+            "大腸癌転移": "colorectal cancer metastasis"
+          }
+        }
+      ]
+    },
+    {
+      "column": "surgery_history",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)",
+            "あり": "(+)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "radiation_history",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)"
+          }
+        }
+      ]
+    },
+    {
+      "column": "medication_history",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "なし": "(-)",
+            "あり": "(+)"
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    {
+      "name": "inst_patientID",
+      "descripsion": "患者番号"
+    },
+    {
+      "name": "clinical_diagnosis_note",
+      "descripsion": "臨床診断_備考"
+    },
+    {
+      "name": "pathological_diagnosis_date",
+      "descripsion": "病理診断日"
+    },
+    {
+      "name": "pathological_diagnosis_method",
+      "descripsion": "生検"
+    },
+    {
+      "name": "tumor_location",
+      "descripsion": "部位"
+    },
+    {
+      "name": "specific_tumor_location",
+      "descripsion": "部位2"
+    },
+    {
+      "name": "treatment_EMR",
+      "descripsion": "EMR"
+    },
+    {
+      "name": "pathological_diagnosis_result",
+      "descripsion": "病理診断結果"
+    },
+    {
+      "name": "pathological_diagnosis_note",
+      "descripsion": "病理診断_備考"
+    },
+    {
+      "name": "surgery_date",
+      "descripsion": "手術日"
+    },
+    {
+      "name": "surgery_note",
+      "descripsion": "手術_備考"
+    },
+    {
+      "name": "histology_original",
+      "descripsion": "組織型"
+    },
+    {
+      "name": "histology_differentiation",
+      "descripsion": "分化度"
+    },
+    {
+      "name": "intrinsic_subtype",
+      "descripsion": "Intirinsic subtype"
+    },
+    {
+      "name": "ER",
+      "descripsion": "ER"
+    },
+    {
+      "name": "PgR",
+      "descripsion": "PgR"
+    },
+    {
+      "name": "HER2",
+      "descripsion": "HER2"
+    },
+    {
+      "name": "MIB1",
+      "descripsion": "MIB-1(%)"
+    },
+    {
+      "name": "subtype_note",
+      "descripsion": "組織型_備考"
+    },
+    {
+      "name": "stage",
+      "descripsion": "Stage分類"
+    },
+    {
+      "name": "t_L1",
+      "descripsion": "T"
+    },
+    {
+      "name": "size_x",
+      "descripsion": "腫瘍径1(mm)"
+    },
+    {
+      "name": "size_y",
+      "descripsion": "腫瘍径2(mm)"
+    },
+    {
+      "name": "n_L1",
+      "descripsion": "N"
+    },
+    {
+      "name": "m_L1",
+      "descripsion": "M"
+    },
+    {
+      "name": "diagnosis_date",
+      "descripsion": "画像診断日"
+    },
+    {
+      "name": "imaging_mammography",
+      "descripsion": "マンモグラフィー"
+    },
+    {
+      "name": "BI_RADS_score",
+      "descripsion": "カテゴリー"
+    },
+    {
+      "name": "imaging_ultrasound",
+      "descripsion": "超音波"
+    },
+    {
+      "name": "ultrasound_result",
+      "descripsion": "結果"
+    },
+    {
+      "name": "imaging_CT",
+      "descripsion": "CT"
+    },
+    {
+      "name": "imaging_MRM",
+      "descripsion": "MRM"
+    },
+    {
+      "name": "imaging_note",
+      "descripsion": "画像診断_詳細（自由記述）"
+    },
+    {
+      "name": "lymph_metastasis",
+      "descripsion": "リンパ節転移"
+    },
+    {
+      "name": "meta_Brain",
+      "descripsion": "脳"
+    },
+    {
+      "name": "meta_HeadNeck",
+      "descripsion": "頭頚部"
+    },
+    {
+      "name": "meta_Oral",
+      "descripsion": "口腔"
+    },
+    {
+      "name": "meta_Thyroid",
+      "descripsion": "甲状腺"
+    },
+    {
+      "name": "meta_Lung",
+      "descripsion": "肺"
+    },
+    {
+      "name": "meta_Esophagus",
+      "descripsion": "食道"
+    },
+    {
+      "name": "meta_Stomach",
+      "descripsion": "胃"
+    },
+    {
+      "name": "meta_Duodenal",
+      "descripsion": "十二指腸"
+    },
+    {
+      "name": "meta_SmallBowel",
+      "descripsion": "小腸"
+    },
+    {
+      "name": "meta_Pancreas",
+      "descripsion": "膵"
+    },
+    {
+      "name": "meta_Liver",
+      "descripsion": "肝臓"
+    },
+    {
+      "name": "meta_Colon",
+      "descripsion": "大腸"
+    },
+    {
+      "name": "meta_Gallbladder",
+      "descripsion": "胆嚢・胆管"
+    },
+    {
+      "name": "meta_Spleen",
+      "descripsion": "脾臓"
+    },
+    {
+      "name": "meta_Breast",
+      "descripsion": "乳房"
+    },
+    {
+      "name": "meta_Uterus",
+      "descripsion": "子宮"
+    },
+    {
+      "name": "meta_Ovary",
+      "descripsion": "卵巣"
+    },
+    {
+      "name": "meta_Vulvar",
+      "descripsion": "外陰部"
+    },
+    {
+      "name": "meta_Prostate",
+      "descripsion": "前立腺"
+    },
+    {
+      "name": "meta_Testicular",
+      "descripsion": "精巣"
+    },
+    {
+      "name": "meta_Bone",
+      "descripsion": "骨"
+    },
+    {
+      "name": "meta_Skin",
+      "descripsion": "皮膚"
+    },
+    {
+      "name": "meta_Others",
+      "descripsion": "その他"
+    },
+    {
+      "name": "meta_note",
+      "descripsion": "遠隔転移_備考"
+    },
+    {
+      "name": "surgery_history",
+      "descripsion": "手術歴"
+    },
+    {
+      "name": "radiation_history",
+      "descripsion": "放射線治療歴"
+    },
+    {
+      "name": "medication_history",
+      "descripsion": "薬物療法歴"
+    },
+    {
+      "name": "treatment_note",
+      "descripsion": "がん治療歴詳細"
+    },
+    {
+      "name": "treatment_surgery",
+      "descripsion": "がん治療歴詳細"
+    },
+    {
+      "name": "treatment_chemotherapy",
+      "descripsion": "がん治療歴詳細"
+    },
+    {
+      "name": "treatment_CNB",
+      "descripsion": "がん治療歴詳細"
+    },
+    {
+      "name": "imaging_MRI",
+      "descripsion": "画像診断_詳細（自由記述）"
+    },
+    {
+      "name": "imaging_PET-CT",
+      "descripsion": "画像診断_詳細（自由記述）"
+    },
+    {
+      "name": "imaging_PET",
+      "descripsion": "画像診断_詳細（自由記述）"
+    },
+    {
+      "name": "tumor_location_notes",
+      "descripsion": "病理診断_備考"
+    },
+    {
+      "name": "specific_tumor_location_notes",
+      "descripsion": "病理診断_備考"
+    },
+    {
+      "name": "histology_note",
+      "descripsion": "病理診断_備考"
+    },
+    {
+      "name": "histology",
+      "descripsion": "組織型"
+    },
+    {
+      "name": "subtype",
+      "descripsion": "組織型"
+    },
+    {
+      "name": "stage_L2",
+      "descripsion": "Stage分類"
+    },
+    {
+      "name": "stage_L1",
+      "descripsion": "Stage分類"
+    },
+    {
+      "name": "treatment_history_radiation",
+      "description": "radiation_historyの変更"
+    }
+  ]
+}

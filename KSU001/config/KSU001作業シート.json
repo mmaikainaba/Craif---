@@ -1,0 +1,109 @@
+{
+  "id": "01613dd8-9024-43c3-a907-b75145e5dbe6",
+  "name": "KSU001作業シート",
+  "file": "../data/00_raw/【修正】KSU001作業シート.csv",
+  "column_line": 1,
+  "mapping": {
+    "tubeNo": "tubeNo",
+    "inst_patientID": "患者番号",
+    "patientID": "patientID",
+    "collection_date": "採取日",
+    "sampletypeEN": "sampletypeJP",
+    "storage_temperature": "施設保管温度",
+    "delivery_date": "受取日",
+    "diseaseEN": "diseaseJP",
+    "grouping": "grouping"
+  },
+  "transform": [
+    {
+      "column": "sampletypeEN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "尿": "Urine"
+          }
+        }
+      ]
+    },
+    {
+      "column": "diseaseEN",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "膵がん": "Pancreas cancer",
+            "膵のう胞": "Cyst of pancreas",
+            "膵尾部腫瘍": "",
+            "IPMN": "Intraductal Papillary Mucinous Neoplasm",
+            "D21": "Other benign neoplasms of connective and other soft tissue",
+            "膵がん疑い": "",
+            "膵嚢胞疑い": "Benign Pancreas Tumor",
+            "慢性膵炎": "Other chronic pancreatitis",
+            "十二指腸乳頭部がん疑い": "Suspected Malignant neoplasm without specification of site",
+            "IPMA,慢性膵炎": "Other chronic pancreatitis",
+            "肝膿瘍": "Other benign neoplasms of connective and other soft tissue",
+            "急性胆嚢炎": "Other benign neoplasms of connective and other soft tissue",
+            "肝・肝内胆管がん": "Liver and intrahepatic bile duct cancer",
+            "十二指腸乳頭部腫瘍": "Malignant neoplasm without specification of site",
+            "P-NEN疑い": "Benign Pancreas Tumor",
+            "直腸S状結腸移行部がん": "Rectosigmoid junction cancer",
+            "IgG4関連硬化性胆管炎，IgG4関連自己免疫性膵炎": "Other benign neoplasms of connective and other soft tissue",
+            "#N/A": ""
+          }
+        }
+      ]
+    },
+    {
+      "column": "grouping",
+      "operations": [
+        {
+          "name": "valueMap",
+          "options": {
+            "#N/A": ""
+          }
+        }
+      ]
+    }
+  ],
+  "validate": [],
+  "presets": {},
+  "columns": [
+    {
+      "name": "tubeNo",
+      "description": "tubeNo"
+    },
+    {
+      "name": "inst_patientID",
+      "description": "inst_patientID"
+    },
+    {
+      "name": "patientID",
+      "description": "patientID"
+    },
+    {
+      "name": "collection_date",
+      "description": "collection_date"
+    },
+    {
+      "name": "sampletypeEN",
+      "description": "sampletypeEN"
+    },
+    {
+      "name": "storage_temperature",
+      "description": "storage_temperature"
+    },
+    {
+      "name": "delivery_date",
+      "description": "delivery_date"
+    },
+    {
+      "name": "diseaseEN",
+      "description": "diseaseEN"
+    },
+    {
+      "name": "grouping",
+      "description": "grouping"
+    }
+  ]
+}
